@@ -1,0 +1,1027 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "4db70aa1-e96a-4a37-a37d-3e625ee2435d": "lg",
+            "e09cad05-476c-4e44-82ea-f017c654bef2": "lg",
+            "f46d482b-515b-4cc4-b7b8-a7ceff5133cb": "xxs"
+        },
+        "datasources": {
+            "03d14b5d-1a09-4a61-9baa-a6a3252990a8": {
+                "id": "03d14b5d-1a09-4a61-9baa-a6a3252990a8",
+                "name": "sensors_data",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getSensorsData",
+                    "payload": "{  \"networkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\"}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "975675a6-eac1-4238-b597-664c1d0a2b8f": {
+                "id": "975675a6-eac1-4238-b597-664c1d0a2b8f",
+                "name": "SensorModifications",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "TestService",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "bc32446e-fff1-487e-9d01-77884c2329d5": {
+                "id": "bc32446e-fff1-487e-9d01-77884c2329d5",
+                "name": "test123",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "test123",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "d25f7075-9815-4c9b-b497-0c4dd5f6fa1b": {
+                "id": "d25f7075-9815-4c9b-b497-0c4dd5f6fa1b",
+                "name": "NetWorkData",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getNetWorkData",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://www.amcharts.com/lib/3/amcharts.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://www.amcharts.com/lib/3/serial.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://www.amcharts.com/lib/3/plugins/export/export.min.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://www.amcharts.com/lib/3/plugins/export/export.css"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://www.amcharts.com/lib/3/themes/light.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            }
+        ],
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 42,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "4db70aa1-e96a-4a37-a37d-3e625ee2435d": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "7ebdc29d-392b-4582-b32e-2ff2afb0c57a",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "e09cad05-476c-4e44-82ea-f017c654bef2": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "f1b50a25-2a40-4edc-b684-cff2b82ff426",
+                        "minH": 3,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "f46d482b-515b-4cc4-b7b8-a7ceff5133cb": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "a2ede1a6-7faf-45bd-8aca-892c9b85b490",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "c4f96c00-b4a3-4026-aa1f-cba4a470e44c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [
+                    {
+                        "h": 9,
+                        "i": "a2ede1a6-7faf-45bd-8aca-892c9b85b490",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "c4f96c00-b4a3-4026-aa1f-cba4a470e44c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 9,
+                        "i": "a2ede1a6-7faf-45bd-8aca-892c9b85b490",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "c4f96c00-b4a3-4026-aa1f-cba4a470e44c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 9
+                    }
+                ]
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 2,
+                        "i": "95c7e58a-1d3a-4b62-a0c2-e291054e27c9",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "3a1a5966-6b03-442a-9be8-e1fc65740f13",
+                        "moved": false,
+                        "static": false,
+                        "w": 9,
+                        "x": 3,
+                        "y": 4
+                    },
+                    {
+                        "h": 2,
+                        "i": "116f8ba1-0932-4f5a-abeb-eb45a973f599",
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 2
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 2,
+                        "i": "95c7e58a-1d3a-4b62-a0c2-e291054e27c9",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "3a1a5966-6b03-442a-9be8-e1fc65740f13",
+                        "moved": false,
+                        "static": false,
+                        "w": 9,
+                        "x": 1,
+                        "y": 4
+                    },
+                    {
+                        "h": 2,
+                        "i": "116f8ba1-0932-4f5a-abeb-eb45a973f599",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 2
+                    }
+                ],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "116f8ba1-0932-4f5a-abeb-eb45a973f599": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "116f8ba1-0932-4f5a-abeb-eb45a973f599",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "4db70aa1-e96a-4a37-a37d-3e625ee2435d",
+                    "tabIds": [
+                        "4db70aa1-e96a-4a37-a37d-3e625ee2435d"
+                    ],
+                    "tabTitles": {
+                        "4db70aa1-e96a-4a37-a37d-3e625ee2435d": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "3a1a5966-6b03-442a-9be8-e1fc65740f13": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "3a1a5966-6b03-442a-9be8-e1fc65740f13",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "e09cad05-476c-4e44-82ea-f017c654bef2",
+                    "tabIds": [
+                        "e09cad05-476c-4e44-82ea-f017c654bef2"
+                    ],
+                    "tabTitles": {
+                        "e09cad05-476c-4e44-82ea-f017c654bef2": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "95c7e58a-1d3a-4b62-a0c2-e291054e27c9": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Battery"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "95c7e58a-1d3a-4b62-a0c2-e291054e27c9",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "f46d482b-515b-4cc4-b7b8-a7ceff5133cb",
+                    "tabIds": [
+                        "f46d482b-515b-4cc4-b7b8-a7ceff5133cb"
+                    ],
+                    "tabTitles": {
+                        "f46d482b-515b-4cc4-b7b8-a7ceff5133cb": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5",
+                            "visible": true
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "7ebdc29d-392b-4582-b32e-2ff2afb0c57a": {
+                "externalScripts": [
+                    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+                    "https://www.amcharts.com/lib/3/amcharts.js",
+                    "https://www.amcharts.com/lib/3/serial.js",
+                    "https://www.amcharts.com/lib/3/plugins/export/export.min.js",
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+                    "https://www.amcharts.com/lib/3/plugins/export/export.css",
+                    "https://www.amcharts.com/lib/3/themes/light.js",
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                ],
+                "id": "7ebdc29d-392b-4582-b32e-2ff2afb0c57a",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "brushHeight": 40,
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "03d14b5d-1a09-4a61-9baa-a6a3252990a8",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource.results.Result[0].DATA['sensor_100']"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "detectionStrictness": 2,
+                    "enableStatisticsView": false,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "lineColors": [
+                        {
+                            "stroke": "#6E8592"
+                        },
+                        {
+                            "stroke": "#6E93A8"
+                        },
+                        {
+                            "stroke": "#DBA5A8"
+                        },
+                        {
+                            "stroke": "#E8E7C6"
+                        }
+                    ],
+                    "lines": [
+                        {
+                            "dataKey": "battery_level",
+                            "legendType": "star",
+                            "type": "monotone"
+                        },
+                        {
+                            "dataKey": "sensor_reading"
+                        },
+                        {
+                            "dataKey": "signal_strength"
+                        }
+                    ],
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showDots": true,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "xAxisDataKey": "sensor_id",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "xType": "category",
+                    "yAxes": [
+                        {
+                            "dataKey": "battery_level"
+                        },
+                        {
+                            "dataKey": "sensor_reading"
+                        },
+                        {
+                            "dataKey": "signal_strength"
+                        }
+                    ]
+                },
+                "tab": "4db70aa1-e96a-4a37-a37d-3e625ee2435d",
+                "type": "LINE_CHART_WIDGET_COMPONENT"
+            },
+            "a2ede1a6-7faf-45bd-8aca-892c9b85b490": {
+                "externalScripts": [
+                    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+                    "https://www.amcharts.com/lib/3/amcharts.js",
+                    "https://www.amcharts.com/lib/3/serial.js",
+                    "https://www.amcharts.com/lib/3/plugins/export/export.min.js",
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+                    "https://www.amcharts.com/lib/3/plugins/export/export.css",
+                    "https://www.amcharts.com/lib/3/themes/light.js",
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                ],
+                "id": "a2ede1a6-7faf-45bd-8aca-892c9b85b490",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "arrowColor": "#000000",
+                    "label": "",
+                    "labelColor": "#999999",
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "sectionColors": [
+                        {
+                            "fill": "#6E8592"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "sections": [
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        }
+                    ],
+                    "value": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "03d14b5d-1a09-4a61-9baa-a6a3252990a8",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "// console.log(JSON.stringify(this.datasource));\r\nvar json ={};\r\njson={\r\n \r\n   \"networkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\"\r\n  };\r\nconsole.log(\"before Execution\");\r\n//var res={};\r\n//console.log(datasources.test123.sendData(json));\r\nvar res = datasources.test123.sendData(json);\r\nres.then(result =\u003e console.log(result.results));\r\n//  res = datasources.SensorModifications.sendData(json);\r\n// CB_PORTAL.Loader.waitFor(\r\n//   datasources.test123.sendData(json),1000\r\n//  )\r\n\r\nconsole.log(\"after Execution --\u003e \" +res);\r\n\r\nvar data = this.datasource;\r\nvar battery = (data['results'].Result[0].DATA['sensor_323022'][0].battery_level);\r\n// console.log(JSON.stringify(battery));\r\n\r\nreturn battery;\r\n"
+                        }
+                    }
+                },
+                "tab": "f46d482b-515b-4cc4-b7b8-a7ceff5133cb",
+                "type": "SPEEDOMETER_WIDGET"
+            },
+            "c4f96c00-b4a3-4026-aa1f-cba4a470e44c": {
+                "externalScripts": [
+                    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+                    "https://www.amcharts.com/lib/3/amcharts.js",
+                    "https://www.amcharts.com/lib/3/serial.js",
+                    "https://www.amcharts.com/lib/3/plugins/export/export.min.js",
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+                    "https://www.amcharts.com/lib/3/plugins/export/export.css",
+                    "https://www.amcharts.com/lib/3/themes/light.js",
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                ],
+                "id": "c4f96c00-b4a3-4026-aa1f-cba4a470e44c",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cbutton type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#myModal\"\u003e\n  Open modal\n\u003c/button\u003e\n\n\u003c!-- RR: This code is appending is JS below\n\n\u003cdiv class=\"modal\" id=\"myModal\"\u003e\n  \u003cdiv class=\"modal-dialog\"\u003e\n    \u003cdiv class=\"modal-content\"\u003e\n\n\n      \u003cdiv class=\"modal-header\"\u003e\n        \u003ch4 class=\"modal-title\"\u003eModal Heading\u003c/h4\u003e\n        \u003cbutton type=\"button\" class=\"close\" data-dismiss=\"modal\"\u003e\u0026times;\u003c/button\u003e\n      \u003c/div\u003e\n\n\n      \u003cdiv class=\"modal-body\"\u003e\n        Modal body..\n      \u003c/div\u003e\n\n\n      \u003cdiv class=\"modal-footer\"\u003e\n        \u003cbutton type=\"button\" class=\"btn btn-danger\" data-dismiss=\"modal\"\u003eClose\u003c/button\u003e\n      \u003c/div\u003e\n\n    \u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e --\u003e",
+                            "JavaScript": "//JavaScript\n$('body').append(`\n\u003cdiv class=\"modal\" id=\"myModal\"\u003e\n  \u003cdiv class=\"modal-dialog\"\u003e\n    \u003cdiv class=\"modal-content\"\u003e\n\n      \u003c!-- Modal Header --\u003e\n      \u003cdiv class=\"modal-header\"\u003e\n        \u003ch4 class=\"modal-title\"\u003eModal Heading\u003c/h4\u003e\n        \u003cbutton type=\"button\" class=\"close\" data-dismiss=\"modal\"\u003e\u0026times;\u003c/button\u003e\n      \u003c/div\u003e\n\n      \u003c!-- Modal body --\u003e\n      \u003cdiv class=\"modal-body\"\u003e\n        Modal body..\n      \u003c/div\u003e\n\n      \u003c!-- Modal footer --\u003e\n      \u003cdiv class=\"modal-footer\"\u003e\n        \u003cbutton type=\"button\" class=\"btn btn-danger\" data-dismiss=\"modal\"\u003eClose\u003c/button\u003e\n      \u003c/div\u003e\n\n    \u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n`);"
+                        }
+                    }
+                },
+                "tab": "f46d482b-515b-4cc4-b7b8-a7ceff5133cb",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "f1b50a25-2a40-4edc-b684-cff2b82ff426": {
+                "externalScripts": [
+                    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+                    "https://www.amcharts.com/lib/3/amcharts.js",
+                    "https://www.amcharts.com/lib/3/serial.js",
+                    "https://www.amcharts.com/lib/3/plugins/export/export.min.js",
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+                    "https://www.amcharts.com/lib/3/plugins/export/export.css",
+                    "https://www.amcharts.com/lib/3/themes/light.js",
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                ],
+                "id": "f1b50a25-2a40-4edc-b684-cff2b82ff426",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "brushHeight": 40,
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "03d14b5d-1a09-4a61-9baa-a6a3252990a8",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var data = this.datasource;\r\n// var data = datasources.sensors_data;\r\n// var getnwdata = datasources.NetWorkData;\r\n// console.log(\"Network Data \" + JSON.stringify(getnwdata));\r\n\r\nvar sensordata = data.results.Result[0].DATA['sensor_323022'];\r\n\r\nvar final_data =[];\r\n\r\n// console.log(\"sensordata ----  \"+JSON.stringify(sensordata));\r\n// var payload = {   \"networkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\",   \"gatewayID\": 913526,   \"sensorID\": 323022,   \"fromTS\": 1536729231,   \"toTS\": 1536902031 }\r\n\r\n// var passed =  datasources.sensors_data.sendData(payload);\r\n//var refresh_data = passed.refresh_data;\r\n// console.log(\"refresh Data \"+ JSON.stringify(passed));\r\n\r\nsensordata.forEach(function(data){\r\n    var json_data = {};\r\n    json_data.battery_level =data.battery_level;\r\n    json_data.sensor =data.sensor_reading;\r\n    json_data.signal_strength =data.signal_strength;\r\n    json_data.timestamp =data.reading_time;\r\n\r\n    final_data.push(json_data);\r\n\r\n});\r\n\r\n\r\nconsole.log(\"data ----  \"+JSON.stringify(final_data));\r\nreturn final_data;"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "detectionStrictness": 2,
+                    "enableStatisticsView": false,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "lineColors": [
+                        {
+                            "stroke": "#8f926e"
+                        },
+                        {
+                            "stroke": "#6E93A8"
+                        },
+                        {
+                            "stroke": "#DBA5A8"
+                        },
+                        {
+                            "stroke": "#E8E7C6"
+                        }
+                    ],
+                    "lines": [
+                        {
+                            "dataKey": "sensor",
+                            "legendType": "star",
+                            "name": "Sensor",
+                            "type": "monotone"
+                        },
+                        {
+                            "dataKey": "battery_level",
+                            "legendType": "star",
+                            "name": "Battery",
+                            "type": "step"
+                        },
+                        {
+                            "dataKey": "signal_strength",
+                            "legendType": "star",
+                            "name": "Signal",
+                            "type": "stepAfter"
+                        }
+                    ],
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showDots": true,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "xType": "category",
+                    "yAxes": [
+                        {
+                            "autoBounds": true,
+                            "dataKey": "sensor",
+                            "lowerBound": 0,
+                            "numberStandardDeviations": 2,
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0,
+                            "showStandardDeviations": false,
+                            "standardDeviationLabel": "σ",
+                            "upperBound": 80
+                        },
+                        {
+                            "autoBounds": true,
+                            "dataKey": "battery_level",
+                            "lowerBound": 0,
+                            "numberStandardDeviations": 2,
+                            "orientation": "right",
+                            "paddingBottom": 0,
+                            "paddingTop": 0,
+                            "showStandardDeviations": false,
+                            "standardDeviationLabel": "σ"
+                        },
+                        {
+                            "autoBounds": true,
+                            "dataKey": "signal_strength",
+                            "lowerBound": 0,
+                            "numberStandardDeviations": 2,
+                            "orientation": "right",
+                            "paddingBottom": 0,
+                            "paddingTop": 0,
+                            "showStandardDeviations": false,
+                            "standardDeviationLabel": "σ"
+                        }
+                    ]
+                },
+                "tab": "e09cad05-476c-4e44-82ea-f017c654bef2",
+                "type": "LINE_CHART_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [
+                    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+                    "https://www.amcharts.com/lib/3/amcharts.js",
+                    "https://www.amcharts.com/lib/3/serial.js",
+                    "https://www.amcharts.com/lib/3/plugins/export/export.min.js",
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+                    "https://www.amcharts.com/lib/3/plugins/export/export.css",
+                    "https://www.amcharts.com/lib/3/themes/light.js",
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                ],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "",
+    "last_updated": "11 Oct 18 12:49 UTC",
+    "name": "test123",
+    "system_key": "bacb8fb60bb4d7c2c2b1c0e4bb9701",
+    "type": "custom_v2"
+}
