@@ -1,0 +1,15 @@
+{
+    "columns": [
+        {
+            "ColumnName": "user_id",
+            "ColumnType": "string",
+            "PK": true
+        }
+    ],
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15,
+        "Developer": 15,
+        "RuleBuilder": 15
+    }
+}
