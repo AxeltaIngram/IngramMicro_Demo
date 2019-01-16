@@ -1,0 +1,116 @@
+{
+    "Description": "",
+    "ID": "c4b8bbbd0bd2ecafddfebcfea3a201",
+    "Name": "YJ_Test_Role",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "GatewayList",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "TestService",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "TestingMessageGap",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "TestingWithMessagePublisher",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "UUIDgenerator",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "logImmonitMessagePublishes",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "logNodeClientPublishes",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "logTimerServicePublishes",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "9892bcbd0beae488e5f3e58cadfe01",
+                "Items": [],
+                "Level": 15,
+                "Name": "ImmonitMessagePublishTest"
+            },
+            {
+                "Columns": [],
+                "ID": "c880bcbd0bced98bf1d095e3c59f01",
+                "Items": [],
+                "Level": 15,
+                "Name": "MessagePublishTest"
+            },
+            {
+                "Columns": [],
+                "ID": "84bfbcbd0bb0fae991d9f8f7ed25",
+                "Items": [],
+                "Level": 15,
+                "Name": "NodeClientMessagePublishTest"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "monnit-webhook-adapter/#"
+            },
+            {
+                "Level": 3,
+                "Name": "#"
+            }
+        ],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
