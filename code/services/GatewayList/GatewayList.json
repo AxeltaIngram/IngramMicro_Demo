@@ -1,0 +1,24 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 294,
+    "dependencies": "log,clearblade,ImmonitSDK,service-functions,globals,library-functions,imonnit-constants,services_constants",
+    "execution_timeout": 600,
+    "logging_enabled": "false",
+    "name": "GatewayList",
+    "params": [
+        "{\n  \"networkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\",\n  \"username\": \"ingram@axelta.com\",\n  \"password\": \"Ingram@123\",\n  \"gatewayID\": 987\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Developer": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalUser": 1,
+        "RuleBuilder": 1,
+        "YJ_Test_Role": 1
+    },
+    "run_user": "",
+    "source": "GatewayList.js"
+}
