@@ -1,0 +1,181 @@
+{
+    "app_id": "bacb8fb60bb4d7c2c2b1c0e4bb9701",
+    "collection_id": "8efecfba0bfcf3a1da9983c9d5ab01",
+    "items": [
+        {
+            "gateway_id": 913526,
+            "item_id": "119e749d-e7f9-4f8d-906e-6b78c46c1a22",
+            "sensor_id": 362377,
+            "sensor_name": "Vibration Meter - 362377- Shaft",
+            "sensor_type": "Vibration Meter"
+        },
+        {
+            "gateway_id": 0,
+            "item_id": "15700124-c40d-40f5-a62c-94d42a1c03a6",
+            "sensor_id": 426643,
+            "sensor_name": "Temperature",
+            "sensor_type": "Temperature"
+        },
+        {
+            "gateway_id": 913526,
+            "item_id": "23a6715a-187c-47f0-9983-71a3bc3a439e",
+            "sensor_id": 362382,
+            "sensor_name": "Current Meter 150 Amp - 362382- L3",
+            "sensor_type": "Current Meter 150 Amp"
+        },
+        {
+            "gateway_id": 913201,
+            "item_id": "3516727c-b847-4d5b-aae3-2a070889c263",
+            "sensor_id": 362384,
+            "sensor_name": "Current Meter 150 Amp - 362384- L2",
+            "sensor_type": "Current 20mA"
+        },
+        {
+            "gateway_id": 987,
+            "item_id": "48b06163-b1d6-413e-913a-31681d77f040",
+            "sensor_id": 101,
+            "sensor_name": "Test-Sensor2",
+            "sensor_type": "wind"
+        },
+        {
+            "gateway_id": 913526,
+            "item_id": "8aa50a74-a013-4f0d-b160-e446ecc0148a",
+            "sensor_id": 362374,
+            "sensor_name": "Vibration",
+            "sensor_type": "VibrationMeter"
+        },
+        {
+            "gateway_id": 913526,
+            "item_id": "8b6d5633-f3d9-4d98-af90-c8b926c00138",
+            "sensor_id": 323022,
+            "sensor_name": "Test 12345678",
+            "sensor_type": "Temperature"
+        },
+        {
+            "gateway_id": 913201,
+            "item_id": "b0f02814-a2d5-4973-8b5c-18f96dbf00e6",
+            "sensor_id": 361963,
+            "sensor_name": "Temperature - 361963",
+            "sensor_type": "Temperature"
+        },
+        {
+            "gateway_id": 904803,
+            "item_id": "b83834a8-5dd8-4df3-bee9-3f8c0ec49ff1",
+            "sensor_id": 323018,
+            "sensor_name": "IoT Room in E2",
+            "sensor_type": ""
+        },
+        {
+            "gateway_id": 987,
+            "item_id": "c301fefb-5d97-4226-bada-1804265b67da",
+            "sensor_id": 102,
+            "sensor_name": "Test-Sensor3",
+            "sensor_type": "rainfall"
+        },
+        {
+            "gateway_id": 0,
+            "item_id": "c88be28e-2c0c-4555-ac2f-31bdcf04c85c",
+            "sensor_id": 325928,
+            "sensor_name": "OpenClosed-325928",
+            "sensor_type": "Open_Closed"
+        },
+        {
+            "gateway_id": 932965,
+            "item_id": "c926bc52-8b9a-413e-ae1c-8bef597ea747",
+            "sensor_id": 426641,
+            "sensor_name": "Test12345-Temperature - 426641",
+            "sensor_type": "Temperature"
+        },
+        {
+            "gateway_id": 0,
+            "item_id": "ca389b64-cb49-4f23-a4f5-e60c13db8809",
+            "sensor_id": 323837,
+            "sensor_name": "Humidity - 323837",
+            "sensor_type": "Humidity"
+        },
+        {
+            "gateway_id": 0,
+            "item_id": "e53f97e3-ccb6-4858-9f02-63b907acd6cb",
+            "sensor_id": 100230,
+            "sensor_name": "Test Sensor -1",
+            "sensor_type": "Humidity"
+        },
+        {
+            "gateway_id": 913526,
+            "item_id": "e70fd6e5-9072-4a0c-a558-950344fe882a",
+            "sensor_id": 323029,
+            "sensor_name": "Temperature - 323029- Elevator Shaft",
+            "sensor_type": "Temperature"
+        },
+        {
+            "gateway_id": 904803,
+            "item_id": "e76d8751-db75-4b34-ade7-c60fcc22ad6d",
+            "sensor_id": 323014,
+            "sensor_name": "Fridge 1 in E2 Kitchen",
+            "sensor_type": ""
+        },
+        {
+            "gateway_id": 0,
+            "item_id": "e91e2e83-92a4-45e6-bee4-342b7ba4953f",
+            "sensor_id": 103,
+            "sensor_name": "Test-Sensor4",
+            "sensor_type": "rainfall"
+        },
+        {
+            "gateway_id": 987,
+            "item_id": "ecd625bd-277b-4a7f-aef9-aa60edd23a82",
+            "sensor_id": 100,
+            "sensor_name": "Test-Sensor1",
+            "sensor_type": "humidity"
+        },
+        {
+            "gateway_id": 0,
+            "item_id": "f46a99af-2940-4869-b8fb-7cf15436fb42",
+            "sensor_id": 132452,
+            "sensor_name": "Test",
+            "sensor_type": "Temperature"
+        },
+        {
+            "gateway_id": 0,
+            "item_id": "f4e06028-11a9-47b4-9f01-4ea360db113b",
+            "sensor_id": 329272,
+            "sensor_name": "",
+            "sensor_type": ""
+        }
+    ],
+    "name": "Sensors",
+    "permissions": {
+        "Anonymous": 0,
+        "Authenticated": 15,
+        "Developer": 15,
+        "Monnit Webhook Adapter": 15,
+        "PortalUser": 1
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "sensor_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_id",
+            "ColumnType": "int",
+            "PK": false
+        }
+    ]
+}
