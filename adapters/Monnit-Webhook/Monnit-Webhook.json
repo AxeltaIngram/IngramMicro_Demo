@@ -1,0 +1,14 @@
+{
+    "architecture": "edge-linux-amd64",
+    "deploy_command": "./deploy.sh",
+    "description": "",
+    "logs_command": "sudo journalctl -u monnit-webhook-adapter.service -n 50",
+    "name": "Monnit-Webhook",
+    "os": "",
+    "protocol": "",
+    "start_command": "systemctl start monnit-webhook-adapter",
+    "status_command": "./status.sh",
+    "stop_command": "systemctl stop monnit-webhook-adapter",
+    "undeploy_command": "./undeploy.sh",
+    "version": 9
+}
