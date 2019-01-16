@@ -1,0 +1,22 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 245,
+    "dependencies": "log,clearblade,constants,library-functions,crypto",
+    "execution_timeout": 600,
+    "logging_enabled": "false",
+    "name": "imonnitDeviceData",
+    "params": [
+        "{\n  \"body\": {\n    \"sensor_message\": {\n      \"applicationID\": \"94\",\n      \"batteryLevel\": \"100\",\n      \"dataMessageGUID\": \"58a9e067-801d-4557-b267-a0c8f14af609\",\n      \"dataType\": \"AmpHours|Amps|Amps|Amps\",\n      \"dataValue\": \"36.16|18.08|57.52|15.72\",\n      \"messageDate\": \"2018-09-10 12:45:18\",\n      \"networkID\": \"34385\",\n      \"pendingChange\": \"True\",\n      \"plotLabels\": \"kWh|AvgCurrent|MaxCurrent|MinCurrent\",\n      \"plotValues\": \"21.696|18.08|57.52|15.72\",\n      \"rawData\": \"36.16%2c18.08%2c57.52%2c15.72\",\n      \"sensorID\": \"362382\",\n      \"sensorName\": \"Current Meter 150 Amp - 362382- L3\",\n      \"signalStrength\": \"88\",\n      \"state\": \"0\"\n    },\n    \"gateway_message\": {\n      \"accountID\": \"21182\",\n      \"batteryLevel\": \"101\",\n      \"count\": \"1\",\n      \"date\": \"2018-09-10 13:00:05\",\n      \"gatewayID\": \"913526\",\n      \"gatewayName\": \"CGW3 3g North America - 913526\",\n      \"messageType\": \"0\",\n      \"networkID\": \"34385\",\n      \"pendingChange\": \"False\",\n      \"power\": \"0\",\n      \"signalStrength\": \"16\"\n    },\n    \"time_received\": \"2018-09-10T13:00:34Z\"\n  }\n}"
+    ],
+    "permissions": {
+        "Administrator": 0,
+        "Anonymous": 0,
+        "Authenticated": 1,
+        "Developer": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalUser": 1
+    },
+    "run_user": "",
+    "source": "imonnitDeviceData.js"
+}
