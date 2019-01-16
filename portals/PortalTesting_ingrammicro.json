@@ -1,0 +1,1370 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d": "md"
+        },
+        "datasources": {
+            "45fe19f1-34d3-46cb-b5cd-72ed5fd1dbcc": {
+                "id": "45fe19f1-34d3-46cb-b5cd-72ed5fd1dbcc",
+                "name": "networkanditemId",
+                "settings": {
+                    "datasources": [
+                        "9c660c24-9d68-4a18-b599-f1f81dfd415b",
+                        "ba5fc234-0b60-4d8a-b3a7-83c9422179a0"
+                    ]
+                },
+                "type": "DATASOURCE_AGGREGATOR"
+            },
+            "4a74f2fc-c831-48ca-ae57-cf4a72eef291": {
+                "id": "4a74f2fc-c831-48ca-ae57-cf4a72eef291",
+                "name": "dates_sensordata",
+                "settings": {
+                    "datasources": [
+                        "6ae72402-49a2-43f4-8093-ee533e48f335",
+                        "611bc5b8-a83a-4798-b6f0-d57e943fe9cd"
+                    ]
+                },
+                "type": "DATASOURCE_AGGREGATOR"
+            },
+            "611bc5b8-a83a-4798-b6f0-d57e943fe9cd": {
+                "id": "611bc5b8-a83a-4798-b6f0-d57e943fe9cd",
+                "name": "Get_SensorData",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getSensorsData",
+                    "payload": "{\"networkUUID\":\"db3d6df8-0895-e6d3-8767-a31c08ae278b\",\"gatewayID\":913526,\"sensorID\":323022,\"fromTS\":1539150819301,\"toTS\":1540360430504}",
+                    "refresh_interval": 3600
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "6ae72402-49a2-43f4-8093-ee533e48f335": {
+                "id": "6ae72402-49a2-43f4-8093-ee533e48f335",
+                "name": "Variable_dates",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "7d74ca5e-d8b7-4e6d-80d4-16060b670261": {
+                "id": "7d74ca5e-d8b7-4e6d-80d4-16060b670261",
+                "name": "gatewayandsensordata",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "9c660c24-9d68-4a18-b599-f1f81dfd415b": {
+                "id": "9c660c24-9d68-4a18-b599-f1f81dfd415b",
+                "name": "get_networkdata",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getNetWorkData",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "afdda020-20a8-4b56-96c3-c0b1492385ea": {
+                "id": "afdda020-20a8-4b56-96c3-c0b1492385ea",
+                "name": "sensorandloc_var ",
+                "settings": {
+                    "datasources": [
+                        "ba5fc234-0b60-4d8a-b3a7-83c9422179a0",
+                        "611bc5b8-a83a-4798-b6f0-d57e943fe9cd"
+                    ]
+                },
+                "type": "DATASOURCE_AGGREGATOR"
+            },
+            "ba5fc234-0b60-4d8a-b3a7-83c9422179a0": {
+                "id": "ba5fc234-0b60-4d8a-b3a7-83c9422179a0",
+                "name": "Sensor_localvariable",
+                "settings": {
+                    "defaultValue": "{\"item_id\": 913526}"
+                },
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            }
+        },
+        "externalScripts": [],
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 73,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 98,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d": {
+                "lg": [
+                    {
+                        "h": 16,
+                        "i": "d067ce59-5f45-43da-9af3-f5e18387798e",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 28,
+                        "i": "fb1f9227-4caa-41c2-9305-f71ca5ddf953",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 6,
+                        "y": 205
+                    },
+                    {
+                        "h": 17,
+                        "i": "957ba8f3-14fa-4577-82a4-09c3fb0bdedd",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 205
+                    },
+                    {
+                        "h": 17,
+                        "i": "dfc45eae-6a42-4114-8145-3b8cdd027a50",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 164
+                    },
+                    {
+                        "h": 68,
+                        "i": "600315d6-3ba9-45f8-8d1f-684c9ae267c2",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 87
+                    },
+                    {
+                        "h": 9,
+                        "i": "e010e867-2095-4c15-9300-41c7f1a79a79",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 155
+                    },
+                    {
+                        "h": 18,
+                        "i": "9dd28a39-ec30-4f0e-9f58-eaed731150bd",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 3,
+                        "y": 48
+                    },
+                    {
+                        "h": 33,
+                        "i": "3d36f9e9-68f6-4df0-9afa-d1d4d74f58e1",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 6,
+                        "y": 48
+                    },
+                    {
+                        "h": 21,
+                        "i": "882cecb1-5439-4b06-8ae2-b399c8125055",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 66
+                    },
+                    {
+                        "h": 24,
+                        "i": "5f387f65-a3c7-43df-8cf2-50055e66af2e",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 4,
+                        "y": 181
+                    },
+                    {
+                        "h": 21,
+                        "i": "1c5f325b-69ab-457d-a5f9-5d2665664014",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 4,
+                        "y": 27
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 18,
+                        "i": "d067ce59-5f45-43da-9af3-f5e18387798e",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 201
+                    },
+                    {
+                        "h": 34,
+                        "i": "fb1f9227-4caa-41c2-9305-f71ca5ddf953",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 54
+                    },
+                    {
+                        "h": 20,
+                        "i": "957ba8f3-14fa-4577-82a4-09c3fb0bdedd",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 181
+                    },
+                    {
+                        "h": 15,
+                        "i": "dfc45eae-6a42-4114-8145-3b8cdd027a50",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 3,
+                        "y": 39
+                    },
+                    {
+                        "h": 24,
+                        "i": "600315d6-3ba9-45f8-8d1f-684c9ae267c2",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 22
+                    },
+                    {
+                        "h": 22,
+                        "i": "e010e867-2095-4c15-9300-41c7f1a79a79",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 22,
+                        "i": "9dd28a39-ec30-4f0e-9f58-eaed731150bd",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 0
+                    },
+                    {
+                        "h": 136,
+                        "i": "3d36f9e9-68f6-4df0-9afa-d1d4d74f58e1",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 6,
+                        "y": 21
+                    },
+                    {
+                        "h": 17,
+                        "i": "882cecb1-5439-4b06-8ae2-b399c8125055",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 3,
+                        "y": 22
+                    },
+                    {
+                        "h": 24,
+                        "i": "5f387f65-a3c7-43df-8cf2-50055e66af2e",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 4,
+                        "y": 157
+                    },
+                    {
+                        "h": 21,
+                        "i": "1c5f325b-69ab-457d-a5f9-5d2665664014",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 4,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 16,
+                        "i": "d067ce59-5f45-43da-9af3-f5e18387798e",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 28,
+                        "i": "fb1f9227-4caa-41c2-9305-f71ca5ddf953",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 77
+                    },
+                    {
+                        "h": 17,
+                        "i": "957ba8f3-14fa-4577-82a4-09c3fb0bdedd",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 34
+                    },
+                    {
+                        "h": 26,
+                        "i": "dfc45eae-6a42-4114-8145-3b8cdd027a50",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 51
+                    },
+                    {
+                        "h": 9,
+                        "i": "600315d6-3ba9-45f8-8d1f-684c9ae267c2",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 25
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 16,
+                        "i": "d067ce59-5f45-43da-9af3-f5e18387798e",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 28,
+                        "i": "fb1f9227-4caa-41c2-9305-f71ca5ddf953",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 77
+                    },
+                    {
+                        "h": 17,
+                        "i": "957ba8f3-14fa-4577-82a4-09c3fb0bdedd",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 34
+                    },
+                    {
+                        "h": 26,
+                        "i": "dfc45eae-6a42-4114-8145-3b8cdd027a50",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 51
+                    },
+                    {
+                        "h": 9,
+                        "i": "600315d6-3ba9-45f8-8d1f-684c9ae267c2",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 25
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 16,
+                        "i": "d067ce59-5f45-43da-9af3-f5e18387798e",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 28,
+                        "i": "fb1f9227-4caa-41c2-9305-f71ca5ddf953",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 77
+                    },
+                    {
+                        "h": 17,
+                        "i": "957ba8f3-14fa-4577-82a4-09c3fb0bdedd",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 34
+                    },
+                    {
+                        "h": 26,
+                        "i": "dfc45eae-6a42-4114-8145-3b8cdd027a50",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 51
+                    },
+                    {
+                        "h": 9,
+                        "i": "600315d6-3ba9-45f8-8d1f-684c9ae267c2",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 25
+                    }
+                ]
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 7,
+                        "i": "b5077a4a-b1e1-4f09-9988-2d49edc8f664",
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 3,
+                        "i": "b5077a4a-b1e1-4f09-9988-2d49edc8f664",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 2,
+                        "i": "b5077a4a-b1e1-4f09-9988-2d49edc8f664",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 2,
+                        "i": "b5077a4a-b1e1-4f09-9988-2d49edc8f664",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 2,
+                        "i": "b5077a4a-b1e1-4f09-9988-2d49edc8f664",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }
+        },
+        "panes": {
+            "b5077a4a-b1e1-4f09-9988-2d49edc8f664": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "b5077a4a-b1e1-4f09-9988-2d49edc8f664",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                    "tabIds": [
+                        "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d"
+                    ],
+                    "tabTitles": {
+                        "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5",
+                            "visible": true
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "1c5f325b-69ab-457d-a5f9-5d2665664014": {
+                "externalScripts": [],
+                "id": "1c5f325b-69ab-457d-a5f9-5d2665664014",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "brushHeight": 40,
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "45fe19f1-34d3-46cb-b5cd-72ed5fd1dbcc",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "// var devicesdata = this.datasource;\r\n// var devicesData=devicesdata.results.Result;\r\n// for(i=0; i\u003cdevicesData.length;i++){\r\n//     var theobject = devicesData[i].Sensors;\r\n//     for(j=0;j\u003ctheobject.length;j++){\r\n//         if(theobject[j].SensorID==323022){\r\n// var currentreading = theobject[j].CurrentReading;\r\n// var LastCommunicationDate = theobject[j].LastCommunicationDate;\r\n//         } else if(theobject[j].SensorID==101){\r\n// var CurrentReadingzobj = theobject[j].CurrentReading;\r\n// var n = theobject[j].LastCommunicationDate;\r\n//         }\r\n//     }\r\n// }\r\nvar sensor_id_locvar_list = datasources.Sensor_localvariable.SensorID;\r\nvar splitting_array = []\r\nvar devicesdatachartdata = this.datasource;\r\ndevicesdatachartdata = devicesdatachartdata.get_networkdata;\r\n devicesdatachartdata=devicesdatachartdata.results.Result;\r\n// alert(JSON.stringify(devicesdatachartdata));\r\n    var arrrayvariable = [];\r\nfor(i=0; i\u003cdevicesdatachartdata.length;i++){\r\n    var theobject = devicesdatachartdata[i].Sensors;\r\n    for(j=0;j\u003ctheobject.length;j++){\r\n        if(theobject[j].SensorID == sensor_id_locvar_list){\r\n                    //  alert(JSON.stringify(theobject));\r\n\r\n       var sobject= {};\r\n        if(theobject[j].LastCommunicationDate)\r\n        {\r\n sobject[\"reading_time\"]= (new Date(theobject[j].LastCommunicationDate)).getTime();\r\n     var  splittingreading = theobject[j].CurrentReading;\r\n     if(splittingreading.indexOf(\"|\")\u003e-1){\r\n       splitting_array =   splittingreading.split(\"|\");\r\n       if(splitting_array.length\u003e0\u0026\u0026splitting_array.length\u003c10){\r\n           sobject[\"sensor_reading12\"] = splitting_array[1];\r\n         }\r\n       sobject[\"sensor_reading\"] =splitting_array[0];\r\n     }else{\r\n   sobject[\"sensor_reading\"]= theobject[j].CurrentReading;\r\n     }\r\n        }\r\n         arrrayvariable.push(sobject);\r\n        }\r\n\r\n    }\r\n}\r\n    \r\n\r\nreturn arrrayvariable;"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "detectionStrictness": 2,
+                    "enableStatisticsView": false,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "lineColors": [
+                        {
+                            "stroke": "#e84f13"
+                        },
+                        {
+                            "stroke": "#6E93A8"
+                        },
+                        {
+                            "stroke": "#DBA5A8"
+                        },
+                        {
+                            "stroke": "#E8E7C6"
+                        }
+                    ],
+                    "lines": [
+                        {
+                            "dataKey": "sensor_reading",
+                            "legendType": "star",
+                            "type": "monotone"
+                        }
+                    ],
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showDots": true,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "timeformat": "YYYY/MM/DD HH:MM:SS",
+                    "xAxisDataKey": "reading_time",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "xType": "category",
+                    "yAxes": [
+                        {
+                            "autoBounds": true,
+                            "dataKey": "sensor_reading",
+                            "lowerBound": 0,
+                            "numberStandardDeviations": 2,
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0,
+                            "showStandardDeviations": false,
+                            "standardDeviationLabel": "σ"
+                        }
+                    ]
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "LINE_CHART_WIDGET_COMPONENT"
+            },
+            "3d36f9e9-68f6-4df0-9afa-d1d4d74f58e1": {
+                "externalScripts": [],
+                "id": "3d36f9e9-68f6-4df0-9afa-d1d4d74f58e1",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "45fe19f1-34d3-46cb-b5cd-72ed5fd1dbcc",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                                "HTML": "\u003cdiv class=\"text-center underline\"\u003e\n  \u003ch5\u003esensordata in localvariable\u003c/h5\u003e\n\u003c/div\u003e\n\u003cdiv id=\"displaying_sensorlocalvariable\"\u003e\u003c/div\u003e\n\u003cdiv id=\"showingthesensorinlist\"\u003e\u003c/div\u003e\n\u003cdiv id=\"concerning_data\"\u003e\u003c/div\u003e\n",
+                                "JavaScript": "var network_gate_way_id = 913526;\nvar networkdata_localvar_resp = datasources.Sensor_localvariable;\n network_gate_way_id = networkdata_localvar_resp.gatewayID;\n var sensorid_network= networkdata_localvar_resp.SensorID;\nvar  getnet_data  = this.datasource;\nvar localvar_getnetworkdata_respo =  getnet_data.get_networkdata;\nlocalvar_getnetworkdata_respo = localvar_getnetworkdata_respo.results.Result;\n for(i= 0 ; i \u003clocalvar_getnetworkdata_respo.length; i++){\n     var getsen_sordata= localvar_getnetworkdata_respo[i];\n     gatet_wayt_id = localvar_getnetworkdata_respo[i].GatewayID;\n     if(gatet_wayt_id==network_gate_way_id){\n        \n$(\"#displaying_sensorlocalvariable\").html(JSON.stringify(network_gate_way_id)+\"entered the loop\");\n$(\"#showingthesensorinlist\").html(JSON.stringify(sensorid_network));\n$(\"#concerning_data\").html(JSON.stringify(getsen_sordata));\n\n     }\n }\n// $(\"#displaying_sensorlocalvariable\").html(JSON.stringify(gatet_wayt_id));\n"
+                            }
+                        }
+                    }
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "5f387f65-a3c7-43df-8cf2-50055e66af2e": {
+                "externalScripts": [],
+                "id": "5f387f65-a3c7-43df-8cf2-50055e66af2e",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "45fe19f1-34d3-46cb-b5cd-72ed5fd1dbcc",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                                "HTML": "\u003cdiv class=\"text-center underline\"\u003e\n  \u003ch5\u003earray for list \u003c/h5\u003e\n\u003c/div\u003e\n\u003cdiv id = \"array_list_list\"\u003e\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\n// return [{\"label\": \"GatewayID-913526\", \"value\":{\"item_id\": 913526}}\n// ,{\"label\": \"GatewayID-987\", \"value\":{\"item_id\":987}},\n// {\"label\": \"GatewayID-913201\", \"value\":{\"item_id\":913201}},\n// {\"label\": \"GatewayID-913201\", \"value\":{\"item_id\":913201}},];\nvar networkdata_localvar_resp = datasources.Sensor_localvariable;\nvar network_gate_way_id = networkdata_localvar_resp.gatewayID;\nvar  getnet_data  = this.datasource;\nvar localvar_getnetworkdata_respo =  getnet_data.get_networkdata;\nlocalvar_getnetworkdata_respo = localvar_getnetworkdata_respo.results.Result;\n for(i= 0 ; i \u003clocalvar_getnetworkdata_respo.length; i++){\n     var getsen_sordata= localvar_getnetworkdata_respo[i];\n     var gatet_wayt_id = localvar_getnetworkdata_respo[i].GatewayID;\n     if(gatet_wayt_id==network_gate_way_id){   \n   var ntwrkdtasensor_data = getsen_sordata.Sensors;\n         var sen_the_sensor_list_array = [];\nfor(j=0; j\u003cntwrkdtasensor_data.length;j++){\n var sen_sorlist_obj = {};\n sen_sorlist_obj.label = \"sensor id - \"+ ntwrkdtasensor_data[j].SensorID;\n var valueobj = {};\n valueobj[\"item_id\"] =  ntwrkdtasensor_data[j].SensorID;\n sen_sorlist_obj.value= valueobj;\n sen_the_sensor_list_array.push(sen_sorlist_obj);\n}\n$(\"#array_list_list\").html(JSON.stringify(sen_the_sensor_list_array));\n     }\n }\n return sen_the_sensor_list_array;"
+                            }
+                        }
+                    }
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "600315d6-3ba9-45f8-8d1f-684c9ae267c2": {
+                "externalScripts": [],
+                "id": "600315d6-3ba9-45f8-8d1f-684c9ae267c2",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "9c660c24-9d68-4a18-b599-f1f81dfd415b",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                                "HTML": "\u003cdiv class=\"text-center underline\"\u003e\n  \u003ch5\u003enetwork data source\u003c/h5\u003e\n\u003c/div\u003e\n\u003cdiv id=\"showing_network_data\"\u003e \u003c/div\u003e",
+                                "JavaScript": "//JavaScript\nvar showing_network_json = this.datasource ;\nshowing_network_json = showing_network_json.results;\ngatewayResultJson =showing_network_json.Result;\nvar gatewaylistjsonArray = [];\n\nfor(i = 0 ; i\u003cgatewayResultJson.length;i++){\n    var gatewaylistjsonobj = {};\n    gatewaylistjsonobj.GatewayID = gatewayResultJson[i].GatewayID;\n    var sensorlist_objt = gatewayResultJson[i].Sensors;\n     sensorslistjsnarray =[];\n    for(j=0;j\u003csensorlist_objt.length;j++){\n         sensorslistjsnarray.push(sensorlist_objt[j].SensorID );\n    }\n   gatewaylistjsonobj.Sensordata = sensorslistjsnarray;\n    gatewaylistjsonArray.push(gatewaylistjsonobj);\n}\n  $(\"#showing_network_data\").html(JSON.stringify(gatewaylistjsonArray));\n"
+                            }
+                        }
+                    }
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "882cecb1-5439-4b06-8ae2-b399c8125055": {
+                "externalScripts": [],
+                "id": "882cecb1-5439-4b06-8ae2-b399c8125055",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "45fe19f1-34d3-46cb-b5cd-72ed5fd1dbcc",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                                "HTML": "\u003cdiv class=\"text-center underline\"\u003e\n  \u003ch5\u003edisplaying sensor list based on gateways\u003c/h5\u003e\n\u003c/div\u003e\n\u003cdiv id=\"showing_sensor_list\"\u003e\u003c/div\u003e\n\u003cdiv id \"sensor_id_show\"\u003e \u003c/div\u003e\n\u003cdiv id = \"the_json\"\u003e\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\nvar networkdata_localvar_resp = datasources.Sensor_localvariable;\nvar network_gate_way_id = networkdata_localvar_resp.gatewayID;\nvar sensorid_in2_locvar = networkdata_localvar_resp.SensorID;\nvar  getnet_data  = this.datasource;\nvar localvar_getnetworkdata_respo =  getnet_data.get_networkdata;\nlocalvar_getnetworkdata_respo = localvar_getnetworkdata_respo.results.Result;\n// alert(JSON.stringify(getnet_data));\n for(i= 0 ; i \u003clocalvar_getnetworkdata_respo.length; i++){\n     var getsen_sordata= localvar_getnetworkdata_respo[i];\n     var gatet_wayt_id = localvar_getnetworkdata_respo[i].GatewayID;\n     if(gatet_wayt_id==network_gate_way_id){   \n   var ntwrkdtasensor_data = getsen_sordata.Sensors;\n         var the_sensor_list_array = [];\nfor(j=0; j\u003cntwrkdtasensor_data.length;j++){\n var sen_sorlist_obj = {};\n sen_sorlist_obj.GatewayID = gatet_wayt_id;\n sen_sorlist_obj.SensorID = ntwrkdtasensor_data[j].SensorID;\n the_sensor_list_array.push(sen_sorlist_obj);\n}\n\n$(\"#showing_sensor_list\").html(JSON.stringify(network_gate_way_id)+\"entered the loop\");\n$(\"#sensor_id_show\").html(JSON.stringify(sensorid_in2_locvar));\n \n$(\"#the_json\").html(JSON.stringify(the_sensor_list_array));\n     }\n }"
+                            }
+                        }
+                    }
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "957ba8f3-14fa-4577-82a4-09c3fb0bdedd": {
+                "externalScripts": [],
+                "id": "957ba8f3-14fa-4577-82a4-09c3fb0bdedd",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "6ae72402-49a2-43f4-8093-ee533e48f335",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                                "HTML": "\u003cdiv class=\"text-center underline\"\u003e\n  \u003ch5\u003edisplaying the variable value \u003c/h5\u003e\n\u003c/div\u003e\n\u003cdiv id=\"displaying_variable_value\"\u003e\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript$\n\nvar thedatevariable = datasources.Variable_dates\n$(\"#displaying_variable_value\").html(JSON.stringify(thedatevariable));"
+                            }
+                        }
+                    }
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "9dd28a39-ec30-4f0e-9f58-eaed731150bd": {
+                "externalScripts": [],
+                "id": "9dd28a39-ec30-4f0e-9f58-eaed731150bd",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "activeItemBackgroundColor": "#6e8592",
+                    "activeItemFontColor": "#000000",
+                    "defaultListItem": "gatewayID",
+                    "enableListAutoSelect": false,
+                    "eventTarget": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "9c660c24-9d68-4a18-b599-f1f81dfd415b",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "var clicked_item = this.widget;\r\n// alert(JSON.stringify(clicked_item));\r\ndatasources.Sensor_localvariable.gatewayID = clicked_item.item_id;\r\ndatasources.Sensor_localvariable.sendData(clicked_item);"
+                        }
+                    },
+                    "fontColor": "#000000",
+                    "listItemBackgroundColor": "#ffffff",
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "9c660c24-9d68-4a18-b599-f1f81dfd415b",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "// var showing_network_json = this.datasource ;\r\n// showing_network_json = showing_network_json.results;\r\n// gatewayResultJson =showing_network_json.Result;\r\n// var gatewaylistjsonArray = [];\r\n\r\n// for(i = 0 ; i\u003cgatewayResultJson.length;i++){\r\n//     var gatewaylistjsonobj = {};\r\n//     gatewaylistjsonobj.GatewayID = gatewayResultJson[i].GatewayID;\r\n// //     var sensorlist_objt = gatewayResultJson[i].Sensors;\r\n// //      sensorslistjsnarray =[];\r\n// //     for(j=0;j\u003csensorlist_objt.length;j++){\r\n// //          sensorslistjsnarray.push(sensorlist_objt[j].SensorID );\r\n// //     }\r\n// //    gatewaylistjsonobj.Sensordata = sensorslistjsnarray;\r\n//     gatewaylistjsonArray.push(gatewaylistjsonobj);\r\n// }\r\n// return gatewaylistjsonArray;\r\n// [{\"GatewayID\":913526},{\"GatewayID\":987},{\"GatewayID\":913201},{\"GatewayID\":932965}]\r\nreturn [{\"label\": \"GatewayID-913526\", \"value\":{\"item_id\": 913526}}\r\n,{\"label\": \"GatewayID-987\", \"value\":{\"item_id\":987}},\r\n{\"label\": \"GatewayID-913201\", \"value\":{\"item_id\":913201}},\r\n{\"label\": \"GatewayID-913201\", \"value\":{\"item_id\":913201}},\r\n];"
+                        }
+                    },
+                    "titleColor": "#000000",
+                    "trackingColumnName": "gatewayID"
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "LIST_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "d067ce59-5f45-43da-9af3-f5e18387798e": {
+                "externalScripts": [],
+                "id": "d067ce59-5f45-43da-9af3-f5e18387798e",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "cardBackgroundColor": "#f5f5f5",
+                    "displayColumn": "name",
+                    "editColumns": {
+                        "End_date": {
+                            "dataType": "timestamp",
+                            "display": true,
+                            "inputType": "DATE_PICKER",
+                            "key": "2e24abe9-bad9-458b-b3d8-fb6393746763",
+                            "name": "End_date",
+                            "orderIdx": 2
+                        },
+                        "Start_date": {
+                            "dataType": "timestamp",
+                            "display": true,
+                            "inputType": "DATE_PICKER",
+                            "key": "239dce16-0a79-4438-8202-e00c3e11432f",
+                            "name": "Start_date",
+                            "orderIdx": 1
+                        }
+                    },
+                    "eventTarget": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        },
+                        "value": "if (this.widget) {\n    console.log('this', this.widget);\n    \n    // const start = new Date(this.widget.data.StartDate);\n        const start = (new Date(this.widget.data.Start_date)).getTime();\n\n    const end = (new Date(this.widget.data.End_date)).getTime();\n    \n  Variable_dates = {};\n       datasources.Variable_dates.networkUUID = \"db3d6df8-0895-e6d3-8767-a31c08ae278b\";\n\tdatasources.Variable_dates.gatewayID = 913526;\n\tdatasources.Variable_dates.sensorID = 323022;\n   datasources.Variable_dates.fromTS = start;\n\tdatasources.Variable_dates.toTS = end; \n    datasources.Variable_dates.sendData(Variable_dates);\n}\nreturn;"
+                    },
+                    "fontColor": "#000000",
+                    "isReadOnly": false,
+                    "listSource": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "value": "\n/**\n * @type {FormSourceObj}\n */\nvar formSourceObj = {\n  data: {\n    last_name: 'Miller',\n  }\n};\n\nreturn formSourceObj\n\n// // EXAMPLE of advanced features\n// const stateToCity = {\n//   Texas: ['Austin', 'Dallas', 'El Paso'],\n//   California: ['San Francisco', 'Los Angeles']\n// }\n\n// /**\n//  * @type {FormSourceObj}\n//  */\n// var formSourceObj = {\n//   // the initial data the form has when loaded\n//   data: { state: \"Texas\" },\n\n//   // gets called every time something in the form changes\n//   onUpdate: function (arg) {\n//     if (arg.currentValues.state) {\n//       var cityOptions = stateToCity[arg.currentValues.state]\n//       arg.fieldSettings.city.dropdownOptions = cityOptions\n//     }\n//     return arg\n//   },\n\n//   // an object the same shape as fieldSettings, that is merged with the settings from the UI\n//   // useful for adding dynamic things like dropdown options from a collection\n//   overrideFieldSettings: {\n//     state: {\n//       name: 'state', dataType: 'string', display: true, orderIdx: 5, key: '3f4eeddd-3917-4099-9e3d-68d7e878568d', options: { dropdownOptions: ['Texas', 'California'] }, inputType: 'BUTTON_GROUP', dropdownOptions: ['Texas', 'California'],\n//     },\n//     city: {\n//       name: 'city', dataType: 'string', display: true, orderIdx: 6, key: 'cfd6c6e6-85c4-45e3-b62f-df232434fa2c', options: {}, inputType: 'BUTTON_GROUP', dropdownOptions: ['Austin', 'Dallas', 'El Paso'],\n//     },\n//   }\n// };\n// return formSourceObj\n"
+                    },
+                    "noDataText": "No data",
+                    "sliderColor": "#6E8592",
+                    "submitText": "Submit",
+                    "successNotificationText": "Form Submitted!",
+                    "titleColor": "#000000",
+                    "toggleColor": "#6E8592"
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "FORM_WIDGET_COMPONENT"
+            },
+            "dfc45eae-6a42-4114-8145-3b8cdd027a50": {
+                "externalScripts": [],
+                "id": "dfc45eae-6a42-4114-8145-3b8cdd027a50",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "activeItemBackgroundColor": "#6e8592",
+                    "activeItemFontColor": "#ffffff",
+                    "activeStatusBulletColor": "green",
+                    "allowFilters": false,
+                    "allowSearch": false,
+                    "bulletColor": "#000000",
+                    "defaultListItem": "Sensordata",
+                    "displayAttribute": "GatewayID",
+                    "displayBullets": true,
+                    "displayStatusIndicators": false,
+                    "enableListAutoSelect": false,
+                    "eventTarget": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "611bc5b8-a83a-4798-b6f0-d57e943fe9cd",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "alert(this.widget);\r\nreturn this.widget;\r\n"
+                        }
+                    },
+                    "fontColor": "#000000",
+                    "groupByAttributes": [
+                        "GatewayID",
+                        null
+                    ],
+                    "inactiveStatusBulletColor": "darkred",
+                    "listItemBackgroundColor": "#ffffff",
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "9c660c24-9d68-4a18-b599-f1f81dfd415b",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "//JavaScript\r\nvar showing_network_json = this.datasource ;\r\nshowing_network_json = showing_network_json.results;\r\ngatewayResultJson =showing_network_json.Result;\r\nvar gatewaylistjsonArray = [];\r\n\r\nfor(i = 0 ; i\u003cgatewayResultJson.length;i++){\r\n    var gatewaylistjsonobj = {};\r\n    gatewaylistjsonobj.GatewayID = gatewayResultJson[i].GatewayID;\r\n    var sensorlist_objt = gatewayResultJson[i].Sensors;\r\n     sensorslistjsnarray =[];\r\n    for(j=0;j\u003csensorlist_objt.length;j++){\r\n    //    sensorslistjsnobj = {};\r\n        //  sensorslistjsnobj.SensorID =sensorlist_objt[j].SensorID ;\r\n         sensorslistjsnarray.push(sensorlist_objt[j].SensorID );\r\n    }\r\n   gatewaylistjsonobj.Sensordata = sensorslistjsnarray;\r\n    gatewaylistjsonArray.push(gatewaylistjsonobj);\r\n\r\n}\r\n// const getsensorsbygateways= (GatewayID, SensorID) =\u003e {\r\n//     const foundSensor = GatewayID.filter((l) =\u003e l.SensorID === id)[0];\r\n//     if (foundSensor) {\r\n//         return foundSensor.Sensordata;\r\n//     }\r\n//     return 'Location not found'\r\n// }\r\nreturn gatewaylistjsonArray;"
+                        }
+                    },
+                    "listTitle": "TestList",
+                    "titleColor": "#000000",
+                    "trackingColumnName": "Sensordata"
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "GROUPING_LIST_WIDGET_COMPONENT"
+            },
+            "e010e867-2095-4c15-9300-41c7f1a79a79": {
+                "externalScripts": [],
+                "id": "e010e867-2095-4c15-9300-41c7f1a79a79",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "activeItemBackgroundColor": "#6e8592",
+                    "activeItemFontColor": "#000000",
+                    "enableListAutoSelect": false,
+                    "eventTarget": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "45fe19f1-34d3-46cb-b5cd-72ed5fd1dbcc",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "// return this.widget;\r\nvar clicked_sensorid = this.widget;\r\n// alert(JSON.stringify(clicked_sensorid));\r\ndatasources.Sensor_localvariable.SensorID = clicked_sensorid.item_id;\r\ndatasources.Sensor_localvariable.sendData(clicked_sensorid);"
+                        }
+                    },
+                    "fontColor": "#000000",
+                    "listItemBackgroundColor": "#ffffff",
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "CALCULATED_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "45fe19f1-34d3-46cb-b5cd-72ed5fd1dbcc",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var networkdata_localvar_resp = datasources.Sensor_localvariable;\r\nvar network_gate_way_id = networkdata_localvar_resp.gatewayID;\r\nvar  getnet_data  = this.datasource;\r\nvar localvar_getnetworkdata_respo =  getnet_data.get_networkdata;\r\nlocalvar_getnetworkdata_respo = localvar_getnetworkdata_respo.results.Result;\r\n for(i= 0 ; i \u003clocalvar_getnetworkdata_respo.length; i++){\r\n     var getsen_sordata= localvar_getnetworkdata_respo[i];\r\n     var gatet_wayt_id = localvar_getnetworkdata_respo[i].GatewayID;\r\n     if(gatet_wayt_id==network_gate_way_id){   \r\n   var ntwrkdtasensor_data = getsen_sordata.Sensors;\r\n         var sen_the_sensor_list_array = [];\r\nfor(j=0; j\u003cntwrkdtasensor_data.length;j++){\r\n var sen_sorlist_obj = {};\r\n sen_sorlist_obj.label = \"sensor id - \"+ ntwrkdtasensor_data[j].SensorID;\r\n var valueobj = {};\r\n valueobj[\"item_id\"] =  ntwrkdtasensor_data[j].SensorID;\r\n sen_sorlist_obj.value= valueobj;\r\n sen_the_sensor_list_array.push(sen_sorlist_obj);\r\n}\r\n$(\"#array_list_list\").html(JSON.stringify(sen_the_sensor_list_array));\r\n     }\r\n }\r\n return sen_the_sensor_list_array;"
+                        }
+                    },
+                    "titleColor": "#000000",
+                    "trackingColumnName": "item_id"
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "LIST_WIDGET_COMPONENT"
+            },
+            "fb1f9227-4caa-41c2-9305-f71ca5ddf953": {
+                "externalScripts": [],
+                "id": "fb1f9227-4caa-41c2-9305-f71ca5ddf953",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "4a74f2fc-c831-48ca-ae57-cf4a72eef291",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                                "HTML": "\u003cdiv class=\"text-center underline\"\u003e\n  \u003ch5\u003emapping dates to sensor data\u003c/h5\u003e\n\u003c/div\u003e\n\u003cdiv id=\"get_sensordata\"\u003e\u003c/div\u003e",
+                                "JavaScript": "getSensorData = {};\n    getSensorData.networkUUID = \"db3d6df8-0895-e6d3-8767-a31c08ae278b\";\n\tgetSensorData.gatewayID = 913526;\n\tgetSensorData.sensorID = 323022;\n\tgetSensorData.fromTS = 1536729231;\n\tgetSensorData.toTS = 1536902031;  \n    /*var respo = datasources.Get_SensorData.sendData(getSensorData);\n    respo.then(result=\u003e{console.log(result)\n    result = result.results;\n    result = result.Result;\n    resultjson = result[0].DATA.sensor_323022;\n    var sensordataarray = [];\nfor(i=0; i\u003cresultjson.length;i++){\n    var sobject= {}\n sobject[\"reading_time\"]= (new Date(resultjson[i].reading_time)).getTime();\n sobject[\"sensor_reading\"] = resultjson[i].sensor_reading;\n sensordataarray.push(sobject);\n}\n         \n   $(\"#get_sensordata\").html(JSON.stringify(sensordataarray));\n    });*/\n"
+                            }
+                        }
+                    }
+                },
+                "tab": "54ffb8ff-4a92-49a7-aa9e-d414a215aa4d",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "",
+    "last_updated": "31 Oct 18 11:44 UTC",
+    "name": "PortalTesting_ingrammicro",
+    "system_key": "bacb8fb60bb4d7c2c2b1c0e4bb9701",
+    "type": "custom_v2"
+}
