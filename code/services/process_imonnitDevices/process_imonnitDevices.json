@@ -1,0 +1,21 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 3,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 600,
+    "logging_enabled": "true",
+    "name": "process_imonnitDevices",
+    "params": [
+        "{}"
+    ],
+    "permissions": {
+        "Administrator": 0,
+        "Anonymous": 1,
+        "Authenticated": 0,
+        "Developer": 1,
+        "PortalUser": 0
+    },
+    "run_user": "",
+    "source": "process_imonnitDevices.js"
+}
