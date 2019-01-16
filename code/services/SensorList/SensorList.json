@@ -1,0 +1,20 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 122,
+    "dependencies": "log,clearblade,constants,library-functions,services_constants,service-functions",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "SensorList",
+    "params": [
+        "{\n  \"networkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\"\n}"
+    ],
+    "permissions": {
+        "Anonymous": 0,
+        "Authenticated": 1,
+        "Developer": 1,
+        "PortalUser": 1
+    },
+    "run_user": "",
+    "source": "SensorList.js"
+}
