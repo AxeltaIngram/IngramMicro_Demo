@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "clearblade,http,constants,log,q_library,crypto",
+    "description": "functions",
+    "name": "library-functions",
+    "version": 157,
+    "visibility": "system"
+}
