@@ -1,0 +1,1440 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "17661904-af39-48ec-b10d-44b582271a39": "lg",
+            "24ac476f-1618-41c8-a05b-9fd4fe369717": "lg",
+            "5b1b67ec-7ed9-457f-8c28-d0f8eca54709": "lg",
+            "651abd70-18d6-47b2-acd1-430c70a897eb": "lg",
+            "66555f3b-17c4-47ad-8d22-7edd16ae8f78": "lg",
+            "8ec639c9-833d-4ab5-8790-a0a68939ea5e": "lg",
+            "a7185718-4851-41af-b58a-91eeea4b4a7d": "lg",
+            "b6f3aac8-45c0-4812-a95e-7198ba51691e": "lg",
+            "e2d5cfbf-0986-472e-a0cf-25fc584cabfe": "xxs"
+        },
+        "datasources": {
+            "1d1e2440-c2e4-49b5-aa10-6b2929a5cfc0": {
+                "id": "1d1e2440-c2e4-49b5-aa10-6b2929a5cfc0",
+                "name": "gatewayUpdation",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "updateGatewayDetails",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "2bb1dd8a-6ad4-4996-99e8-e567c10db156": {
+                "id": "2bb1dd8a-6ad4-4996-99e8-e567c10db156",
+                "name": "DeleteAndAddSensor",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "SensorModifications",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "677b0cdd-e681-4c79-95fe-2f7c175b9a3f": {
+                "id": "677b0cdd-e681-4c79-95fe-2f7c175b9a3f",
+                "name": "gatewayRfmUpDlt",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getImAuthKey",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "b81ff189-80cb-486a-a580-90c9481d138a": {
+                "id": "b81ff189-80cb-486a-a580-90c9481d138a",
+                "name": "DevicesData",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getNetWorkData",
+                    "payload": "{}",
+                    "refresh_interval": 300
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "e85b14af-d888-4fbd-968d-4f7a74a9969b": {
+                "id": "e85b14af-d888-4fbd-968d-4f7a74a9969b",
+                "name": "GetNetworkSourcesData",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getNetWorkData",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            }
+        ],
+        "flyoutWidgetLayout": {
+            "lg": [
+                {
+                    "h": 9,
+                    "i": "28c5fc90-292e-4698-a285-75668744376b",
+                    "minH": 3,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": [
+                {
+                    "h": 9,
+                    "i": "28c5fc90-292e-4698-a285-75668744376b",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 55,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 64,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "995e3fcf-b720-46a9-8264-ed72aceda199": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "995e3fcf-b720-46a9-8264-ed72aceda199",
+                "isChild": false,
+                "isParam": false,
+                "name": "Settings",
+                "path": ""
+            },
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            },
+            "ebc5ba8d-184b-4c1a-8b37-31bcce079abf": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "ebc5ba8d-184b-4c1a-8b37-31bcce079abf",
+                "isChild": false,
+                "isParam": false,
+                "name": "DeviceStatus",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "17661904-af39-48ec-b10d-44b582271a39": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "cdea7f92-2526-4b13-9d6a-e8ff9ee2c86c",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "24ac476f-1618-41c8-a05b-9fd4fe369717": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "e3b7af2e-1a54-4a94-9150-805d187fa89c",
+                        "minH": 3,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "5b1b67ec-7ed9-457f-8c28-d0f8eca54709": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "f5d884fd-aadd-4aa9-97e8-d6f5570c95f1",
+                        "minH": 3,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "651abd70-18d6-47b2-acd1-430c70a897eb": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "86d8c1fb-a275-474d-b654-f8c5bcdb38c2",
+                        "minH": 3,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "66555f3b-17c4-47ad-8d22-7edd16ae8f78": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "9e798b1b-915a-434d-b587-a329284cc69b",
+                        "minH": 3,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "8ec639c9-833d-4ab5-8790-a0a68939ea5e": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "ee87aefb-fb8b-448a-95a9-d37c7403554b",
+                        "minH": 3,
+                        "w": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "a7185718-4851-41af-b58a-91eeea4b4a7d": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "d3cfdacd-5812-44fa-94ab-d905b7093d5d",
+                        "minH": 3,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "b6f3aac8-45c0-4812-a95e-7198ba51691e": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "91866e20-6e20-4e64-806b-6523c6a5402a",
+                        "minH": 3,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "e2d5cfbf-0986-472e-a0cf-25fc584cabfe": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "2968f485-d400-4f0f-b4ec-7d9c1de8035b",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": [
+                    {
+                        "h": 14,
+                        "i": "2968f485-d400-4f0f-b4ec-7d9c1de8035b",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }
+        },
+        "paneLayouts": {
+            "995e3fcf-b720-46a9-8264-ed72aceda199": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "2806a5b2-d96a-4ef2-9ab8-a653e411e022",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "9e795327-fbf1-471a-b1fc-9eaab7a62daf",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 3,
+                        "i": "2806a5b2-d96a-4ef2-9ab8-a653e411e022",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "9e795327-fbf1-471a-b1fc-9eaab7a62daf",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 3
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 3,
+                        "i": "2806a5b2-d96a-4ef2-9ab8-a653e411e022",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "9e795327-fbf1-471a-b1fc-9eaab7a62daf",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 3
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 3,
+                        "i": "2806a5b2-d96a-4ef2-9ab8-a653e411e022",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "9e795327-fbf1-471a-b1fc-9eaab7a62daf",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 3
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 3,
+                        "i": "2806a5b2-d96a-4ef2-9ab8-a653e411e022",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "9e795327-fbf1-471a-b1fc-9eaab7a62daf",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 3
+                    }
+                ]
+            },
+            "Home": {
+                "lg": [
+                    {
+                        "h": 3,
+                        "i": "c996902d-c60a-4400-917f-eded7f411ba4",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "4b9d35a0-23f7-48c7-baad-3262e87a41a3",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 3,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "97096c38-c927-481b-8c29-e977ca7b94b5",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 5,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "0cf62a18-08b6-4e1d-8243-14cc150cb98b",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 7,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "4e8da41d-7789-4d07-80ba-828865100e99",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 9,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 3,
+                        "i": "c996902d-c60a-4400-917f-eded7f411ba4",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "4b9d35a0-23f7-48c7-baad-3262e87a41a3",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "97096c38-c927-481b-8c29-e977ca7b94b5",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 6,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "0cf62a18-08b6-4e1d-8243-14cc150cb98b",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 7,
+                        "y": 5
+                    },
+                    {
+                        "h": 2,
+                        "i": "4e8da41d-7789-4d07-80ba-828865100e99",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 8,
+                        "y": 3
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 3,
+                        "i": "c996902d-c60a-4400-917f-eded7f411ba4",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "4b9d35a0-23f7-48c7-baad-3262e87a41a3",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "97096c38-c927-481b-8c29-e977ca7b94b5",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 3,
+                        "y": 2
+                    },
+                    {
+                        "h": 3,
+                        "i": "0cf62a18-08b6-4e1d-8243-14cc150cb98b",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 3,
+                        "y": 5
+                    }
+                ],
+                "xs": [],
+                "xxs": []
+            },
+            "ebc5ba8d-184b-4c1a-8b37-31bcce079abf": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "82d48037-548d-4607-9b88-2bc22b6388cb",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "57b04273-30bb-4098-a849-62fa3e34798e",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [
+                    {
+                        "h": 5,
+                        "i": "82d48037-548d-4607-9b88-2bc22b6388cb",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "57b04273-30bb-4098-a849-62fa3e34798e",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 5
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 5,
+                        "i": "82d48037-548d-4607-9b88-2bc22b6388cb",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "57b04273-30bb-4098-a849-62fa3e34798e",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 5
+                    }
+                ],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "0cf62a18-08b6-4e1d-8243-14cc150cb98b": {
+                "customPaneId": "fridgr3Panel",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "0cf62a18-08b6-4e1d-8243-14cc150cb98b",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "24ac476f-1618-41c8-a05b-9fd4fe369717",
+                    "tabIds": [
+                        "24ac476f-1618-41c8-a05b-9fd4fe369717"
+                    ],
+                    "tabTitles": {
+                        "24ac476f-1618-41c8-a05b-9fd4fe369717": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "2806a5b2-d96a-4ef2-9ab8-a653e411e022": {
+                "customPaneId": "sideNavPane",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "2806a5b2-d96a-4ef2-9ab8-a653e411e022",
+                "pageId": "995e3fcf-b720-46a9-8264-ed72aceda199",
+                "tabInfo": {
+                    "activeTab": "b6f3aac8-45c0-4812-a95e-7198ba51691e",
+                    "tabIds": [
+                        "b6f3aac8-45c0-4812-a95e-7198ba51691e"
+                    ],
+                    "tabTitles": {
+                        "b6f3aac8-45c0-4812-a95e-7198ba51691e": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "4b9d35a0-23f7-48c7-baad-3262e87a41a3": {
+                "customPaneId": "fridgr1Panel",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "4b9d35a0-23f7-48c7-baad-3262e87a41a3",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "5b1b67ec-7ed9-457f-8c28-d0f8eca54709",
+                    "tabIds": [
+                        "5b1b67ec-7ed9-457f-8c28-d0f8eca54709"
+                    ],
+                    "tabTitles": {
+                        "5b1b67ec-7ed9-457f-8c28-d0f8eca54709": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "4e8da41d-7789-4d07-80ba-828865100e99": {
+                "customPaneId": "fridgr4Panel",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "4e8da41d-7789-4d07-80ba-828865100e99",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "a7185718-4851-41af-b58a-91eeea4b4a7d",
+                    "tabIds": [
+                        "a7185718-4851-41af-b58a-91eeea4b4a7d"
+                    ],
+                    "tabTitles": {
+                        "a7185718-4851-41af-b58a-91eeea4b4a7d": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "57b04273-30bb-4098-a849-62fa3e34798e": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "57b04273-30bb-4098-a849-62fa3e34798e",
+                "pageId": "ebc5ba8d-184b-4c1a-8b37-31bcce079abf",
+                "tabInfo": {
+                    "activeTab": "17661904-af39-48ec-b10d-44b582271a39",
+                    "tabIds": [
+                        "17661904-af39-48ec-b10d-44b582271a39"
+                    ],
+                    "tabTitles": {
+                        "17661904-af39-48ec-b10d-44b582271a39": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "82d48037-548d-4607-9b88-2bc22b6388cb": {
+                "customPaneId": "1",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "82d48037-548d-4607-9b88-2bc22b6388cb",
+                "pageId": "ebc5ba8d-184b-4c1a-8b37-31bcce079abf",
+                "tabInfo": {
+                    "activeTab": "66555f3b-17c4-47ad-8d22-7edd16ae8f78",
+                    "tabIds": [
+                        "66555f3b-17c4-47ad-8d22-7edd16ae8f78"
+                    ],
+                    "tabTitles": {
+                        "66555f3b-17c4-47ad-8d22-7edd16ae8f78": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "97096c38-c927-481b-8c29-e977ca7b94b5": {
+                "customPaneId": "fridgr2Panel",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "97096c38-c927-481b-8c29-e977ca7b94b5",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "651abd70-18d6-47b2-acd1-430c70a897eb",
+                    "tabIds": [
+                        "651abd70-18d6-47b2-acd1-430c70a897eb"
+                    ],
+                    "tabTitles": {
+                        "651abd70-18d6-47b2-acd1-430c70a897eb": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "9e795327-fbf1-471a-b1fc-9eaab7a62daf": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "9e795327-fbf1-471a-b1fc-9eaab7a62daf",
+                "pageId": "995e3fcf-b720-46a9-8264-ed72aceda199",
+                "tabInfo": {
+                    "activeTab": "8ec639c9-833d-4ab5-8790-a0a68939ea5e",
+                    "tabIds": [
+                        "8ec639c9-833d-4ab5-8790-a0a68939ea5e"
+                    ],
+                    "tabTitles": {
+                        "8ec639c9-833d-4ab5-8790-a0a68939ea5e": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "c996902d-c60a-4400-917f-eded7f411ba4": {
+                "customPaneId": "1",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "c996902d-c60a-4400-917f-eded7f411ba4",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "e2d5cfbf-0986-472e-a0cf-25fc584cabfe",
+                    "tabIds": [
+                        "e2d5cfbf-0986-472e-a0cf-25fc584cabfe"
+                    ],
+                    "tabTitles": {
+                        "e2d5cfbf-0986-472e-a0cf-25fc584cabfe": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5",
+                            "visible": true
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#228ecb"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "28c5fc90-292e-4698-a285-75668744376b": {
+                "externalScripts": [],
+                "id": "28c5fc90-292e-4698-a285-75668744376b",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n#navList{\n  font-size:1vw;\n}\n#navList .container-fluid{\n  margin:0px;\n  padding:0px;\n}\n#navList .nav-item .active{\n  font-weight:bold;\n  color:red;\n}",
+                            "HTML": "\u003cdiv id=\"navList\"\u003e\n  \u003cdiv class=\"container-fluid\"\u003e\n  \u003cul class=\"nav flex-column\"\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link active\"\u003eMain Dashboard\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eCharts\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eAlerts and Notifications\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eDevice Status\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eSettings\u003c/button\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n  \u003c/div\u003e\n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\n$(function(){\n$(\".nav-link\").click(function(){\nif($(this).text() === \"Device Status\")\n{ \n   CB_PORTAL.selectPage('/DeviceStatus');\n   return;\n}else if($(this).text() === \"Main Dashboard\"){\nCB_PORTAL.selectPage('/Home');\n   return;\n}\n});\n});"
+                        }
+                    },
+                    "htmlId": "3"
+                },
+                "tab": null,
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "2968f485-d400-4f0f-b4ec-7d9c1de8035b": {
+                "externalScripts": [],
+                "id": "2968f485-d400-4f0f-b4ec-7d9c1de8035b",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n#navList{\n  font-size:1vw;\n}\n#navList .container-fluid{\n  margin:0px;\n  padding:0px;\n}\n#navList .nav-item .active{\n  font-weight:bold;\n  color:red;\n}\n",
+                            "HTML": "\u003cdiv id=\"navList\"\u003e\n  \u003cdiv class=\"container-fluid\"\u003e\n  \u003cul class=\"nav flex-column\"\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link active\"\u003eMain Dashboard\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eCharts\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eAlerts and Notifications\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eDevice Status\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eSettings\u003c/button\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n$(function(){\n$(\".nav-link\").click(function(){\nif($(this).text() === \"Device Status\")\n{ \n   CB_PORTAL.selectPage('/DeviceStatus');\n   return;\n}else if($(this).text() === \"Main Dashboard\"){\nCB_PORTAL.selectPage('/Home');\n   return;\n}else if($(this).text() === \"Settings\"){\nCB_PORTAL.selectPage('/Settings');\n   return;\n}\n});\n});"
+                        }
+                    },
+                    "htmlId": "sideNav"
+                },
+                "tab": "e2d5cfbf-0986-472e-a0cf-25fc584cabfe",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "86d8c1fb-a275-474d-b654-f8c5bcdb38c2": {
+                "externalScripts": [],
+                "id": "86d8c1fb-a275-474d-b654-f8c5bcdb38c2",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "e85b14af-d888-4fbd-968d-4f7a74a9969b",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "#salesbody2{\n  text-align: center;\nfont-family: san-serif; \n  font-size:1vw;\n}\n\n#salesbody2 #Temperatureyel{\n  color: blue; \n  font-size: 1vw;\n  font-weight: bold;\n\n}\n@media screen and (max-width:600px)\n{\n  #salesbody2 #Temperatureyel{\n    color: yellow;\n    /* margin: 5px auto; */\n  }\n}\n#salesbody2 hr{\n  border-bottom:1px solid black;\n  padding:0px;\n  margin:5px;\n  width: 130%;\n    margin-left: -24px;\n}\n\n#salesbody2 #zero{\n  /* margin-top: 20px;  */\n  color: blueviolet;\n  font-size: 1vw;\n      font-weight: bold;\n          \n\n      \n\n}\n@media screen and (max-width:600px){\n  #salesbody2 #zero{\n    /* margin: 30px; */\n  }\n}\n#salesbody2 p{\nmargin-bottom:0px;\n}\n#salesbody2 #freezerName{\n  /* margin-top: px; */\nfont-weight: bold;\n  color: navy;\n}\n @media screen and (max-width:600px)\n{\n  #salesbody2 p{\n margin: 100px auto;\n}\n} \n#portal-pane-fridgr2Panel{\n  border:1px solid black !important;\n}",
+                                "HTML": "\u003cdiv class=\"entbody\" id =\"salesbody2\"\u003e\n\u003cdiv class=\"container\" width=\"98%\" \u003e \n    \u003c!-- \u003cdiv class=\"row\"\u003e  --\u003e\n         \u003ch5 id=\"freezerName\"\u003e Fridge 2 \u003c/h5\u003e\n         \u003chr\u003e\n         \u003cdiv id=\"tempReading\"\u003e\n             \u003cp id=\"currenttemp\"\u003eCurrent Temperature:\u003c/p\u003e\n             \n             \u003cp id=\"Temperatureyel\"\u003e\u003c/p\u003e\n            \u003cp\u003eLast reported:\u003c/p\u003e \n             \u003cb id=\"lastCommunicatedate\"\u003e \u003c/b\u003e\n             \n             \n         \u003c/div\u003e\n         \u003c!--\u003cdiv id=\"chartdiv\"\u003e\n         \u003c/div\u003e--\u003e\n         \u003cdiv id=\"tempreadingon\"\u003e\u003c/div\u003e\n         \u003chr/\u003e\n         \u003c!-- \u003cbr\u003e --\u003e\n       \u003cdiv id=\"trendchart\"\u003e \n            \u003ca data-target=\"\" data-toggle=\"modal\" href=\"\"\u003e\u003cimg src=\"https://cdn1.imggmi.com/uploads/2018/9/28/8e302765e6d55bc8f8d5ebc91959852e-full.jpg\" alt=\"trendChart\"width=\"25\" height=\"25\"/\u003e\u003c/a\u003e \n            \u003cb\u003eTrend Chart\u003c/b\u003e\n         \u003c/div\u003e\n         \u003chr/\u003e\n         \u003cdiv id=\"doorStatus\"\u003e\n            \u003cp\u003eDoor status : \u003cb id=\"closed\"\u003eClosed \u003cbr/\u003e\u003c/b\u003e\u003c/p\u003e\n           \u003cp\u003e Last Reported:\u003c/p\u003e\n             \u003cb id=\"secondlct\"\u003e 9/19/2018, 2:01:31 PM \u003cbr/\u003e \u003c/b\u003e\n             \u003cp id=\"zero\"\u003e  \u003c/p\u003e\n             \u003cp\u003e Total Times Opened in last 24 hours  \u003c/p\u003e\n         \u003c/div\u003e\n         \u003cdiv id=\"readingTime\"\u003e\u003c/div\u003e\n         \u003cdiv id=\"doorStatusCount\"\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "var devicesdata = this.datasource;\nvar devicesData=devicesdata.results.Result;\nfor(i=0; i\u003cdevicesData.length;i++){\n    var theobject = devicesData[i].Sensors;\n    for(j=0;j\u003ctheobject.length;j++){\n        if(theobject[j].SensorID==362384){\nvar currentreading2 = theobject[j].CurrentReading;\nvar LastCommunicationDate2 = theobject[j].LastCommunicationDate;\n        } else if(theobject[j].SensorID==323029){\nvar CurrentReadingzobj2 = theobject[j].CurrentReading;\nvar n2 = theobject[j].LastCommunicationDate;\n        }\n    }\n}\n$(\"#salesbody2 #Temperatureyel\").html(currentreading2 +\"\u003cbr\u003e\");\n$(\"#salesbody2 #lastCommunicatedate\").html(LastCommunicationDate2+\"\u003cbr\u003e\");\n$(\"#salesbody2 #zero\").html(CurrentReadingzobj2+\"\u003cbr\u003e\");\n $(\"#salesbody2 #secondlct\").html(n2+\"\u003cbr\u003e\");\n"
+                            }
+                        }
+                    }
+                },
+                "tab": "651abd70-18d6-47b2-acd1-430c70a897eb",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "91866e20-6e20-4e64-806b-6523c6a5402a": {
+                "externalScripts": [],
+                "id": "91866e20-6e20-4e64-806b-6523c6a5402a",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n#navList{\n  font-size:1vw;\n}\n#navList .container-fluid{\n  margin:0px;\n  padding:0px;\n}\n#navList .nav-item .active{\n  font-weight:bold;\n  color:red;\n}\n@media screen and (max-width:768px)\n{\n  #portal-pane-sideNavPane{\n    display:none;\n  }\n}",
+                            "HTML": "\u003cdiv id=\"navList\"\u003e\n  \u003cdiv class=\"container-fluid\"\u003e\n  \u003cul class=\"nav flex-column\"\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eMain Dashboard\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eCharts\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eAlerts and Notifications\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eDevice Status\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link active\"\u003eSettings\u003c/button\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n$(function(){\n$(\".nav-link\").click(function(){\nif($(this).text() === \"Device Status\")\n{ \n   CB_PORTAL.selectPage('/DeviceStatus');\n   return;\n}else if($(this).text() === \"Main Dashboard\"){\nCB_PORTAL.selectPage('/Home');\n   return;\n}else if($(this).text() === \"Settings\"){\nCB_PORTAL.selectPage('/Settings');\n   return;\n}\n});\n});"
+                        }
+                    }
+                },
+                "tab": "b6f3aac8-45c0-4812-a95e-7198ba51691e",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "9e798b1b-915a-434d-b587-a329284cc69b": {
+                "externalScripts": [],
+                "id": "9e798b1b-915a-434d-b587-a329284cc69b",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n#navList{\n  font-size:1vw;\n}\n#navList .container-fluid{\n  margin:0px;\n  padding:0px;\n}\n#navList .nav-item .active{\n  font-weight:bold;\n  color:red;\n}",
+                            "HTML": "\u003cdiv id=\"navList\"\u003e\n  \u003cdiv class=\"container-fluid\"\u003e\n  \u003cul class=\"nav flex-column\"\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eMain Dashboard\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eCharts\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eAlerts and Notifications\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link active\"\u003eDevice Status\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eSettings\u003c/button\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n$(function(){\n$(\".nav-link\").click(function(){\nif($(this).text() === \"Device Status\")\n{ \n   CB_PORTAL.selectPage('/DeviceStatus');\n   return;\n}else if($(this).text() === \"Main Dashboard\"){\nCB_PORTAL.selectPage('/Home');\n   return;\n}else if($(this).text() === \"Settings\"){\nCB_PORTAL.selectPage('/Settings');\n   return;\n}\n});\n});"
+                        }
+                    },
+                    "htmlId": "sideNav"
+                },
+                "tab": "66555f3b-17c4-47ad-8d22-7edd16ae8f78",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "IngramMicro"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "cdea7f92-2526-4b13-9d6a-e8ff9ee2c86c": {
+                "externalScripts": [],
+                "id": "cdea7f92-2526-4b13-9d6a-e8ff9ee2c86c",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "b81ff189-80cb-486a-a580-90c9481d138a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "body{\n          font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif;\n          font-size: 14px;\n          }\n            .underline {\n                text-decoration: underline;\n            }\n            #previous[disabled=\"disabled\"],#next[disabled=\"disabled\"]{\n                background:red;\n                color:white;\n            }\n            .btn.focus,.btn-outline-primary:focus, .active:focus{\n                box-shadow:none;\n            }\n            #accordion .card-link{\n                color:white;\n            }\n            #devicesData table{\n                font-size:1vw;\n                width:100%;\n            }\n\t\t\t#devicesData table td{\n                padding:5px 1px;\n            }\n\t\t\t #paginationdiv .btn-group{\n\t\t\tjustify-content: center;\n\t\t\tdisplay:flex;\n\t\t\t}\n\t\t\t[name='deviceSearchForm']{\n\t\t\tjustify-content:center;\n\t\t\tdisplay:flex;\n\t\t\t}\n\t\t\t.gwFirmwareReform{padding:1px;}",
+                                "HTML": "\u003cdiv class=\"container\"\u003e\n            \u003cdiv class=\"text-center underline\"\u003e\n                \u003ch2\u003eGateways Data\u003c/h2\u003e\n            \u003c/div\u003e\n            \u003cdiv id=\"paginationResultDiv\"\u003e\n\t\t\t\u003c!-- \u003cdiv class=\"row\"\u003e --\u003e\n\t\t\t\u003c!-- \u003cdiv class=\"col-sm-6\"\u003e --\u003e\n\t\t\t\u003cform name=\"deviceSearchForm\" method=\"POST\" action=\"\"\u003e\t\t\t\n\t\t\t\u003cdiv class=\"form-group\"\u003e\n                            \u003cdiv class=\"input-group\"\u003e\n                                \u003cdiv class=\"input-group-prepend\"\u003e\n                                    \u003cspan class=\"input-group-text\"\u003eSearch Using\u003c/span\u003e\n                                \u003c/div\u003e\n                                \u003cselect name=\"search_field\" id=\"search_field\" class=\"form-control\"\u003e\n                                    \u003coption value=\"GatewayID\"\u003eGateway ID\u003c/option\u003e\n                                    \u003coption value=\"GatewayName\"\u003eGateway Name\u003c/option\u003e\n                                    \u003coption value=\"MAC_Address\"\u003eMAC Address\u003c/option\u003e\n                                    \u003coption value=\"ClientName\"\u003eCustomer\u003c/option\u003e\n                                \u003c/select\u003e\n                                \u003c!-- \u003cspan style=\"display:table-cell;width:0;padding:0;\"\u003e\u003c/span\u003e --\u003e\n                                \u003cinput type=\"text\" name=\"search_text\" id=\"search_text\" value=\"\" class=\"form-control\" placeholder=\"Search...\" required=\"\"\u003e\n        \n                                \u003cspan class=\"input-group-btn\"\u003e\n                                    \u003cbutton type=\"button\" id=\"search\" class=\"btn btn-info\"\u003e\u003ci class=\"fa fa-search\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/button\u003e\n                                \u003c/span\u003e\n                            \u003c/div\u003e\n\t\t\t\t\t\t\t\n                        \u003c/div\u003e\t\t\t\t\t \n\t\t\t\u003c/form\u003e\n\t\t\t\u003c!-- \u003c/div\u003e --\u003e\n\t\t\t\u003c!-- \u003c/div\u003e --\u003e\n                \u003cdiv id=\"devicesData\"\u003e\n                    \u003cdiv id=\"accordion\"\u003e\n\n                    \u003c/div\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n            \u003cdiv id=\"paginationdiv\"\u003e\n                \u003cdiv class=\"btn-group\"\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n\t\t\t\u003cdiv id=\"noResult\"\u003e\n\t\t\t\u003c/div\u003e\n\t\t\t\u003cdiv class=\"modal\" id=\"authModal\"\u003e\n  \u003cdiv class=\"modal-dialog modal-sm\"\u003e\n    \u003cdiv class=\"modal-content\"\u003e\n\n      \u003c!-- Modal Header --\u003e\n      \u003cdiv class=\"modal-header\"\u003e\n        \u003ch4 class=\"modal-title\"\u003eAthentication\u003c/h4\u003e\n        \u003cbutton type=\"button\" class=\"close\" data-dismiss=\"modal\"\u003e\u0026times;\u003c/button\u003e\n      \u003c/div\u003e\n\n      \u003c!-- Modal body --\u003e\n      \u003cdiv class=\"modal-body\"\u003e\n        \u003cform name='imonnitAuth'\u003e\n\t\t\u003cdiv class=\"form-group\"\u003e\n\t\t\u003clabel\u003eUsername\u003c/label\u003e\n\t\t\u003cinput type=\"text\" name=\"imuname\" class=\"form-control\" required/\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"form-group\"\u003e\n\t\t\u003clabel\u003ePassword\u003c/label\u003e\n\t\t\u003cinput type=\"password\" name=\"imupwd\" class=\"form-control\" required/\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cbutton type=\"button\" class=\"btn btn-danger float-right\" data-dismiss=\"modal\"\u003eClose\u003c/button\u003e\n\t\t\u003cbutton type=\"button\" class=\"btn btn-success float-right mr-1\" id=\"authSubmit\"\u003eSubmit\u003c/button\u003e\n\t\t\u003c/form\u003e\n      \u003c/div\u003e\n\n    \u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n        \u003c/div\u003e",
+                                "JavaScript": "//JavaScript\nvar response=this.datasource;\nvar resultArray=response.results.Result;\nvar gwUpRfmObj={};\n$(function () {\n   function Paginator(items, page, per_page) {\n\n                    var page = page || 1,\n                            per_page = per_page || 10,\n                            offset = (page - 1) * per_page,\n                            paginatedItems = items.slice(offset).slice(0, per_page),\n                            total_pages = Math.ceil(items.length / per_page);\n                    return {\n                        page: page,\n                        per_page: per_page,\n                        pre_page: page - 1 ? page - 1 : null,\n                        next_page: (total_pages \u003e page) ? page + 1 : null,\n                        total: items.length,\n                        total_pages: total_pages,\n                        data: paginatedItems\n                    };\n                }\n\n\n        //paginator div\n\t\tfunction displayPagination(objToPaginate)\n\t\t{\n\t\tvar limitPerPage=objToPaginate.length/10;\n\t\t$(\"#paginationdiv .btn-group\").html(\"\");\n\t\t $(\"#paginationdiv .btn-group\").append('\u003cbutton type=\"button\" class=\"btn btn-outline-primary\" id=\"previous\" data-pnum=\"\"\u003ePrev\u003c/button\u003e');\n                for (var i = 0; i \u003climitPerPage; i++)\n                {\n                    $(\"#paginationdiv .btn-group\").append('\u003cbutton type=\"button\" class=\"btn btn-outline-primary\"\u003e' + (i + 1) + '\u003c/button\u003e');\n                }\n                $(\"#paginationdiv .btn-group\").append('\u003cbutton type=\"button\" class=\"btn btn-outline-primary\" id=\"next\" data-nnum=\"\"\u003eNext\u003c/button\u003e');\n\t\t}\n\t\t\n\t\t//get Object for page\t\n            displayPagination(resultArray);   \n\t\t\t\t$(document).off(\"click\",\"#paginationdiv .btn\")\n                $(document).on(\"click\",\"#paginationdiv .btn\",function (e) {\n                    console.log(e);\n                    var pageNumber;\n                    $(\"#paginationdiv .btn\").removeClass(\"active\");\n                    if (e.currentTarget.id === \"previous\")\n                    {\n                        pageNumber = parseInt(e.currentTarget.dataset.pnum);\n                        $(\"#paginationdiv .btn:contains(\" + e.currentTarget.dataset.pnum + \")\").addClass(\"active\");\n                    } else if (e.currentTarget.id === \"next\")\n                    {\n                        pageNumber = parseInt(e.currentTarget.dataset.nnum);\n                        $(\"#paginationdiv .btn:contains(\" + e.currentTarget.dataset.nnum + \")\").addClass(\"active\");\n                    } else {\n                        $(e.target).addClass(\"active\");\n                        pageNumber = parseInt(e.currentTarget.innerText);\n                    }\n                    $(\"#previous\").attr(\"data-pnum\", pageNumber - 1);\n                    $(\"#next\").attr(\"data-nnum\", pageNumber + 1);\n                    if (pageNumber == 1)\n                    {\n                        $(\"#previous\").attr('disabled', true);\n\n                    } else {\n                        $(\"#previous\").attr('disabled', false);\n\n                    }\n\t\t\t\t\t//console.log(parseInt(resultArray.length/10)+1);\n                    if (pageNumber == (parseInt(resultArray.length/10)+1))\n                    {\n                        $(\"#next\").attr('disabled', true);\n                    } else {\n                        $(\"#next\").attr('disabled', false);\n                    }\n\n                    var objToShow = Paginator(resultArray, pageNumber, 10);\n        //$(\"#paginationResultDiv\").html(JSON.stringify(objToShow.data));\n                    devicesDetails(objToShow.data);\n                    function devicesDetails(listOfGateways) {\n        //var listOfGateways=response.results.Result;\n                        $(\"#accordion\").html(\"\");\n                        for (i = 0; i \u003c listOfGateways.length; i++) {\n\n                            var gatewayCard = \"\u003cdiv class='card'\u003e\";\n                            gatewayCard += \"\u003cdiv class='card-header bg-info'\u003e\";\n                            gatewayCard += \"\u003ca class='collapsed card-link show' data-toggle='collapse' href='#sensorsOf_\" + listOfGateways[i][\"GatewayID\"] + \"'\u003e\";\n                            gatewayCard += \"Gateway - \" + listOfGateways[i][\"GatewayID\"];\n                            gatewayCard += \"\u003c/a\u003e\"\n                            gatewayCard += \"\u003c/div\u003e\";\n                            gatewayCard += \"\u003cdiv id='sensorsOf_\" + listOfGateways[i][\"GatewayID\"] + \"' class='collapse in' data-parent='#accordion'\u003e\";\n                            gatewayCard += \"\u003cdiv class='card-body'\u003e\";\n                            gatewayCard += \"\u003ctable class='table-bordered'\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eGatewayID: \u003c/b\u003e\" + listOfGateways[i].GatewayID + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eGatewayName: \u003c/b\u003e\" + listOfGateways[i].GatewayName + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eNetworkUUID: \u003c/b\u003e\" + listOfGateways[i].NetworkUUID + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eLastCommunicationDate: \u003c/b\u003e\" + new Date(listOfGateways[i].LastCommunicationDate) + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eHeartBeat: \u003c/b\u003e\" + listOfGateways[i].Heartbeat + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eBatteryLevel: \u003c/b\u003e\" + listOfGateways[i].BatteryLevel + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eSignalStrength: \u003c/b\u003e\" + listOfGateways[i].SignalStrength + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eMAC Address: \u003c/b\u003e\" + listOfGateways[i].MAC_Address + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003c/table\u003e\";\n\t\t\t\t\t\t\tgatewayCard +=\"\u003cdiv class='mt-2 mb-2'\u003e\";\n\t\t\t\t\t\t\tgatewayCard +=\"\u003cbutton class='btn btn-info gwFirmwareReform mr-2 float-right' data-gwid=\"+listOfGateways[i].GatewayID+\" data-method='update'\u003eUpdate Firmware\u003c/button\u003e\";\n\t\t\t\t\t\t\tgatewayCard +=\"\u003cbutton class='btn btn-info gwFirmwareReform mr-2 float-right' data-gwid=\"+listOfGateways[i].GatewayID+\" data-method='reform'\u003eReform\u003c/button\u003e\";\n\t\t\t\t\t\t\tgatewayCard +=\"\u003c/div\u003e\";\n                            gatewayCard += \"\u003ch5\u003eSensors Information\u003c/h5\u003e\u003chr/\u003e\";\n                            gatewayCard += \"\u003ctable class='table-striped'\u003e\";\n                            gatewayCard += \"\u003cthead\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003cth\u003eSensorID\u003c/th\u003e\";\n                            gatewayCard += \"\u003cth\u003eSensorName\u003c/th\u003e\";\n                            gatewayCard += \"\u003cth\u003eSensorReading\u003c/th\u003e\";\n                            gatewayCard += \"\u003cth\u003eBatteryLevel\u003c/th\u003e\";\n                            gatewayCard += \"\u003cth\u003eSignalStrength\u003c/th\u003e\";\n                            gatewayCard += \"\u003cth\u003eReading On\u003c/th\u003e\";\n                            gatewayCard += \"\u003c/tr\u003e\";\n                            gatewayCard += \" \u003c/thead\u003e\";\n                            gatewayCard += \" \u003ctbody\u003e\";\n                            for (j = 0; j \u003c listOfGateways[i].Sensors.length; j++)\n                            {\n                                var sensorObj = listOfGateways[i].Sensors[j];\n                                gatewayCard += \"\u003ctr\u003e\";\n                                gatewayCard += \"\u003ctd\u003e\" + sensorObj.SensorID + \"\u003c/td\u003e\";\n                                gatewayCard += \"\u003ctd\u003e\" + sensorObj.SensorName + \"\u003c/td\u003e\";\n                                gatewayCard += \"\u003ctd\u003e\" + sensorObj.CurrentReading + \"\u003c/td\u003e\";\n\n                                if (sensorObj.BatteryLevel \u003e= 50 \u0026\u0026 sensorObj.BatteryLevel \u003c= 100) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-battery-full' style='font-size:18px;color:green'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.BatteryLevel + \"%\u003c/td\u003e\";\n                                } else if (sensorObj.BatteryLevel \u003e= 26 \u0026\u0026 sensorObj.BatteryLevel \u003c= 49) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-battery-half' style='font-size:18px;color:amber'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.BatteryLevel + \"%\u003c/td\u003e\";\n                                } else if (sensorObj.BatteryLevel \u003e= 1 \u0026\u0026 sensorObj.BatteryLevel \u003c= 25) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-battery-quarter' style='font-size:18px;color:red'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.BatteryLevel + \"%\u003c/td\u003e\";\n                                } else {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-battery-empty' style='font-size:18px;color:red'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.BatteryLevel + \"%\u003c/td\u003e\";\n                                }\n\n                                if (sensorObj.SignalStrength \u003e= 50 \u0026\u0026 sensorObj.SignalStrength \u003c= 100) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-signal' style='font-size:18px;color:green'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.SignalStrength + \"\u003c/td\u003e\";\n                                } else if (sensorObj.SignalStrength \u003e= 26 \u0026\u0026 sensorObj.SignalStrength \u003c= 49) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-signal' style='font-size:18px;color:#FFC200'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.SignalStrength + \"\u003c/td\u003e\";\n                                } else if (sensorObj.SignalStrength \u003e= 1 \u0026\u0026 sensorObj.SignalStrength \u003c= 25) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-signal' style='font-size:18px;color:red'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.SignalStrength + \"\u003c/td\u003e\";\n                                } else {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-signal' style='font-size:18px;color:black'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.SignalStrength + \"\u003c/td\u003e\";\n                                }\n\n\n                                gatewayCard += \"\u003ctd\u003e\" + (new Date(sensorObj.LastCommunicationDate)).toLocaleString()+ \"\u003c/td\u003e\";\n                                gatewayCard += \"\u003c/tr\u003e\";\n                            }\n                            gatewayCard += \" \u003c/tbody\u003e\";\n                            gatewayCard += \"\u003c/table\u003e\";\n                            gatewayCard += \"\u003c/div\u003e\";\n                            gatewayCard += \"\u003c/div\u003e\";\n                            gatewayCard += \"\u003c/div\u003e\u003cbr/\u003e\";\n                            $(\"#accordion\").append(gatewayCard);\n                        }\n\t\t\t\t\t\t//$(\"#accordion .card:first-child .collapse\").addClass(\"show\");\n                    }\n                });\n\t\t\t\t\n                //When press enter in search-text\n                $(\"input[name='search_text']\").off(\"keypress\");\n                     document.getElementById(\"search_text\").onkeypress = function(e) {\n                      var key = e.charCode || e.keyCode || 0;     \n                            if (key == 13) {\n                            $(\"#search\").click();\n                            return false;\n                           }\n                        };\n\n            //     $(\"input[name='search_text']\").off(\"keyup\");\n            //    $(\"input[name='search_text']\").keyup(function(event) {\n            //        event.preventDefault();\n            //      if (event.keyCode === 13) {\n            //          return false;\n            //       }\n            //   });\n                //click on search icon\n\t\t\t\t$(\"#search\").off(\"click\");\n\t\t\t\t$(\"#search\").click(function(){\n\t\t\t\tresultArray=response.results.Result;\n\t\t\t\tif($(\"input[name='search_text']\").val()===\"\")\n                    {\n                    alert(\"please fill out field!\");\n                    }else{\n\t\t\t\t\tvar searchField=$(\"#search_field\").val();\n\t\t\t\t\tvar searchText=$(\"input[name='search_text']\").val();\n\t\t\t\t\tobjsAfterSearch=[];\n\t\t\t\t\tconsole.log(resultArray);\n\t\t\t\t\t$.each(resultArray,function(index,objToSearch){\n\t\t\t\t\t//objToSearch=resultArray[index];\n\t\t\t\t\tconsole.log(objToSearch);\n\t\t\t\t\tif(searchField === \"ClientName\")\n\t\t\t\t\t{\n\t\t\t\t\tif((objToSearch[searchField]).indexOf(searchText)\u003e-1)\n\t\t\t\t\t{\n\t\t\t\t\tobjsAfterSearch.push(objToSearch);\n\t\t\t\t\t}\n\t\t\t\t\t}else{\n\t\t\t\t\tvar serchVal=objToSearch[searchField];\n\t\t\t\t\tif(serchVal==searchText)\n\t\t\t\t\t{\n\t\t\t\t\tobjsAfterSearch.push(objToSearch);\n\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\t});\n\t\t\t\t\tif(objsAfterSearch.length)\n\t\t\t\t\t{\n\t\t\t\t\t$(\"#paginationdiv,#devicesData\").show();\n\t\t\t\t\t$(\"#noResult\").html(\"\");\n\t\t\t\t\tresultArray=objsAfterSearch;\n\t\t\t\t\tdisplayPagination(objsAfterSearch);   \n\t\t\t\t\tclickFirstPage();\n\t\t\t\t\t}else{\n\t\t\t\t\t$(\"#paginationdiv,#devicesData\").hide();\n\t\t\t\t\t$(\"#noResult\").html(\"\u003ch3\u003eGateways are not available for given properties\u003c/h3\u003e\")\n\t\t\t\t\t}\n\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t\t\n\t\t\t\t//To update gateway firmware and reform\n               //$(document).off(\"click\",\".gwFirmwareReform\");\n\t\t\t\t$(document).on(\"click\",\".gwFirmwareReform\",function(e){\n\t\t\t\tgwUpRfmObj={\n\t\t\t\t \"method\": $(this).data(\"method\"),\n                 \"gateway_id\": parseInt($(this).data(\"gwid\"))\n\t\t\t\t};\n                \n\t\t\t\t$(\"#authModal\").modal(\"show\");\n                $('body .modal-backdrop').remove();\n                $(\"form[name='imonnitAuth']\")[0].reset();\n                 \n\t\t\t\t});\n                $(\"#authSubmit\").off(\"click\");\n\t\t\t\t$(\"#authSubmit\").click(function(){\n\t\t\t\tvar sresult;\n\t\t\t\tvar authForm=$(\"form[name='imonnitAuth']\");\n\t\t\t\t\n\t\t\t\tgwUpRfmObj.username=$(\"input[name='imuname']\").val();\n\t\t\t\tgwUpRfmObj.password=$(\"input[name='imupwd']\").val();\n\t\t\t\t//datasources.name.senddata(imCredentials);\n\t\t\t\tvar res = datasources.gatewayRfmUpDlt.sendData(gwUpRfmObj);\n                res.then((result) =\u003e{console.log(result)\n\t\t\t\tsresult=result.results;\n\t\t\t\tif(sresult==\"Success\")\n\t\t\t\t{\n\t\t\t\talert(\"Gateway Updated Successfully!\");\n\t\t\t\t}else{\n\t\t\t\talert(sresult);\n\t\t\t\t}\n\t\t\t\tauthForm[0].reset();\n\t\t\t\t$(\"#authModal\").modal(\"hide\");\n                });\n\t\t\t\t });\n\t\t\t\t\n\t\t\t\tfunction clickFirstPage()\n\t\t\t\t{\n\t\t\t\t$(\"#paginationdiv .btn:contains(1)\").click();\n\t\t\t\t}\n\t\t\t\tclickFirstPage();\n            });"
+                            }
+                        }
+                    }
+                },
+                "tab": "17661904-af39-48ec-b10d-44b582271a39",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "d3cfdacd-5812-44fa-94ab-d905b7093d5d": {
+                "externalScripts": [],
+                "id": "d3cfdacd-5812-44fa-94ab-d905b7093d5d",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "e85b14af-d888-4fbd-968d-4f7a74a9969b",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "#salesbody4{\n  /* border: 1px solid black; */\n  text-align: center;\nfont-family: san-serif; \n  font-size:1vw;\n}\n#salesbody4 #Temperatureyel{\n  color: blue;\n  font-weight:bolder;\n  font-size: 1vw;\n}\n#salesbody4 #zero{\n  /* margin-top: 20px;  */\n  color: blueviolet;\n  font-weight:bolder;\n   font-size: 1vw;\n}\n#salesbody4 #freezerName{\n  /* margin-top: 15px; */\n  /* border: 1px solid black; */\n  color: navy;\n  font-weight:bolder;\n}\n/* New CSS */\n#portal-pane-fridgr4Panel{\n  border:1px solid black !important;\n}\n#salesbody4 hr{\n  border-bottom:1px solid black;\n  padding:0px;\n  margin:5px;\n  width: 130%;\n    margin-left: -24px;\n}\n#salesbody4 p{\nmargin-bottom:0px;\n}\n/*end*/\n @media screen and (max-width:600px)\n{\n  #salesbody4 p{\n /* margin: 100px auto; */\n}\n#salesbody4 #Temperatureyel{\n    color: yellow;\n    /* margin: 5px auto; */\n  }\n   #salesbody4 #zero{\n    /* margin: 30px; */\n  }\n} \n\n\n",
+                                "HTML": "\u003cdiv class=\"entbody\" id =\"salesbody4\"\u003e\n\u003cdiv class=\"container-fluid\" width=\"100%\" \u003e \n    \u003c!-- \u003cdiv class=\"row\"\u003e  --\u003e\n         \u003ch5 id=\"freezerName\"\u003e Fridge 4\u003c/h5\u003e\n         \u003chr/\u003e\n         \u003cdiv id=\"tempReading\"\u003e\n             \u003cp id=\"currenttemp\"\u003eCurrent Temperature:\u003c/p\u003e\n             \u003cp id=\"Temperatureyel\"\u003e\u003c/p\u003e\n             \u003cp\u003eLast reported:\u003c/p\u003e \n             \u003cb id=\"lastCommunicatedate\"\u003e \u003c/b\u003e\n         \u003c/div\u003e\n         \u003c!--\u003cdiv id=\"chartdiv\"\u003e\n         \u003c/div\u003e--\u003e\n         \u003cdiv id=\"tempreadingon\"\u003e\u003c/div\u003e\n         \u003chr/\u003e\n         \u003c!-- \u003cbr\u003e --\u003e\n        \u003cdiv id=\"trendchart\"\u003e \n            \u003ca data-target=\"\" data-toggle=\"modal\" href=\"\"\u003e\u003cimg src=\"https://cdn1.imggmi.com/uploads/2018/9/28/8e302765e6d55bc8f8d5ebc91959852e-full.jpg\" alt=\"trendChart\"width=\"25\" height=\"25\"/\u003e\u003c/a\u003e \n            \u003cb\u003eTrend Chart\u003c/b\u003e\n         \u003c/div\u003e\n         \u003chr/\u003e\n         \u003cdiv id=\"doorStatus\"\u003e\n            \u003cp\u003eDoor status : \u003cb id=\"closed\"\u003eClosed\u003c/b\u003e\u003c/p\u003e\n           \u003cp\u003e Last Reported:\u003c/p\u003e\n             \u003cb id=\"secondlct\"\u003e 9/19/2018, 2:01:31 PM\u003c/b\u003e\n             \u003cp id=\"zero\"\u003e \u003c/p\u003e\n             \u003cp\u003e Total Times Opened in last 24 hours\u003c/p\u003e\n         \u003c/div\u003e\n         \u003cdiv id=\"readingTime\"\u003e\u003c/div\u003e\n         \u003cdiv id=\"doorStatusCount\"\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "var devicesdata = this.datasource;\nvar devicesData=devicesdata.results.Result;\nfor(i=0; i\u003cdevicesData.length;i++){\n    var theobject = devicesData[i].Sensors;\n    for(j=0;j\u003ctheobject.length;j++){\n        if(theobject[j].SensorID==362374){\nvar currentreading = theobject[j].CurrentReading;\nvar LastCommunicationDate = theobject[j].LastCommunicationDate;\n        } else if(theobject[j].SensorID==102){\nvar CurrentReadingzobj = theobject[j].CurrentReading;\nvar n = theobject[j].LastCommunicationDate;\n        }\n    }\n}\n$(\"#salesbody4 #Temperatureyel\").html(currentreading);\n$(\"#salesbody4 #lastCommunicatedate\").html(LastCommunicationDate+\" \");\n$(\"#salesbody4 #zero\").html(CurrentReadingzobj);\n$(\"#salesbody4 #secondlct\").html(n+\"\u003cbr\u003e\");\n    \n\n"
+                            }
+                        }
+                    }
+                },
+                "tab": "a7185718-4851-41af-b58a-91eeea4b4a7d",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "e3b7af2e-1a54-4a94-9150-805d187fa89c": {
+                "externalScripts": [],
+                "id": "e3b7af2e-1a54-4a94-9150-805d187fa89c",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "e85b14af-d888-4fbd-968d-4f7a74a9969b",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "#salesbody3{\n  /* border: 1px solid black; */\n  text-align: center;\nfont-family: san-serif; \n  font-size:1vw;\n}\n#salesbody3 #Temperatureyel{\n  color: blue;\n  font-weight:bolder;\n  font-size: 1vw;\n}\n#salesbody3 #zero{\n  /* margin-top: 20px;  */\n  color: blueviolet;\n  font-weight:bolder;\n   font-size: 1vw;\n}\n#salesbody3 #freezerName{\n  /* margin-top: 15px; */\n  /* border: 1px solid black; */\n  color: navy;\n  font-weight:bolder;\n}\n/* New CSS */\n#portal-pane-fridgr3Panel{\n  border:1px solid black !important;\n}\n#salesbody3 hr{\n  border-bottom:1px solid black;\n  padding:0px;\n  margin:5px;\n  width: 130%;\n    margin-left: -24px;\n}\n#salesbody3 p{\nmargin-bottom:0px;\n}\n/*end*/\n @media screen and (max-width:600px)\n{\n  #salesbody3 p{\n /* margin: 100px auto; */\n}\n#salesbody3 #Temperatureyel{\n    color: yellow;\n    /* margin: 5px auto; */\n  }\n   #salesbody3 #zero{\n    /* margin: 30px; */\n  }\n} ",
+                                "HTML": "\u003cdiv class=\"entbody\" id =\"salesbody3\"\u003e\n\u003cdiv class=\"container\" width=\"98%\" \u003e \n    \u003c!-- \u003cdiv class=\"row\"\u003e  --\u003e\n       \u003cp\u003e  \u003ch5 id=\"freezerName\"\u003e Fridge 3 \u003c/h5\u003e\u003c/p\u003e\n       \u003chr\u003e\n         \u003cdiv id=\"tempReading\"\u003e\n             \u003cp\u003eCurrent Temperature:\u003c/p\u003e\n             \u003cp id=\"Temperatureyel\"\u003e\u003c/p\u003e\n             \u003cp\u003eLast reported: \u003cbr/\u003e\u003cb id=\"lastCommunicatedate\"\u003e\u003cbr/\u003e\u003c/b\u003e\u003c/p\u003e\n         \u003c/div\u003e\n         \u003c!--\u003cdiv id=\"chartdiv\"\u003e\n         \u003c/div\u003e--\u003e\n         \u003cdiv id=\"tempreadingon\"\u003e\u003c/div\u003e\n         \u003chr/\u003e\n         \u003c!-- \u003cbr\u003e --\u003e\n        \u003cdiv id=\"trendchart\"\u003e \n            \u003ca data-target=\"\" data-toggle=\"modal\" href=\"\"\u003e\u003cimg src=\"https://cdn1.imggmi.com/uploads/2018/9/28/8e302765e6d55bc8f8d5ebc91959852e-full.jpg\" alt=\"trendChart\"width=\"25\" height=\"25\"/\u003e\u003c/a\u003e \n            \u003cb\u003eTrend Chart\u003c/b\u003e\n         \u003c/div\u003e\n         \u003chr/\u003e\n         \u003cdiv id=\"doorStatus\"\u003e\n            \u003cp\u003eDoor status : \u003cb id=\"closed\"\u003eClosed \u003cbr/\u003e\u003c/b\u003e\u003c/p\u003e\n           \u003cp\u003e Last Reported: \u003cbr/\u003e \u003cb id=\"secondlct\"\u003e \u003cbr/\u003e \u003c/b\u003e \u003c/p\u003e\n             \u003cp id=\"zero\"\u003e \u003c/p\u003e\n             \u003cp\u003e Total Times Opened in last 24 hours\u003c/p\u003e\n         \u003c/div\u003e\n         \u003cdiv id=\"readingTime\"\u003e\u003c/div\u003e\n         \u003cdiv id=\"doorStatusCount\"\u003e\u003c/div\u003e\n    \u003c!-- \u003c/div\u003e --\u003e\n\u003c/div\u003e\n\u003c/div\u003e",
+                                "JavaScript": "var devicesdata = this.datasource;\nvar devicesData=devicesdata.results.Result;\nfor(i=0; i\u003cdevicesData.length;i++){\n    var theobject = devicesData[i].Sensors;\n    for(j=0;j\u003ctheobject.length;j++){\n        if(theobject[j].SensorID==323029){\n\nvar CurrentReadingfobj3 = theobject[j].CurrentReading;\nvar LastCommunicationDate3 = theobject[j].LastCommunicationDate;\n\n        } else if(theobject[j].SensorID==362382){\n\nvar CurrentReadingzobj3 = theobject[j].CurrentReading;\nvar n3 = theobject[j].LastCommunicationDate;\n\n        }\n    }\n}\n$(\"#salesbody3 #Temperatureyel\").html(CurrentReadingfobj3 +\"\u003cbr\u003e\");\n$(\"#salesbody3 #lastCommunicatedate\").html(LastCommunicationDate3+\"\u003cbr\u003e\");\n$(\"#salesbody3 #zero\").html(CurrentReadingzobj3+\"\u003cbr\u003e\");\n$(\"#salesbody3 #secondlct\").html(n3+\"\u003cbr\u003e\");\n\n\n"
+                            }
+                        }
+                    }
+                },
+                "tab": "24ac476f-1618-41c8-a05b-9fd4fe369717",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "ee87aefb-fb8b-448a-95a9-d37c7403554b": {
+                "externalScripts": [],
+                "id": "ee87aefb-fb8b-448a-95a9-d37c7403554b",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "1d1e2440-c2e4-49b5-aa10-6b2929a5cfc0",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": " .underline {  text-decoration: underline;}\n            #gatewaysList{font-size:1vw;}\n            .modal {\n                overflow-y:auto;\n            }\n            #addCustomer{\n                z-index:3000;\n                top:20%;\n                left:40%;\n            }\n            .custom-validate-box{color:red;}\n\t\t\t/* form[name=\"gatewayform\"] .dropdown{top:36%;} */\n\t\t\t #clients {\n             margin: 5px 12px 0 -13px;\n\t\t\t min-width: -webkit-fill-available;\n            }\n\t\t\t#clients li,form[name=\"gatewayform\"] .dropdown-toggle{\n\t\t\tcursor:pointer;\n\t\t\t}\n",
+                                "HTML": "\u003cdiv class=\"container\" id=\"gatewaysList\"\u003e\n            \u003cdiv class=\"text-center underline\"\u003e\n                \u003ch4\u003eList Of Gateways\u003c/h4\u003e\n            \u003c/div\u003e\n            \u003cdiv id=\"gwTable\"\u003e\n                \u003ctable class=\"table table-hover table-responsive\"\u003e\n                    \u003cthead class=\"table-primary\"\u003e\n                        \u003ctr\u003e \n                            \u003cth width=\"5%\"\u003eS.No.\u003c/th\u003e\n                            \u003cth width=\"15%\"\u003eGateway Name\u003c/th\u003e\n                            \u003cth width=\"13%\"\u003eGateway ID\u003c/th\u003e\n                            \u003cth width=\"12%\"\u003eNetwork ID\u003c/th\u003e\n                            \u003cth width=\"35%\"\u003eNetwork UUID\u003c/th\u003e\n                            \u003cth width=\"15%\"\u003eAssociated Sensors\u003c/th\u003e\n                            \u003cth width=\"10%\"\u003eEdit\u003c/th\u003e\n                            \u003cth width=\"10%\"\u003eDelete\u003c/th\u003e\n                        \u003c/tr\u003e\n                    \u003c/thead\u003e\n                    \u003ctbody\u003e\n\n                    \u003c/tbody\u003e\n                \u003c/table\u003e\n            \u003c/div\u003e\n            \u003cdiv id=\"myModalBackdrop\" class=\"modal-backdrop fade\" style=\"display:none;\"\u003e\u003c/div\u003e\n            \u003cdiv id=\"edit-modal\" class=\"modal fade\" role=\"dialog\"\u003e\n                \u003cdiv class=\"modal-dialog modal-lg\"\u003e\n                    \u003c!-- Modal content--\u003e\n                    \u003cdiv class=\"modal-content\"\u003e\n                        \u003cdiv class=\"modal-header\"\u003e\n                            \u003ch4 class=\"modal-title\"\u003eModify Gateway\u003c/h4\u003e\n                            \u003cbutton type=\"button\" class=\"close justify-content-end\" onclick=\"dismissModal()\"\u003e\u0026times;\u003c/button\u003e\n                        \u003c/div\u003e\n                        \u003cdiv class=\"modal-body\"\u003e\n\n                            \u003cform method=\"POST\" name=\"gatewayform\"\u003e\n                                \u003cdiv class=\"row\"\u003e\n                                    \u003c!-- \u003cdiv class=\"col-3 form-group\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eDevice Name\u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control\" required name=\"name\" disabled\u003e\n                                    \u003c/div\u003e --\u003e\n                                    \u003cdiv class=\"col-6 form-group\"\u003e \n                                        \u003clabel class=\"control-label\"\u003eGateway Name\u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"gateway_name\"\u003e\n                                    \u003c/div\u003e\n                                    \u003cdiv class=\"col-6 form-group\"\u003e\n                                       \u003clabel class=\"control-label\"\u003eCustomer Name\u003c/label\u003e\n                                       \u003cdiv class=\"dropdown form-control\"\u003e\n                                             \u003cdiv class=\"dropdown-toggle\" data-toggle=\"dropdown\"\u003e\n                                                 Choose Customer\n                                             \u003c/div\u003e\n                                        \u003cul class=\"dropdown-menu\" id=\"clients\"\u003e\n                                \t\t\t\t\t\t\t\t\t\t \n                                         \u003c/ul\u003e\n  \n                                      \u003c/div\u003e\n                                    \u003c/div\u003e\n                                \u003c/div\u003e\n                                \u003cdiv class=\"row\"\u003e\n                                    \u003cdiv class=\"col-6 form-group\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eGateway ID \u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"gateway_id\" disabled\u003e\n                                    \u003c/div\u003e\n                                    \u003cdiv class=\"col-6 form-group\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eGateway Type\u003c/label\u003e\n                                        \u003cselect class=\"form-control\" id=\"gateway_type\"\u003e\n                                            \u003coption\u003eCGW2Verizon\u003c/option\u003e\n                                            \u003coption\u003eCGW2Dev\u003c/option\u003e\n                                            \u003coption\u003eCGW33gInternational\u003c/option\u003e\n                                            \u003coption\u003eCGW33gNorthAmerica\u003c/option\u003e\n                                            \u003coption\u003eCGW33gURB\u003c/option\u003e\n                                            \u003coption\u003eCGW3GPRSINT\u003c/option\u003e\n                                            \u003coption\u003eCGW3SprintA\u003c/option\u003e\n                                            \u003coption\u003eCGW3USCellular\u003c/option\u003e\n                                            \u003coption\u003eEthernet_3_0\u003c/option\u003e\n                                            \u003coption\u003eIonCellGateway\u003c/option\u003e\n                                            \u003coption\u003eMoWiSensor\u003c/option\u003e\n                                            \u003coption\u003eModbusGateway\u003c/option\u003e\n                                            \u003coption\u003eSensorInterfaceBoard\u003c/option\u003e\n                                            \u003coption\u003eUSBService\u003c/option\u003e\n                                            \u003coption\u003eiMetricCellOpenSIM\u003c/option\u003e\n                                        \u003c/select\u003e\n                                    \u003c/div\u003e\n                                \u003c/div\u003e\n                                \u003cdiv class=\"row\"\u003e\n                                    \u003cdiv class=\"form-group col-6\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eNetwork ID\u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"network_id\"\u003e       \n                                    \u003c/div\u003e\n                                    \u003cdiv class=\"form-group col-6\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eNetwork UUID\u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"network_uuid\" disabled\u003e     \n                                    \u003c/div\u003e\n                                \u003c/div\u003e\n                                \u003cdiv id=\"sensors-list\"\u003e\n                                    \u003ctable class=\"table table-hover\"\u003e\n                                        \u003cthead\u003e\n                                            \u003ctr\u003e\n                                                \u003cth width=\"5%\"\u003eSelect\u003c/th\u003e\n                                                \u003cth width=\"10%\" data-name=\"sensor_id\"\u003eSensor ID\u003c/th\u003e\n                                                \u003cth width=\"10%\" data-name=\"sensor_name\"\u003eSensor Name\u003c/th\u003e\n                                                \u003cth width=\"10%\" data-name=\"sensor_type\"\u003eSensor Type\u003c/th\u003e\n                                                \u003cth width=\"10%\"\u003eEdit\u003c/th\u003e\n                                            \u003c/tr\u003e\n                                        \u003c/thead\u003e\n                                        \u003ctbody\u003e\n                                        \u003c/tbody\u003e\n                                    \u003c/table\u003e \n                                    \u003cbutton type=\"button\" class=\"delete-row btn btn-danger\"\u003eDelete Sensor\u003c/button\u003e\n                                    \u003cbutton type=\"button\" class=\"add-srow btn btn-primary\"\u003eAdd Sensor\u003c/button\u003e\n\n                                \u003c/div\u003e\n                                \u003cbr/\u003e\n                                \u003cdiv class=\"form-group float-right\"\u003e\n                                    \u003cinput type=\"button\" id=\"ResetForm\" class=\"btn btn-primary\" value=\"Reset\"\u003e\n                                    \u003cinput type=\"button\" id=\"submit\" class=\"btn btn-success\" value=\"Update Gateway\"\u003e\n                                    \u003cbutton type=\"button\" class=\"btn btn-warning\" onclick=\"dismissModal()\"\u003eClose\u003c/button\u003e\n                                \u003c/div\u003e\n                            \u003c/form\u003e \n\n                        \u003c/div\u003e\n                    \u003c/div\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n\n            \u003c!--sensors edit modal--\u003e\n            \u003cdiv id=\"sensor-properties\" class=\"modal fade\" role=\"dialog\"\u003e\n                \u003cdiv class=\"modal-dialog\"\u003e\n                    \u003c!-- Modal content--\u003e\n                    \u003cdiv class=\"modal-content\"\u003e\n                        \u003cdiv class=\"modal-header\"\u003e\n                            \u003ch4 class=\"modal-title\"\u003eSensor Properties\u003c/h4\u003e\n                            \u003cbutton type=\"button\" class=\"close float-right\" data-dismiss=\"modal\"\u003e\u0026times;\u003c/button\u003e\n                        \u003c/div\u003e\n                        \u003cdiv class=\"modal-body\"\u003e\n                            \u003cform method=\"POST\" name=\"sensordeatails\"\u003e\n                                \u003cdiv class=\"row\"\u003e\n                                    \u003cdiv class=\"form-group col-sm-4 col-xs-12\"\u003e\n                                        \u003cb\u003eSensor Name\u003c/b\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"sensor_name\"\u003e\n                                    \u003c/div\u003e \n                                    \u003cdiv class=\"form-group col-sm-4 col-xs-12\"\u003e\n                                        \u003cb\u003eSensor ID\u003c/b\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"sensor_id\"\u003e\n                                    \u003c/div\u003e \n                                    \u003cdiv class=\"form-group col-sm-4 col-xs-12\"\u003e\n                                        \u003cb\u003eSensor Type\u003c/b\u003e\n                                        \u003cselect class=\"form-control\" id=\"sensor_type\"\u003e\n                                            \u003coption\u003eHumidity\u003c/option\u003e\n                                            \u003coption\u003eTemperature\u003c/option\u003e\n                                            \u003coption\u003eOpen_Closed\u003c/option\u003e\n                                            \u003coption\u003eVibrationMeter\u003c/option\u003e\n                                            \u003coption\u003eCurrent 20mA\u003c/option\u003e\n                                            \u003coption\u003eWater_Detection\u003c/option\u003e\n                                            \u003coption\u003eDC_Voltage_1V\u003c/option\u003e\n                                            \u003coption\u003eDry_Contact\u003c/option\u003e\n                                            \u003coption\u003eActivity_Detection\u003c/option\u003e\n                                            \u003coption\u003eMagnetic_Presence\u003c/option\u003e\n                                            \u003coption\u003eButton\u003c/option\u003e\n                                            \u003coption\u003eCurrentZeroToTwentyAmp\u003c/option\u003e\n                                            \u003coption\u003eCurrentZeroToOneFiftyAmp\u003c/option\u003e\n                                            \u003coption\u003eWit\u003c/option\u003e\n                                            \u003coption\u003eInfared_Motion\u003c/option\u003e\n                                            \u003coption\u003eAcceleroMeter_Motion_Over_Time\u003c/option\u003e\n\n                                        \u003c/select\u003e\n                                    \u003c/div\u003e\n                                \u003c/div\u003e\n                            \u003c/form\u003e\n                        \u003c/div\u003e \n                        \u003cdiv class=\"modal-footer\"\u003e\n                            \u003cbutton type=\"button\" id=\"save\" class=\"btn btn-success\"\u003esave\u003c/button\u003e\n                            \u003cbutton type=\"button\" id=\"sensorReset\" class=\"btn btn-primary\"\u003eReset\u003c/button\u003e\n                            \u003cbutton type=\"button\" class=\"btn btn-danger\" data-dismiss=\"modal\"\u003eClose\u003c/button\u003e\n                        \u003c/div\u003e\n                    \u003c/div\u003e \n                \u003c/div\u003e \n            \u003c/div\u003e\n            \u003c!-- end--\u003e\n            \u003c!-- customer modal --\u003e\n            \u003cdiv id=\"addCustomer\" class=\"modal fade\" role=\"dailog\"\u003e\n                \u003cdiv class=\"modal-dailog modal-sm\"\u003e\n                    \u003cdiv class=\"modal-content\"\u003e\n                        \u003cdiv class=\"modal-header\"\u003e\n                            \u003ch4 class=\"modal-title\"\u003eAdd new Customer\u003c/h4\u003e\n                            \u003cbutton type=\"button\" class=\"close float-right\"\u003e\u0026times;\u003c/button\u003e\n                        \u003c/div\u003e\n                        \u003cdiv class=\"modal-body\"\u003e\n                            \u003cform method=\"POST\" name=\"customerForm\"\u003e\n                                \u003cdiv class=\"form-group\"\u003e\n                                    \u003clabel\u003eCustomer Name\u003c/label\u003e\n                                    \u003cinput type=\"email\" name=\"cname\" class=\"form-control\" /\u003e\n                                \u003c/div\u003e\n                            \u003c/form\u003e\n                        \u003c/div\u003e\n                        \u003cdiv class=\"modal-footer\"\u003e\n                            \u003cbutton type=\"button\" class=\"btn btn-success add-customer\"\u003eAdd\u003c/button\u003e\n                            \u003c!-- \u003cbutton type=\"button\" class=\"btn btn-danger close\"\u003eClose\u003c/button\u003e --\u003e\n                        \u003c/div\u003e\n                    \u003c/div\u003e \n                \u003c/div\u003e\n            \u003c/div\u003e\n        \u003c/div\u003e",
+                                "JavaScript": "//JavaScript\nconsole.log(this.datasource);\nvar dataSourceResult=this.datasource.results.gateway;\n\n$(function () {\n                var $tr;\n                function gatewaysDisplay()\n                {\n                    $(\"#gwTable tbody\").html(\"\");\n                    $.each(dataSourceResult, function (item, value) {\n                        console.log(value.gateway_type);\n                        var gwRow = \"\u003ctr\u003e\u003ctd\u003e\" + (item + 1) + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\" + value.gateway_name + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\" + value.gateway_id + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\" + value.network_id + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\" + value.network_uuid + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\" + value.sensors.length + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\u003cbutton class='btn btn-info btn-sm' onclick='openModal(\" + JSON.stringify(value) + \")'  data-gwObj=\" + JSON.stringify(value) + \"\u003eEdit\u003c/button\u003e\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\u003cbutton class='btn btn-danger btn-sm gwDelete' data-gwid=\"+value.gateway_id+\" data-method='remove'\u003eDelete\u003c/button\u003e\u003c/td\u003e\u003c/tr\u003e\";\n                        $(\"#gwTable tbody\").append(gwRow);\n                    });\n                }\n                gatewaysDisplay();\n                //to open edit modal\n                const modal = $('#edit-modal');\n                        const modalBackdrop = $('#myModalBackdrop');\n                        const showClass = 'show';\n                        const modalOpenClass = 'modal-open';\n                        //to open gateway edit modal\n                        window.openModal = (targetObj) =\u003e {\n                // $('body').addClass(modalOpenClass).append(modalBackdrop).append(modal);\n                console.log(targetObj);\n                        modal.css('display', 'block');\n                modalBackdrop.css('display', 'block');\n                modalBackdrop.addClass(showClass);\n                modal.addClass(showClass);\n                onEditModalOpen(targetObj);\n                }\n                function onEditModalOpen(targetGWObj)\n                {\n                    $gatewayForm = $('form[name=\"gatewayform\"]');\n                    $gatewayForm[0].reset();\n                    $(\"#sensors-list tbody\").html(\"\");\n                    $(\"#clients\").html(\"\");\n                    $.each(targetGWObj, function (k, v) {\n                        $gatewayForm.find('[name=' + k + ']').val(v);\n                        if(k===\"gateway_type\")\n                        {\n                            $(\"#gateway_type\").val(v);\n                        }\n                        if (k === \"customer_name\")\n                        {\n                            customers(v);\n                        }\n                        if (k === \"sensors\") {\n                            sensorsList(v);\n                        }\n                    });\n                }\n                function customers(custObj)\n                {\n\t\t\t\t$(\".dropdown-menu\").html(\"\");\n\t\t\t\t\t\n                    $.each(custObj, function (item, cname)\n                    {\n                        var options='\u003cli\u003e\u003cinput name=\"customerList\" type=\"checkbox\" value=\"'+ cname +'\" checked/\u003e'+ cname +'\u003c/li\u003e';\n\t\t\t\t\t\t$(\"#clients\").append(options);\n                    });\n                    $(\"#clients\").append(\"\u003cli\u003eAdd new customer\u003c/li\u003e\");\n                }\n\n                //Add client list\n                $(document).on(\"click\", \"#clients li\", function () {\n\n                    if ($(this).text() === \"Add new customer\")\n                    {\n                        $(\"form[name='customerForm']\")[0].reset();\n                        $(\"#addCustomer\").modal(\"show\");\n                        $(\"#addCustomer\").addClass(\"show\");\n                        $(\"#addCustomer\").css(\"display\", \"block\");\n                        $('body .modal-backdrop:last').fadeOut();\n\n                    } else {\n\t\t\t\t\tconsole.log($(this));\n                    }\n                });\n                $(\".add-customer\").off(\"click\");\n                $(\".add-customer\").on(\"click\",function () {\n                    if ($(\"input[name='cname']\").val() === \"\")\n                    {\n                        alert(\"please fill out field!\");\n                    } else {\n                        var cname = $(\"input[name='cname']\").val();\n\t\t\t\t\t\t\n                         $(\"#clients li:last\").before('\u003cli\u003e\u003cinput name=\"customerList\" type=\"checkbox\" value=\"'+ cname +'\" checked/\u003e'+ cname +'\u003c/li\u003e');\n                       \n                        $(\"#addCustomer .close\").click();\n                    }\n                });\n\n                //end\n\n                function sensorsList(senObj) {\n                    $.each(senObj, function (item, sval) {\n                        var sensorRow = \"\u003ctr data-sensor='\" + JSON.stringify(sval) + \"'\u003e\";\n                        sensorRow += \"\u003ctd\u003e\u003cinput type='checkbox' name='record'\u003e\u003c/td\u003e\";\n                        sensorRow += \"\u003ctd\u003e\" + sval.sensor_id + \"\u003c/td\u003e\";\n                        sensorRow += \"\u003ctd\u003e\" + sval.sensor_name + \"\u003c/td\u003e\";\n                        sensorRow += \"\u003ctd\u003e\" + sval.sensor_type + \"\u003c/td\u003e\";\n                        sensorRow += \"\u003ctd\u003e\u003cbutton class='btn btn-info editSensor' data-sObj='\" + JSON.stringify(sval) + \"'\u003eedit\u003c/button\u003e\u003c/td\u003e\";\n                        sensorRow += \"\u003c/tr\u003e\";\n                        $(\"#sensors-list tbody\").append(sensorRow);\n                    });\n                    }\n                    window.dismissModal = () =\u003e {\n                    console.log(\"in dismiss\");\n                    modal.removeClass(showClass);\n                    modalBackdrop.removeClass(showClass);\n                    modal.css('display', 'none');\n                    modalBackdrop.css('display', 'none');\n                    $('body').removeClass(modalOpenClass);\n                }\n                //edit sensor \n                $(document).on('click', '.editSensor', function (e) {\n                    e.preventDefault();\n                    var sensorObject = JSON.parse($(e.target).attr(\"data-sObj\"));\n                    $tr = $(e.target).parent().closest('tr');\n\n                    $(\"#sensor-properties\").modal(\"show\");\n                    $(\"#sensor-properties\").css({\"z-index\": 3000});\n\n                    $('body .modal-backdrop:last').fadeOut();\n\n                    $sensorForm = $('form[name=\"sensordeatails\"]');\n                    $sensorForm[0].reset();\n                    $sensorForm.find('[name=\"sensor_name\"]').val(sensorObject.sensor_name);\n                    $sensorForm.find('[name=\"sensor_id\"]').val(sensorObject.sensor_id);\n                    $(\"#sensor_type\").val(sensorObject.sensor_type);\n\n                    if ($(\"#save\").hasClass(\"add-sensor\")) {\n                        $(\"#save\").removeClass(\"add-sensor\");\n                        $(\"#save\").addClass(\"edit-sensor\");\n                    } else if ($(\"#save\").hasClass(\"edit-sensor\")) {\n\n                    } else {\n                        $(\"#save\").addClass(\"edit-sensor\");\n                    }\n\n                    console.log(sensorObject);\n                });\n\n                //Delete sensor code \n                $(\".delete-row\").click(function (e) {\n                    $(\"table tbody\").find('input[name=\"record\"]').each(function () {\n                        if ($(this).is(\":checked\")) {\n                            $(this).parents(\"tr\").remove();\n                        }\n                    });\n                });\n\n                //To open modal when click on add\n               \n                $(\".add-srow\").click(function (e) {\n                    $(\"#sensor-properties\").modal(\"show\");\n                    $(\"#sensor-properties\").css({\"z-index\": 3000});\n\n                    $('body .modal-backdrop:last').fadeOut();\n\n                    $('form[name=\"sensordeatails\"]')[0].reset();\n\n                    if ($(\"#save\").hasClass(\"edit-sensor\")) {\n                        $(\"#save\").removeClass(\"edit-sensor\");\n                        $(\"#save\").addClass(\"add-sensor\");\n                    } else if ($(\"#save\").hasClass(\"add-sensor\")) {\n\n                    } else {\n                        $(\"#save\").addClass(\"add-sensor\");\n                    }\n                });\n\n                //Add sensor code\n                $(document).off(\"click\",\"button.add-sensor\");\n                $(document).on('click', \"button.add-sensor\", function () {\n                    nsensor = {};\n                    if (validateForm($(\"form[name='sensordeatails']\")))\n                    {\n                        nsensor[\"sensor_id\"] = $('input[name=\"sensor_id\"]').val();\n                        nsensor[\"sensor_name\"] = $('input[name=\"sensor_name\"]').val();\n                        nsensor[\"sensor_type\"] = $(\"#sensor_type\").val();\n\n                        var newRow = \"\u003ctr data-sensor='\" + JSON.stringify(nsensor) + \"'\u003e\";\n                        newRow += \"\u003ctd\u003e\u003cinput type='checkbox' name='record'\u003e\u003c/td\u003e\";\n                        newRow += \"\u003ctd\u003e\" + nsensor.sensor_id + \"\u003c/td\u003e\";\n                        newRow += \"\u003ctd\u003e\" + nsensor.sensor_name + \"\u003c/td\u003e\";\n                        newRow += \"\u003ctd\u003e\" + nsensor.sensor_type + \"\u003c/td\u003e\";\n                        newRow += \"\u003ctd\u003e\u003cbutton class='btn btn-info editSensor' data-sObj='\" + JSON.stringify(nsensor) + \"'\u003eedit\u003c/button\u003e\u003c/td\u003e\";\n                        newRow += \"\u003c/tr\u003e\";\n\n                        $(\"#sensors-list tbody\").append(newRow);\n                        $('#sensor-properties').modal('hide');\n                        $('form[name=\"sensordeatails\"]')[0].reset();\n                        $(\".delete-row\").show();\n                    }\n                });\n                //Edit Sensor\n                $(document).off(\"click\",\"button.edit-sensor\");\n                $(document).on('click', \"button.edit-sensor\", function () {\n\n                    usensor = {};\n                    usensor[\"sensor_id\"] = $('input[name=\"sensor_id\"]').val();\n                    usensor[\"sensor_name\"] = $('input[name=\"sensor_name\"]').val();\n                    usensor[\"sensor_type\"] = $(\"#sensor_type\").val();\n\n                    \n                    $tr.find(\"td:nth-child(2)\").text(usensor[\"sensor_id\"]);\n                    $tr.find(\"td:nth-child(3)\").text(usensor[\"sensor_name\"]);\n                    $tr.find(\"td:nth-child(4)\").text(usensor[\"sensor_type\"]);\n                    $tr.find(\"td:nth-child(5) button\").attr(\"data-sObj\", JSON.stringify(usensor));\n                    $tr.attr(\"data-sensor\", JSON.stringify(usensor));\n\n                    $('form[name=\"sensordeatails\"]')[0].reset();\n                    $('#sensor-properties').modal('hide');\n\n                });\n\n                //Edit Gateway\n                $(\"#submit\").off(\"click\");\n                $(\"#submit\").click(function () {\n                    if (validateForm($(\"form[name='gatewayform']\")))\n                    {\n                        var updatedGWObj = {};\n                        var updatedSensorObj = [];\n                        var users = [];\n                        $.each($(\"input[name='customerList']:checked\"), function(){            \n                                    users.push($(this).val());\n                                   });\n\n                        $.ajax({\n                            \"url\": \"https://ingrammicro.clearblade.com/api/v/1/code/bacb8fb60bb4d7c2c2b1c0e4bb9701/UUIDgenerator\",\n                            \"headers\": {\n                                //\"ClearBlade-UserToken\":CB_PORTAL.ClearBlade.user.authToken\n                                \"ClearBlade-UserToken\": \"Uwa_dIrNQYZ-gNgJpqNQWfkesY9h_5RWt34BKCKidoFPYoLd7Sk9YOH6JlvqAdpijTdQvsWhRe-VMx4JPw==\"\n                            },\n                            \"async\": false,\n                            \"type\": \"POST\",\n                            \"contentType\": \"application/json\",\n                            \"data\": JSON.stringify({network_ID: parseInt($('input[name=\"network_id\"]').val())}),\n                            \"success\": function (res) {\n                                console.log(res);\n                                updatedGWObj[\"network_uuid\"] = JSON.parse(res).results;\n                            }\n                        });\n\n                        updatedGWObj[\"gateway_name\"] = $('input[name=\"gateway_name\"]').val();\n                        updatedGWObj[\"gateway_id\"] = $('input[name=\"gateway_id\"]').val();\n                        updatedGWObj[\"gateway_type\"] = $(\"#gateway_type\").val();\n                        updatedGWObj[\"network_id\"] = $('input[name=\"network_id\"]').val();\n                        //updatedGWObj[\"network_uuid\"]=$('input[name=\"network_uuid\"]').val();\n                        updatedGWObj[\"customer_name\"] = users;\n\n                        $('#sensors-list tbody tr').each(function () {\n                            var individual_sensor = $(this).data(\"sensor\");\n                            // console.log(\"Single sensor Object:\" + JSON.stringify(individual_sensor));\n                            updatedSensorObj.push(individual_sensor);\n                        });\n\n                        updatedGWObj[\"sensors\"] = updatedSensorObj;\n\n                        console.log(updatedGWObj);\n                        $.ajax({\n                            \"url\": \"https://ingrammicro.clearblade.com/api/v/1/code/bacb8fb60bb4d7c2c2b1c0e4bb9701/updateGatewayDetails\",\n                            \"headers\": {\n                                //\"ClearBlade-UserToken\":CB_PORTAL.ClearBlade.user.authToken\n                                \"ClearBlade-UserToken\": \"Uwa_dIrNQYZ-gNgJpqNQWfkesY9h_5RWt34BKCKidoFPYoLd7Sk9YOH6JlvqAdpijTdQvsWhRe-VMx4JPw==\"\n                            },\n                            \"async\": false,\n                            \"type\": \"POST\",\n                            \"contentType\": \"application/json\",\n                            \"data\": JSON.stringify(updatedGWObj),\n                            \"success\": function (res) {\n                                console.log(res);\n                            }\n                        });\n\n                        dismissModal();\n                        datasources.gatewayUpdation.refresh();\n                    }\n                });\n\n                $(\"#addCustomer .close\").click(function () {\n                    $(\"#addCustomer\").removeClass('show');\n                    $(\"#addCustomer\").css(\"display\", \"none\");\n                    //$('body .modal-backdrop:last').fadeOut();\n                });\n\n                /*form validation*/\n                var validateForm = function ($form) {\n\n                    var regExpNumber = /^[0-9]+$/, idRegEx = /^[0-9]{6}$/, regExpText = /^[A-Z][A-Za-z0-9_.\\- ]+$/, regExpNotEmpty = /\\S+/, isValid = true, index = 0;\n                    $form.find('.custom-validate-box').remove();\n                    var $fields = $form.find('.required');\n                    for (var i = 0; i \u003c $fields.length; i++) {\n                        var $field = $($fields[i]), value = $field.val();\n                        if (!regExpNotEmpty.test(value) || !value || value === null || value === \"\") {\n                            isValid = false;\n                            index++;\n                            createValidationMessage($field, 'Please fill out this field!', index);\n                        } else if ($field.is('[name=\"gateway_id\"]') || $field.is('[name=\"sensor_id\"]')) {\n                            if (!idRegEx.test(value))\n                            {\n                                isValid = false;\n                                index++;\n                                createValidationMessage($field, 'Please enter a 6 digit number!', index);\n                            }\n                        } else if ($field.is('[name=\"network_id\"]')) {\n                            if (!regExpNumber.test(value))\n                            {\n                                isValid = false;\n                                index++;\n                                createValidationMessage($field, 'Please enter a 5 digit number!', index);\n                            }\n                        } else if ($field.is('[type=\"text\"]') \u0026\u0026 !regExpText.test(value)) {\n                            if (!$field.is('[name=\"network_uuid\"]')) {\n                                isValid = false;\n                                index++;\n                                createValidationMessage($field, 'First letter should be capital', index);\n                            }\n                        } else if ($field.is('[type=\"number\"]') \u0026\u0026 !regExpNumber.test(value)) {\n                            isValid = false;\n                            index++;\n                            createValidationMessage($field, 'Please enter number!', index);\n                        } else {\n                            index++;\n                        }\n                    }\n                    return isValid;\n                };\n                var createValidationMessage = function ($field, msg, index) {\n                    //alert(index);\n                    if (index === 1)\n                    {\n                        $field.focus();\n                    }\n\n                    $field.after('\u003cspan class=\"custom-validate-box\"\u003e' + msg + '\u003c/span\u003e');\n                    //$field.siblings('.custom-validate-box').text(msg);\n                    $(\".required\").click(function (e) {\n                        if ($(e.target).is('.custom-validate-box') || ($(e.target).closest('.custom-validate-box').length === 0)) {\n                            $field.next('.custom-validate-box').remove();\n                        }\n                    });\n\n                };\n//To delete gateway\n\t\t\t\t$(document).on(\"click\",\".gwDelete\",function(){\n\t\t\t\tif(confirm(\"Do you want to delete gateway:\"+ parseInt($(this).data(\"gwid\"))))\n\t\t\t\t{\n\t\t\t\tvar dltGwObj={\n\t\t\t\t\"method\": $(this).data(\"method\"),\n                 \"gateway_id\": parseInt($(this).data(\"gwid\"))\n\t\t\t\t};\n\t\t\t\tvar res = datasources.gatewayRfmUpDlt.sendData(dltGwObj);\n                res.then(result =\u003e{console.log(result)\n\t\t\t\tsresult=JSON.parse(result.results).results;\n\t\t\t\tif(sresult==\"Success\")\n\t\t\t\t{\n\t\t\t\talert(\"Gateway Deleted Successfully!\");\n\t\t\t\t}else{\n\t\t\t\talert(sresult);\n\t\t\t\t}\n                });\n\t\t\t\t}\n\t\t\t\t});\n            });"
+                            }
+                        }
+                    }
+                },
+                "tab": "8ec639c9-833d-4ab5-8790-a0a68939ea5e",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "f5d884fd-aadd-4aa9-97e8-d6f5570c95f1": {
+                "externalScripts": [],
+                "id": "f5d884fd-aadd-4aa9-97e8-d6f5570c95f1",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "e85b14af-d888-4fbd-968d-4f7a74a9969b",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "#salesbody1{\n  /* border: 1px solid black; */\n  text-align: center;\nfont-family: san-serif; \n  font-size:1vw;\n}\n#salesbody1 #Temperatureyel{\n  color: blue;\n  font-weight:bolder;\n  font-size: 1vw;\n}\n#salesbody1 #zero{\n  /* margin-top: 20px;  */\n  color: blueviolet;\n  font-weight:bolder;\n   font-size: 1vw;\n}\n#salesbody1 #freezerName{\n  /* margin-top: 15px; */\n  /* border: 1px solid black; */\n  color: navy;\n  font-weight:bolder;\n}\n/* New CSS */\n#portal-pane-fridgr1Panel{\n  border:1px solid black !important;\n}\n#salesbody1 hr{\n  border-bottom:1px solid black;\n  padding:0px;\n  margin:5px;\n  width: 130%;\n    margin-left: -24px;\n}\n#salesbody1 p{\nmargin-bottom:0px;\n}\n/*end*/\n @media screen and (max-width:600px)\n{\n  #salesbody1 p{\n /* margin: 100px auto; */\n}\n#salesbody1 #Temperatureyel{\n    color: yellow;\n    /* margin: 5px auto; */\n  }\n   #salesbody1 #zero{\n    /* margin: 30px; */\n  }\n} \n\n\n",
+                                "HTML": "\u003cdiv class=\"entbody\" id =\"salesbody1\"\u003e\n\u003cdiv class=\"container-fluid\" width=\"100%\" \u003e \n    \u003c!-- \u003cdiv class=\"row\"\u003e  --\u003e\n         \u003ch5 id=\"freezerName\"\u003e Fridge 1\u003c/h5\u003e\n         \u003chr/\u003e\n         \u003cdiv id=\"tempReading\"\u003e\n             \u003cp id=\"currenttemp\"\u003eCurrent Temperature:\u003c/p\u003e\n             \u003cp id=\"Temperatureyel\"\u003e\u003c/p\u003e\n             \u003cp\u003eLast reported:\u003c/p\u003e \n             \u003cb id=\"lastCommunicatedate\"\u003e \u003c/b\u003e\n         \u003c/div\u003e\n         \u003c!--\u003cdiv id=\"chartdiv\"\u003e\n         \u003c/div\u003e--\u003e\n         \u003cdiv id=\"tempreadingon\"\u003e\u003c/div\u003e\n         \u003chr/\u003e\n         \u003c!-- \u003cbr\u003e --\u003e\n        \u003cdiv id=\"trendchart\"\u003e \n            \u003ca data-target=\"\" data-toggle=\"modal\" href=\"\"\u003e\u003cimg src=\"https://cdn1.imggmi.com/uploads/2018/9/28/8e302765e6d55bc8f8d5ebc91959852e-full.jpg\" alt=\"trendChart\"width=\"25\" height=\"25\"/\u003e\u003c/a\u003e \n            \u003cb\u003eTrend Chart\u003c/b\u003e\n         \u003c/div\u003e\n         \u003chr/\u003e\n         \u003cdiv id=\"doorStatus\"\u003e\n            \u003cp\u003eDoor status : \u003cb id=\"closed\"\u003eClosed\u003c/b\u003e\u003c/p\u003e\n           \u003cp\u003e Last Reported:\u003c/p\u003e\n             \u003cb id=\"secondlct\"\u003e 9/19/2018, 2:01:31 PM\u003c/b\u003e\n             \u003cp id=\"zero\"\u003e \u003c/p\u003e\n             \u003cp\u003e Total Times Opened in last 24 hours\u003c/p\u003e\n         \u003c/div\u003e\n         \u003cdiv id=\"readingTime\"\u003e\u003c/div\u003e\n         \u003cdiv id=\"doorStatusCount\"\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "var devicesdata = this.datasource;\nvar devicesData=devicesdata.results.Result;\nfor(i=0; i\u003cdevicesData.length;i++){\n    var theobject = devicesData[i].Sensors;\n    for(j=0;j\u003ctheobject.length;j++){\n        if(theobject[j].SensorID==323022){\nvar currentreading = theobject[j].CurrentReading;\nvar LastCommunicationDate = theobject[j].LastCommunicationDate;\n        } else if(theobject[j].SensorID==101){\nvar CurrentReadingzobj = theobject[j].CurrentReading;\nvar n = theobject[j].LastCommunicationDate;\n        }\n    }\n}\n$(\"#salesbody1 #Temperatureyel\").html(currentreading);\n$(\"#salesbody1 #lastCommunicatedate\").html(LastCommunicationDate+\" \");\n$(\"#salesbody1 #zero\").html(CurrentReadingzobj);\n$(\"#salesbody1 #secondlct\").html(n+\"\u003cbr\u003e\");\n    \n\n"
+                            }
+                        }
+                    }
+                },
+                "tab": "5b1b67ec-7ed9-457f-8c28-d0f8eca54709",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "",
+    "last_updated": "07 Dec 18 06:51 UTC",
+    "name": "SalesDashboard",
+    "system_key": "bacb8fb60bb4d7c2c2b1c0e4bb9701",
+    "type": "custom_v2"
+}
