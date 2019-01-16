@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 95,
+    "dependencies": "log,clearblade,http,globals,constants",
+    "execution_timeout": 600,
+    "logging_enabled": "true",
+    "name": "imonnitGatewayDetails",
+    "params": [
+        "{}"
+    ],
+    "permissions": {
+        "Developer": 1,
+        "PortalUser": 0
+    },
+    "run_user": "",
+    "source": "imonnitGatewayDetails.js"
+}
