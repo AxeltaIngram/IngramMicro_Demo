@@ -1,0 +1,24 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 5,
+    "dependencies": "log,crypto,library-functions",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "UUIDgenerator",
+    "params": [
+        "{\r\n  \"network_ID\": 34385\r\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 0,
+        "Authenticated": 1,
+        "Developer": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalUser": 1,
+        "RuleBuilder": 1,
+        "YJ_Test_Role": 1
+    },
+    "run_user": "",
+    "source": "UUIDgenerator.js"
+}
