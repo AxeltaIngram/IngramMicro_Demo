@@ -1,0 +1,235 @@
+{
+    "Description": "Default role that is applied to all unauthenticated users",
+    "ID": "Anonymous",
+    "Name": "Anonymous",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "GatewayList",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "RB_testRule_batteryLevel_Service",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "SensorList",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "SensorModifications",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "TestService",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "TestingMessageGap",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "TestingWithMessagePublisher",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "UUIDgenerator",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "deleteGateway",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "getImAuthKey",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "getNetWorkData",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "getSensorsData",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "imonnitDeviceData",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "logImmonitMessagePublishes",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "logNodeClientPublishes",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "logTimerServicePublishes",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "mailservice",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "process_imonnitDevices",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "updateGatewayDetails",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "9892bcbd0beae488e5f3e58cadfe01",
+                "Items": [],
+                "Level": 15,
+                "Name": "ImmonitMessagePublishTest"
+            },
+            {
+                "Columns": [],
+                "ID": "c880bcbd0bced98bf1d095e3c59f01",
+                "Items": [],
+                "Level": 15,
+                "Name": "MessagePublishTest"
+            },
+            {
+                "Columns": [],
+                "ID": "84bfbcbd0bb0fae991d9f8f7ed25",
+                "Items": [],
+                "Level": 15,
+                "Name": "NodeClientMessagePublishTest"
+            },
+            {
+                "Columns": [],
+                "ID": "8efecfba0bfcf3a1da9983c9d5ab01",
+                "Items": [],
+                "Level": 0,
+                "Name": "Sensors"
+            },
+            {
+                "Columns": [],
+                "ID": "c0cb8fb60bd2f9f0d5d598a3e7ba01",
+                "Items": [],
+                "Level": 15,
+                "Name": "device_data"
+            },
+            {
+                "Columns": [],
+                "ID": "b2a491b90bb8abfafa81eebbfb01",
+                "Items": [],
+                "Level": 1,
+                "Name": "devices_metadata"
+            },
+            {
+                "Columns": [],
+                "ID": "daa491b90bf89fc8b88291ab93dd01",
+                "Items": [],
+                "Level": 0,
+                "Name": "gateways_data"
+            },
+            {
+                "Columns": [],
+                "ID": "9ca591b90bc087cfffb486f2a764",
+                "Items": [],
+                "Level": 0,
+                "Name": "sensors_data"
+            },
+            {
+                "Columns": [],
+                "ID": "c4cb8fb60baaf68bcbfa9782c3e801",
+                "Items": [],
+                "Level": 0,
+                "Name": "sys_values"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 15
+        },
+        "Portals": [
+            {
+                "Level": 0,
+                "Name": "TestPortal",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 5,
+                "Name": "Portal",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "test123",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "SalesDashboard",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "PortalTesting_ingrammicro",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "device/imonnit"
+            }
+        ],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
