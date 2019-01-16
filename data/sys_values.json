@@ -1,0 +1,29 @@
+{
+    "app_id": "bacb8fb60bb4d7c2c2b1c0e4bb9701",
+    "collection_id": "c4cb8fb60baaf68bcbfa9782c3e801",
+    "items": [],
+    "name": "sys_values",
+    "permissions": {
+        "Anonymous": 0,
+        "Authenticated": 15,
+        "Developer": 15,
+        "PortalUser": 1
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "property",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "val",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
