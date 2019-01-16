@@ -1,0 +1,21 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 493,
+    "dependencies": "log,clearblade,ImmonitSDK,service-functions,globals,library-functions,imonnit-constants,services_constants",
+    "execution_timeout": 600,
+    "logging_enabled": "false",
+    "name": "getNetWorkData",
+    "params": [
+        "{\r\n     \"networkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\"\r\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 0,
+        "Authenticated": 1,
+        "Developer": 1,
+        "PortalUser": 1
+    },
+    "run_user": "",
+    "source": "getNetWorkData.js"
+}
