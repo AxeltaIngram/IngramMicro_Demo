@@ -1,0 +1,13 @@
+{
+    "description": "",
+    "last_seen_version": "4.1.13",
+    "location": null,
+    "mac_address": null,
+    "name": "monnit-webhook-edge",
+    "policy_name": null,
+    "resolver_func": null,
+    "sync_edge_tables": null,
+    "system_key": "bacb8fb60bb4d7c2c2b1c0e4bb9701",
+    "system_secret": "BACB8FB60BC0DFDDB7DB97D7A8BF01",
+    "token": "5326PMIeD875470kxjMAME01"
+}
