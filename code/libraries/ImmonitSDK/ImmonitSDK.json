@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "q_library,http,imonnit-constants,constants,globals",
+    "description": "This Library is a min immonit SDK",
+    "name": "ImmonitSDK",
+    "version": 48,
+    "visibility": "system"
+}
