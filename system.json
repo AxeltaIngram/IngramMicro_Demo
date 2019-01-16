@@ -1,0 +1,27 @@
+{
+    "auth": true,
+    "deployments": [
+        {
+            "assets": [
+                {
+                    "asset_class": "adaptors",
+                    "asset_id": "",
+                    "deployment": "Monnit Webhhok",
+                    "member": "Monnit Webhhok_deployment_edge_group",
+                    "sync": true
+                }
+            ],
+            "description": "",
+            "edges": [
+                "monnit-webhook-edge"
+            ],
+            "name": "Monnit Webhhok"
+        }
+    ],
+    "description": "Demo IngramMicro System",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "IngramMicro_Demo",
+    "platform_url": "https://ingrammicro.clearblade.com",
+    "system_key": "bacb8fb60bb4d7c2c2b1c0e4bb9701",
+    "system_secret": ""
+}
