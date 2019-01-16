@@ -1,0 +1,23 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 10,
+    "dependencies": "log,clearblade,mailer,globals",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "mailservice",
+    "params": [
+        "{\r\n    \"wscfd\":\"fcewcwe\"\r\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Developer": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalUser": 1,
+        "RuleBuilder": 1
+    },
+    "run_user": "",
+    "source": "mailservice.js"
+}
