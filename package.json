@@ -1,0 +1,35 @@
+{
+    "asset_types": [
+        "Adapters",
+        "Code Libraries",
+        "Code Services",
+        "Collections",
+        "Devices",
+        "Edges",
+        "Portals",
+        "Roles",
+        "Timers",
+        "Triggers",
+        "Users"
+    ],
+    "author": {
+        "email": "ingram@axelta.com"
+    },
+    "clouds": [],
+    "description": "Demo IngramMicro System",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://docs.clearblade.com/v/3/static/img/default_package.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform"
+    ],
+    "license": "MIT",
+    "name": "IngramMicro_Demo",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
