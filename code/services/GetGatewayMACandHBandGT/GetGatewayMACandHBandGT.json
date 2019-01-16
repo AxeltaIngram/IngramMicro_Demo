@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 40,
+    "dependencies": "log,http,clearblade,imonnit-constants,ImmonitSDK",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "GetGatewayMACandHBandGT",
+    "params": [
+        "{\n  \"gateway_id\": 913201,\n  \"username\": \"Axelta\",\n  \"password\": \"AxeltA2!\"\n}"
+    ],
+    "permissions": {
+        "Authenticated": 1,
+        "PortalUser": 1
+    },
+    "run_user": "",
+    "source": "GetGatewayMACandHBandGT.js"
+}
