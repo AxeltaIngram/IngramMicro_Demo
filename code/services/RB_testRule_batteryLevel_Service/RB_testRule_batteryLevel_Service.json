@@ -1,0 +1,23 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 36,
+    "dependencies": "clearblade,log",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "RB_testRule_batteryLevel_Service",
+    "params": [
+        "{\"trigger\":\"Data::ItemCreated\",\"items\":[{\"item_id\":\"bb14520d-5a0c-471f-98e3-a9dd51ca0f33\"}]}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 0,
+        "Authenticated": 1,
+        "Developer": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalUser": 1,
+        "RuleBuilder": 1
+    },
+    "run_user": "",
+    "source": "RB_testRule_batteryLevel_Service.js"
+}
