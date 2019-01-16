@@ -1,0 +1,16 @@
+{
+    "assets": [
+        {
+            "asset_class": "adaptors",
+            "asset_id": "",
+            "deployment": "Monnit Webhhok",
+            "member": "Monnit Webhhok_deployment_edge_group",
+            "sync": true
+        }
+    ],
+    "description": "",
+    "edges": [
+        "monnit-webhook-edge"
+    ],
+    "name": "Monnit Webhhok"
+}
