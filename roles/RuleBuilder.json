@@ -1,0 +1,169 @@
+{
+    "Description": "Can able to add rules",
+    "ID": "ced3a5ba0be2ca9bb588e0a4acb101",
+    "Name": "RuleBuilder",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 15
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "GatewayList",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "RB_testRule_batteryLevel_Service",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "SensorModifications",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "TestService",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "TestingMessageGap",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "TestingWithMessagePublisher",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "UUIDgenerator",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteGateway",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 0,
+                "Name": "getImAuthKey",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "getSensorsData",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "logImmonitMessagePublishes",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "logNodeClientPublishes",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "logTimerServicePublishes",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "mailservice",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            },
+            {
+                "Level": 1,
+                "Name": "updateGatewayDetails",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "9892bcbd0beae488e5f3e58cadfe01",
+                "Items": [],
+                "Level": 15,
+                "Name": "ImmonitMessagePublishTest"
+            },
+            {
+                "Columns": [],
+                "ID": "c880bcbd0bced98bf1d095e3c59f01",
+                "Items": [],
+                "Level": 15,
+                "Name": "MessagePublishTest"
+            },
+            {
+                "Columns": [],
+                "ID": "84bfbcbd0bb0fae991d9f8f7ed25",
+                "Items": [],
+                "Level": 15,
+                "Name": "NodeClientMessagePublishTest"
+            },
+            {
+                "Columns": [],
+                "ID": "b2a491b90bb8abfafa81eebbfb01",
+                "Items": [],
+                "Level": 15,
+                "Name": "devices_metadata"
+            },
+            {
+                "Columns": [],
+                "ID": "daa491b90bf89fc8b88291ab93dd01",
+                "Items": [],
+                "Level": 15,
+                "Name": "gateways_data"
+            },
+            {
+                "Columns": [],
+                "ID": "9ca591b90bc087cfffb486f2a764",
+                "Items": [],
+                "Level": 15,
+                "Name": "sensors_data"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "test123",
+                "SystemKey": "bacb8fb60bb4d7c2c2b1c0e4bb9701"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 15
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 15
+        },
+        "UsersList": {
+            "Level": 15
+        }
+    }
+}
