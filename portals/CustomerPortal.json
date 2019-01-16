@@ -1,0 +1,1095 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "210445cd-8645-4396-a576-3e071f5b52a6": "lg",
+            "2b951d48-4424-4c9b-b867-e294b1bc0e2b": "lg",
+            "3f131e7c-9e45-4a7a-9c43-c55eede1e49c": "lg",
+            "66555f3b-17c4-47ad-8d22-7edd16ae8f78": "lg",
+            "69cfdf03-884c-4746-b910-7e51377a2f47": "lg",
+            "de9617b8-7721-47a9-9a38-3d3f9b4d9fb0": "lg",
+            "e2d5cfbf-0986-472e-a0cf-25fc584cabfe": "xxs",
+            "fbaa313a-e781-475c-9ed8-7690d4e08d9b": "lg"
+        },
+        "datasources": {
+            "0d97d6c1-5a23-4529-9e98-61ad0e6d7666": {
+                "id": "0d97d6c1-5a23-4529-9e98-61ad0e6d7666",
+                "name": "GetGatewayMACandHBandType",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "GetGatewayMACandHBandGT",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "2da1212b-5727-434e-b34d-6f96ee226ada": {
+                "id": "2da1212b-5727-434e-b34d-6f96ee226ada",
+                "name": "DeleteAndAddSensor",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "SensorModifications",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "4d769deb-c752-49fb-b8c5-3c19f435ad44": {
+                "id": "4d769deb-c752-49fb-b8c5-3c19f435ad44",
+                "name": "gatewayRfmUpDlt",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getImAuthKey",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "b81ff189-80cb-486a-a580-90c9481d138a": {
+                "id": "b81ff189-80cb-486a-a580-90c9481d138a",
+                "name": "DevicesData",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getNetWorkData",
+                    "payload": "{}",
+                    "refresh_interval": 300
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "ca8d34c2-dc86-431e-a0f3-c91f9e750a66": {
+                "id": "ca8d34c2-dc86-431e-a0f3-c91f9e750a66",
+                "name": "createUUID",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "UUIDgenerator",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "dae7dd64-4736-4882-a8e9-49e630bec3f5": {
+                "id": "dae7dd64-4736-4882-a8e9-49e630bec3f5",
+                "name": "gatewayUpdation",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "updateGatewayDetails",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            }
+        ],
+        "flyoutWidgetLayout": {
+            "lg": [
+                {
+                    "h": 9,
+                    "i": "28c5fc90-292e-4698-a285-75668744376b",
+                    "minH": 3,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": [
+                {
+                    "h": 9,
+                    "i": "28c5fc90-292e-4698-a285-75668744376b",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 55,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 64,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            },
+            "be5f5b1a-0b9a-4988-99eb-798a268cf7d4": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "be5f5b1a-0b9a-4988-99eb-798a268cf7d4",
+                "isChild": false,
+                "isParam": false,
+                "name": "Settings",
+                "path": ""
+            },
+            "f171ad2b-17c4-4287-a49d-c273b6d49202": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "f171ad2b-17c4-4287-a49d-c273b6d49202",
+                "isChild": false,
+                "isParam": false,
+                "name": "APIIntegrationInstructions",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "210445cd-8645-4396-a576-3e071f5b52a6": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "6241bcf1-9b6f-4ca7-bf81-82f2434c1a98",
+                        "minH": 3,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "2b951d48-4424-4c9b-b867-e294b1bc0e2b": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "75c26843-0679-4aaa-983a-6df926a27923",
+                        "minH": 3,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "3f131e7c-9e45-4a7a-9c43-c55eede1e49c": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "9bb07efc-cf63-4da0-a5c5-103d48f62cb0",
+                        "minH": 3,
+                        "w": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "66555f3b-17c4-47ad-8d22-7edd16ae8f78": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "9e798b1b-915a-434d-b587-a329284cc69b",
+                        "minH": 3,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "69cfdf03-884c-4746-b910-7e51377a2f47": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "205129ad-c1a9-4d75-b666-9866b9dde28c",
+                        "minH": 3,
+                        "w": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "de9617b8-7721-47a9-9a38-3d3f9b4d9fb0": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "43b9f519-06d1-4296-a4e0-52e02d645a38",
+                        "minH": 3,
+                        "w": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "e2d5cfbf-0986-472e-a0cf-25fc584cabfe": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "2968f485-d400-4f0f-b4ec-7d9c1de8035b",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": [
+                    {
+                        "h": 14,
+                        "i": "2968f485-d400-4f0f-b4ec-7d9c1de8035b",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "fbaa313a-e781-475c-9ed8-7690d4e08d9b": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "c44f0a77-dbd9-428c-9a83-2b20d7b9a4ba",
+                        "minH": 3,
+                        "w": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "c996902d-c60a-4400-917f-eded7f411ba4",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "1abe6eaf-83f0-47f4-81ba-7dcf17e124a1",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "be5f5b1a-0b9a-4988-99eb-798a268cf7d4": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "a40e4006-d4c9-4b1e-af0d-7a6a04b1a452",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "59991bca-ac89-488d-9a84-dda72ab7cbda",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [
+                    {
+                        "h": 5,
+                        "i": "a40e4006-d4c9-4b1e-af0d-7a6a04b1a452",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 5,
+                        "i": "59991bca-ac89-488d-9a84-dda72ab7cbda",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 5
+                    }
+                ],
+                "xs": [],
+                "xxs": []
+            },
+            "f171ad2b-17c4-4287-a49d-c273b6d49202": {
+                "lg": [
+                    {
+                        "h": 6,
+                        "i": "b560c2e7-ec44-483e-b677-6cff95a1c853",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 6,
+                        "i": "b05d31e1-25b9-4320-a99b-401ae5a47a12",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "1abe6eaf-83f0-47f4-81ba-7dcf17e124a1": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "1abe6eaf-83f0-47f4-81ba-7dcf17e124a1",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "de9617b8-7721-47a9-9a38-3d3f9b4d9fb0",
+                    "tabIds": [
+                        "de9617b8-7721-47a9-9a38-3d3f9b4d9fb0"
+                    ],
+                    "tabTitles": {
+                        "de9617b8-7721-47a9-9a38-3d3f9b4d9fb0": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "59991bca-ac89-488d-9a84-dda72ab7cbda": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "59991bca-ac89-488d-9a84-dda72ab7cbda",
+                "pageId": "be5f5b1a-0b9a-4988-99eb-798a268cf7d4",
+                "tabInfo": {
+                    "activeTab": "69cfdf03-884c-4746-b910-7e51377a2f47",
+                    "tabIds": [
+                        "69cfdf03-884c-4746-b910-7e51377a2f47"
+                    ],
+                    "tabTitles": {
+                        "69cfdf03-884c-4746-b910-7e51377a2f47": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "a40e4006-d4c9-4b1e-af0d-7a6a04b1a452": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "a40e4006-d4c9-4b1e-af0d-7a6a04b1a452",
+                "pageId": "be5f5b1a-0b9a-4988-99eb-798a268cf7d4",
+                "tabInfo": {
+                    "activeTab": "2b951d48-4424-4c9b-b867-e294b1bc0e2b",
+                    "tabIds": [
+                        "2b951d48-4424-4c9b-b867-e294b1bc0e2b"
+                    ],
+                    "tabTitles": {
+                        "2b951d48-4424-4c9b-b867-e294b1bc0e2b": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "b05d31e1-25b9-4320-a99b-401ae5a47a12": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "b05d31e1-25b9-4320-a99b-401ae5a47a12",
+                "pageId": "f171ad2b-17c4-4287-a49d-c273b6d49202",
+                "tabInfo": {
+                    "activeTab": "fbaa313a-e781-475c-9ed8-7690d4e08d9b",
+                    "tabIds": [
+                        "fbaa313a-e781-475c-9ed8-7690d4e08d9b"
+                    ],
+                    "tabTitles": {
+                        "fbaa313a-e781-475c-9ed8-7690d4e08d9b": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "b560c2e7-ec44-483e-b677-6cff95a1c853": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "b560c2e7-ec44-483e-b677-6cff95a1c853",
+                "pageId": "f171ad2b-17c4-4287-a49d-c273b6d49202",
+                "tabInfo": {
+                    "activeTab": "210445cd-8645-4396-a576-3e071f5b52a6",
+                    "tabIds": [
+                        "210445cd-8645-4396-a576-3e071f5b52a6"
+                    ],
+                    "tabTitles": {
+                        "210445cd-8645-4396-a576-3e071f5b52a6": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "c996902d-c60a-4400-917f-eded7f411ba4": {
+                "customPaneId": "1",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "c996902d-c60a-4400-917f-eded7f411ba4",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "e2d5cfbf-0986-472e-a0cf-25fc584cabfe",
+                    "tabIds": [
+                        "e2d5cfbf-0986-472e-a0cf-25fc584cabfe"
+                    ],
+                    "tabTitles": {
+                        "e2d5cfbf-0986-472e-a0cf-25fc584cabfe": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5",
+                            "visible": true
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#228ecb"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "205129ad-c1a9-4d75-b666-9866b9dde28c": {
+                "externalScripts": [],
+                "id": "205129ad-c1a9-4d75-b666-9866b9dde28c",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "dae7dd64-4736-4882-a8e9-49e630bec3f5",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": " .underline {  text-decoration: underline;}\n            #gatewaysList{font-size:1vw;}\n            .modal {\n                overflow-y:auto;\n            }\n            #addCustomer{\n                z-index:3000;\n                top:20%;\n                left:40%;\n            }\n            .custom-validate-box{color:red;}\n\t\t\t/* form[name=\"gatewayform\"] .dropdown{top:36%;} */\n\t\t\t #clients {\n             margin: 5px 12px 0 -13px;\n\t\t\t min-width: -webkit-fill-available;\n            }\n\t\t\t#clients li,form[name=\"gatewayform\"] .dropdown-toggle{\n\t\t\tcursor:pointer;\n\t\t\t}\n",
+                                "HTML": "\u003cdiv class=\"container\" id=\"gatewaysList\"\u003e\n            \u003cdiv class=\"text-center underline\"\u003e\n                \u003ch4\u003eList Of Gateways\u003c/h4\u003e\n            \u003c/div\u003e\n            \u003cdiv id=\"gwTable\"\u003e\n                \u003ctable class=\"table table-hover table-responsive\"\u003e\n                    \u003cthead class=\"table-primary\"\u003e\n                        \u003ctr\u003e \n                            \u003cth width=\"5%\"\u003eS.No.\u003c/th\u003e\n                            \u003cth width=\"15%\"\u003eGateway Name\u003c/th\u003e\n                            \u003cth width=\"13%\"\u003eGateway ID\u003c/th\u003e\n                            \u003cth width=\"12%\"\u003eNetwork ID\u003c/th\u003e\n                            \u003cth width=\"35%\"\u003eNetwork UUID\u003c/th\u003e\n                            \u003cth width=\"15%\"\u003eAssociated Sensors\u003c/th\u003e\n                            \u003cth width=\"10%\"\u003eEdit\u003c/th\u003e\n                            \u003cth width=\"10%\"\u003eDelete\u003c/th\u003e\n                        \u003c/tr\u003e\n                    \u003c/thead\u003e\n                    \u003ctbody\u003e\n\n                    \u003c/tbody\u003e\n                \u003c/table\u003e\n            \u003c/div\u003e\n            \u003cdiv id=\"myModalBackdrop\" class=\"modal-backdrop fade\" style=\"display:none;\"\u003e\u003c/div\u003e\n            \u003cdiv id=\"edit-modal\" class=\"modal fade\" role=\"dialog\"\u003e\n                \u003cdiv class=\"modal-dialog modal-lg\"\u003e\n                    \u003c!-- Modal content--\u003e\n                    \u003cdiv class=\"modal-content\"\u003e\n                        \u003cdiv class=\"modal-header\"\u003e\n                            \u003ch4 class=\"modal-title\"\u003eModify Gateway\u003c/h4\u003e\n                            \u003cbutton type=\"button\" class=\"close justify-content-end\" onclick=\"dismissModal()\"\u003e\u0026times;\u003c/button\u003e\n                        \u003c/div\u003e\n                        \u003cdiv class=\"modal-body\"\u003e\n\n                            \u003cform method=\"POST\" name=\"gatewayform\"\u003e\n                                \u003cdiv class=\"row\"\u003e\n                                    \u003c!-- \u003cdiv class=\"col-3 form-group\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eDevice Name\u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control\" required name=\"name\" disabled\u003e\n                                    \u003c/div\u003e --\u003e\n                                    \u003cdiv class=\"col-6 form-group\"\u003e \n                                        \u003clabel class=\"control-label\"\u003eGateway Name\u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"gateway_name\"\u003e\n                                    \u003c/div\u003e\n                                    \u003cdiv class=\"col-6 form-group\"\u003e\n                                       \u003clabel class=\"control-label\"\u003eCustomer Name\u003c/label\u003e\n                                       \u003cdiv class=\"dropdown form-control\"\u003e\n                                             \u003cdiv class=\"dropdown-toggle\" data-toggle=\"dropdown\"\u003e\n                                                 Choose Customer\n                                             \u003c/div\u003e\n                                        \u003cul class=\"dropdown-menu\" id=\"clients\"\u003e\n                                \t\t\t\t\t\t\t\t\t\t \n                                         \u003c/ul\u003e\n  \n                                      \u003c/div\u003e\n                                    \u003c/div\u003e\n                                \u003c/div\u003e\n                                \u003cdiv class=\"row\"\u003e\n                                    \u003cdiv class=\"col-6 form-group\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eGateway ID \u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"gateway_id\" disabled\u003e\n                                    \u003c/div\u003e\n                                    \u003cdiv class=\"col-6 form-group\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eGateway Type\u003c/label\u003e\n                                        \u003cselect class=\"form-control\" id=\"gateway_type\"\u003e\n                                            \u003coption\u003eCGW2Verizon\u003c/option\u003e\n                                            \u003coption\u003eCGW2Dev\u003c/option\u003e\n                                            \u003coption\u003eCGW33gInternational\u003c/option\u003e\n                                            \u003coption\u003eCGW33gNorthAmerica\u003c/option\u003e\n                                            \u003coption\u003eCGW33gURB\u003c/option\u003e\n                                            \u003coption\u003eCGW3GPRSINT\u003c/option\u003e\n                                            \u003coption\u003eCGW3SprintA\u003c/option\u003e\n                                            \u003coption\u003eCGW3USCellular\u003c/option\u003e\n                                            \u003coption\u003eEthernet_3_0\u003c/option\u003e\n                                            \u003coption\u003eIonCellGateway\u003c/option\u003e\n                                            \u003coption\u003eMoWiSensor\u003c/option\u003e\n                                            \u003coption\u003eModbusGateway\u003c/option\u003e\n                                            \u003coption\u003eSensorInterfaceBoard\u003c/option\u003e\n                                            \u003coption\u003eUSBService\u003c/option\u003e\n                                            \u003coption\u003eiMetricCellOpenSIM\u003c/option\u003e\n                                        \u003c/select\u003e\n                                    \u003c/div\u003e\n                                \u003c/div\u003e\n                                \u003cdiv class=\"row\"\u003e\n                                    \u003cdiv class=\"form-group col-2\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eNetwork ID\u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"network_id\" disabled\u003e       \n                                    \u003c/div\u003e\n                                    \u003cdiv class=\"form-group col-5\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eNetwork Name\u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"network_name\"\u003e       \n                                    \u003c/div\u003e\n                                    \u003cdiv class=\"form-group col-5\"\u003e\n                                        \u003clabel class=\"control-label\"\u003eNetwork UUID\u003c/label\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"network_uuid\" disabled\u003e     \n                                    \u003c/div\u003e\n                                \u003c/div\u003e\n                                \u003cdiv id=\"sensors-list\"\u003e\n                                    \u003ctable class=\"table table-hover\"\u003e\n                                        \u003cthead\u003e\n                                            \u003ctr\u003e\n                                                \u003cth width=\"5%\"\u003eSelect\u003c/th\u003e\n                                                \u003cth width=\"10%\" data-name=\"sensor_id\"\u003eSensor ID\u003c/th\u003e\n                                                \u003cth width=\"10%\" data-name=\"sensor_name\"\u003eSensor Name\u003c/th\u003e\n                                                \u003cth width=\"10%\" data-name=\"sensor_type\"\u003eSensor Type\u003c/th\u003e\n                                                \u003cth width=\"10%\"\u003eEdit\u003c/th\u003e\n                                            \u003c/tr\u003e\n                                        \u003c/thead\u003e\n                                        \u003ctbody\u003e\n                                        \u003c/tbody\u003e\n                                    \u003c/table\u003e \n                                    \u003cbutton type=\"button\" class=\"delete-row btn btn-danger\"\u003eDelete Sensor\u003c/button\u003e\n                                    \u003cbutton type=\"button\" class=\"add-srow btn btn-primary\"\u003eAdd Sensor\u003c/button\u003e\n\n                                \u003c/div\u003e\n                                \u003cbr/\u003e\n                                \u003cdiv class=\"form-group float-right\"\u003e\n                                    \u003cinput type=\"button\" id=\"ResetForm\" class=\"btn btn-primary\" value=\"Reset\"\u003e\n                                    \u003cinput type=\"button\" id=\"submit\" class=\"btn btn-success\" value=\"Update Gateway\"\u003e\n                                    \u003cbutton type=\"button\" class=\"btn btn-warning\" onclick=\"dismissModal()\"\u003eClose\u003c/button\u003e\n                                \u003c/div\u003e\n                            \u003c/form\u003e \n\n                        \u003c/div\u003e\n                    \u003c/div\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n\n            \u003c!--sensors edit modal--\u003e\n            \u003cdiv id=\"sensor-properties\" class=\"modal fade\" role=\"dialog\"\u003e\n                \u003cdiv class=\"modal-dialog\"\u003e\n                    \u003c!-- Modal content--\u003e\n                    \u003cdiv class=\"modal-content\"\u003e\n                        \u003cdiv class=\"modal-header\"\u003e\n                            \u003ch4 class=\"modal-title\"\u003eSensor Properties\u003c/h4\u003e\n                            \u003cbutton type=\"button\" class=\"close float-right\" data-dismiss=\"modal\"\u003e\u0026times;\u003c/button\u003e\n                        \u003c/div\u003e\n                        \u003cdiv class=\"modal-body\"\u003e\n                            \u003cform method=\"POST\" name=\"sensordeatails\"\u003e\n                                \u003cdiv class=\"row\"\u003e\n                                    \u003cdiv class=\"form-group col-sm-4 col-xs-12\"\u003e\n                                        \u003cb\u003eSensor Name\u003c/b\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"sensor_name\"\u003e\n                                    \u003c/div\u003e \n                                    \u003cdiv class=\"form-group col-sm-4 col-xs-12\"\u003e\n                                        \u003cb\u003eSensor ID\u003c/b\u003e\n                                        \u003cinput type=\"text\" class=\"form-control required\" name=\"sensor_id\"\u003e\n                                    \u003c/div\u003e \n                                    \u003cdiv class=\"form-group col-sm-4 col-xs-12\"\u003e\n                                        \u003cb\u003eSensor Type\u003c/b\u003e\n                                        \u003cselect class=\"form-control\" id=\"sensor_type\"\u003e\n                                            \u003coption\u003eHumidity\u003c/option\u003e\n                                            \u003coption\u003eTemperature\u003c/option\u003e\n                                            \u003coption\u003eOpen_Closed\u003c/option\u003e\n                                            \u003coption\u003eVibrationMeter\u003c/option\u003e\n                                            \u003coption\u003eCurrent 20mA\u003c/option\u003e\n                                            \u003coption\u003eWater_Detection\u003c/option\u003e\n                                            \u003coption\u003eDC_Voltage_1V\u003c/option\u003e\n                                            \u003coption\u003eDry_Contact\u003c/option\u003e\n                                            \u003coption\u003eActivity_Detection\u003c/option\u003e\n                                            \u003coption\u003eMagnetic_Presence\u003c/option\u003e\n                                            \u003coption\u003eButton\u003c/option\u003e\n                                            \u003coption\u003eCurrentZeroToTwentyAmp\u003c/option\u003e\n                                            \u003coption\u003eCurrentZeroToOneFiftyAmp\u003c/option\u003e\n                                            \u003coption\u003eWit\u003c/option\u003e\n                                            \u003coption\u003eInfared_Motion\u003c/option\u003e\n                                            \u003coption\u003eAcceleroMeter_Motion_Over_Time\u003c/option\u003e\n\n                                        \u003c/select\u003e\n                                    \u003c/div\u003e\n                                \u003c/div\u003e\n                                \u003cdiv class=\"row\"\u003e\n                                        \u003cdiv class=\"form-group col-sm-4 col-xs-12\" id=\"checkDigit\"\u003e\n                                        \u003cb\u003eCheck Digit\u003c/b\u003e\n                                        \u003cinput type=\"text\" class=\"form-control\" name=\"checkDigit\"\u003e\n                                       \u003c/div\u003e \n                                       \u003cdiv class=\"form-group col-sm-4 col-xs-12\" id=\"sAddUname\"\u003e\n                                        \u003cb\u003eUsername\u003c/b\u003e\n                                        \u003cinput type=\"text\" class=\"form-control\" name=\"sAddUname\"\u003e\n                                       \u003c/div\u003e\n                                       \u003cdiv class=\"form-group col-sm-4 col-xs-12\" id=\"sAddpwd\"\u003e\n                                        \u003cb\u003ePassword\u003c/b\u003e\n                                        \u003cinput type=\"password\" class=\"form-control\" name=\"sAddpwd\"\u003e\n                                       \u003c/div\u003e\n                                \u003c/div\u003e\n                            \u003c/form\u003e\n                        \u003c/div\u003e \n                        \u003cdiv class=\"modal-footer\"\u003e\n                            \u003cbutton type=\"button\" id=\"save\" class=\"btn btn-success\"\u003esave\u003c/button\u003e\n                            \u003cbutton type=\"button\" id=\"sensorReset\" class=\"btn btn-primary\"\u003eReset\u003c/button\u003e\n                            \u003cbutton type=\"button\" class=\"btn btn-danger\" data-dismiss=\"modal\"\u003eClose\u003c/button\u003e\n                        \u003c/div\u003e\n                    \u003c/div\u003e \n                \u003c/div\u003e \n            \u003c/div\u003e\n            \u003c!-- end--\u003e\n            \u003c!-- customer modal --\u003e\n            \u003cdiv id=\"addCustomer\" class=\"modal fade\" role=\"dailog\"\u003e\n                \u003cdiv class=\"modal-dailog modal-sm\"\u003e\n                    \u003cdiv class=\"modal-content\"\u003e\n                        \u003cdiv class=\"modal-header\"\u003e\n                            \u003ch4 class=\"modal-title\"\u003eAdd new Customer\u003c/h4\u003e\n                            \u003cbutton type=\"button\" class=\"close float-right\"\u003e\u0026times;\u003c/button\u003e\n                        \u003c/div\u003e\n                        \u003cdiv class=\"modal-body\"\u003e\n                            \u003cform method=\"POST\" name=\"customerForm\"\u003e\n                                \u003cdiv class=\"form-group\"\u003e\n                                    \u003clabel\u003eCustomer Name\u003c/label\u003e\n                                    \u003cinput type=\"email\" name=\"cname\" class=\"form-control\" /\u003e\n                                \u003c/div\u003e\n                            \u003c/form\u003e\n                        \u003c/div\u003e\n                        \u003cdiv class=\"modal-footer\"\u003e\n                            \u003cbutton type=\"button\" class=\"btn btn-success add-customer\"\u003eAdd\u003c/button\u003e\n                            \u003c!-- \u003cbutton type=\"button\" class=\"btn btn-danger close\"\u003eClose\u003c/button\u003e --\u003e\n                        \u003c/div\u003e\n                    \u003c/div\u003e \n                \u003c/div\u003e\n            \u003c/div\u003e\n            \u003c!-- Auth modal --\u003e\n            \u003cdiv class=\"modal\" id=\"authModal\"\u003e\n  \u003cdiv class=\"modal-dialog modal-sm\"\u003e\n    \u003cdiv class=\"modal-content\"\u003e\n      \u003c!-- Modal Header --\u003e\n      \u003cdiv class=\"modal-header\"\u003e\n        \u003ch4 class=\"modal-title\"\u003eAthentication\u003c/h4\u003e\n        \u003cbutton type=\"button\" class=\"close\" data-dismiss=\"modal\"\u003e\u0026times;\u003c/button\u003e\n      \u003c/div\u003e\n      \u003c!-- Modal body --\u003e\n      \u003cdiv class=\"modal-body\"\u003e\n        \u003cform name='imonnitAuth'\u003e\n\t\t\u003cdiv class=\"form-group\"\u003e\n\t\t\u003clabel\u003eUsername\u003c/label\u003e\n\t\t\u003cinput type=\"text\" name=\"imuname\" class=\"form-control\" required/\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"form-group\"\u003e\n\t\t\u003clabel\u003ePassword\u003c/label\u003e\n\t\t\u003cinput type=\"password\" name=\"imupwd\" class=\"form-control\" required/\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cbutton type=\"button\" class=\"btn btn-danger float-right\" data-dismiss=\"modal\"\u003eClose\u003c/button\u003e\n\t\t\u003cbutton type=\"button\" class=\"btn btn-success float-right mr-1\" id=\"authSubmit\"\u003eSubmit\u003c/button\u003e\n\t\t\u003c/form\u003e\n      \u003c/div\u003e\n\n    \u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n        \u003c/div\u003e",
+                                "JavaScript": "//JavaScript\nconsole.log(this.datasource);\nvar dataSourceResult=this.datasource.results.gateway;\n\n $(function () {\n                var $tr,sgwid,snid;\n                function gatewaysDisplay()\n                {\n                    $(\"#gwTable tbody\").html(\"\");\n                    $.each(dataSourceResult, function (item, value) {\n                        console.log(value.gateway_type);\n                        var gwRow = \"\u003ctr\u003e\u003ctd\u003e\" + (item + 1) + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\" + value.gateway_name + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\" + value.gateway_id + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\" + value.network_id + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\" + value.network_uuid + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\" + value.sensors.length + \"\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\u003cbutton class='btn btn-info btn-sm' onclick='openModal(\" + JSON.stringify(value) + \")'  data-gwObj=\" + JSON.stringify(value) + \"\u003eEdit\u003c/button\u003e\u003c/td\u003e\";\n                        gwRow += \"\u003ctd\u003e\u003cbutton class='btn btn-danger btn-sm gwDelete' data-gwid=\"+value.gateway_id+\" data-method='remove'\u003eDelete\u003c/button\u003e\u003c/td\u003e\u003c/tr\u003e\";\n                        $(\"#gwTable tbody\").append(gwRow);\n                    });\n                }\n                gatewaysDisplay();\n                //to open edit modal\n//                 const modal = $('#edit-modal');\n//                         const modalBackdrop = $('#myModalBackdrop');\n//                         const showClass = 'show';\n//                         const modalOpenClass = 'modal-open';\n//                         //to open gateway edit modal\n//                         window.openModal = (targetObj) =\u003e {\n//                 // $('body').addClass(modalOpenClass).append(modalBackdrop).append(modal);\n//                 console.log(targetObj);\n//                         modal.css('display', 'block');\n//                 modalBackdrop.css('display', 'block');\n//                 modalBackdrop.addClass(showClass);\n//                 modal.addClass(showClass);\n//                 onEditModalOpen(targetObj);\n//                 }\n//                 function onEditModalOpen(targetGWObj)\n//                 {\n// \t\t\t\tsgwid=targetGWObj.gateway_id;\n// \t\t\t\tsnid=targetGWObj.network_id;\n//                     $gatewayForm = $('form[name=\"gatewayform\"]');\n//                     $gatewayForm[0].reset();\n//                     $(\"#sensors-list tbody\").html(\"\");\n//                     $(\"#clients\").html(\"\");\n//                     $.each(targetGWObj, function (k, v) {\n//                         $gatewayForm.find('[name=' + k + ']').val(v);\n//                         if(k===\"gateway_type\")\n//                         {\n//                             $(\"#gateway_type\").val(v);\n//                         }\n//                         if (k === \"customer_name\")\n//                         {\n//                             customers(v);\n//                         }\n//                         if (k === \"sensors\") {\n//                             sensorsList(v);\n//                         }\n//                     });\n//                 }\n//                 function customers(custObj)\n//                 {\n// \t\t\t\t$(\".dropdown-menu\").html(\"\");\n\t\t\t\t\t\n//                     $.each(custObj, function (item, cname)\n//                     {\n//                         var options='\u003cli\u003e\u003cinput name=\"customerList\" type=\"checkbox\" value=\"'+ cname +'\" checked/\u003e'+ cname +'\u003c/li\u003e';\n// \t\t\t\t\t\t$(\"#clients\").append(options);\n//                     });\n//                     $(\"#clients\").append(\"\u003cli\u003eAdd new customer\u003c/li\u003e\");\n//                 }\n\n//                 //Add client list\n//                 $(document).on(\"click\", \"#clients li\", function () {\n\n//                     if ($(this).text() === \"Add new customer\")\n//                     {\n//                         $(\"form[name='customerForm']\")[0].reset();\n//                         $(\"#addCustomer\").modal(\"show\");\n//                         $(\"#addCustomer\").addClass(\"show\");\n//                         $(\"#addCustomer\").css(\"display\", \"block\");\n//                         $('body .modal-backdrop:last').fadeOut();\n\n//                     } else {\n// \t\t\t\t\tconsole.log($(this));\n//                     }\n//                 });\n//                 $(\".add-customer\").off(\"click\");\n//                 $(\".add-customer\").on(\"click\",function () {\n//                     if ($(\"input[name='cname']\").val() === \"\")\n//                     {\n//                         alert(\"please fill out field!\");\n//                     } else {\n//                         var cname = $(\"input[name='cname']\").val();\n\t\t\t\t\t\t\n//                          $(\"#clients li:last\").before('\u003cli\u003e\u003cinput name=\"customerList\" type=\"checkbox\" value=\"'+ cname +'\" checked/\u003e'+ cname +'\u003c/li\u003e');\n                       \n//                         $(\"#addCustomer .close\").click();\n//                     }\n//                 });\n\n//                 //end\n\n//                 function sensorsList(senObj) {\n//                     $.each(senObj, function (item, sval) {\n//                         var sensorRow = \"\u003ctr data-sensor='\" + JSON.stringify(sval) + \"'\u003e\";\n//                         sensorRow += \"\u003ctd\u003e\u003cinput type='checkbox' name='record'\u003e\u003c/td\u003e\";\n//                         sensorRow += \"\u003ctd\u003e\" + sval.sensor_id + \"\u003c/td\u003e\";\n//                         sensorRow += \"\u003ctd\u003e\" + sval.sensor_name + \"\u003c/td\u003e\";\n//                         sensorRow += \"\u003ctd\u003e\" + sval.sensor_type + \"\u003c/td\u003e\";\n//                         sensorRow += \"\u003ctd\u003e\u003cbutton class='btn btn-info editSensor' data-sObj='\" + JSON.stringify(sval) + \"'\u003eedit\u003c/button\u003e\u003c/td\u003e\";\n//                         sensorRow += \"\u003c/tr\u003e\";\n//                         $(\"#sensors-list tbody\").append(sensorRow);\n//                     });\n//                     }\n//                     window.dismissModal = () =\u003e {\n//                     console.log(\"in dismiss\");\n//                     modal.removeClass(showClass);\n//                     modalBackdrop.removeClass(showClass);\n//                     modal.css('display', 'none');\n//                     modalBackdrop.css('display', 'none');\n//                     $('body').removeClass(modalOpenClass);\n//                 }\n//                 //edit sensor \n//                 $(document).on('click', '.editSensor', function (e) {\n//                     e.preventDefault();\n\t\t\t\t\t\n// \t\t\t\t\t$(\"#checkDigit\").hide();\n//                     $(\"#sAddUname\").hide();\n//                     $(\"#sAddpwd\").hide();\n\t\t\t\t\t\n//                     var sensorObject = JSON.parse($(e.target).attr(\"data-sObj\"));\n//                     $tr = $(e.target).parent().closest('tr');\n\n//                     $(\"#sensor-properties\").modal(\"show\");\n//                     $(\"#sensor-properties\").css({\"z-index\": 3000});\n\n//                     $('body .modal-backdrop:last').fadeOut();\n\n//                     $sensorForm = $('form[name=\"sensordeatails\"]');\n//                     $sensorForm[0].reset();\n//                     $sensorForm.find('[name=\"sensor_name\"]').val(sensorObject.sensor_name);\n//                     $sensorForm.find('[name=\"sensor_id\"]').val(sensorObject.sensor_id);\n//                     $(\"#sensor_type\").val(sensorObject.sensor_type);\n\n//                     if ($(\"#save\").hasClass(\"add-sensor\")) {\n//                         $(\"#save\").removeClass(\"add-sensor\");\n//                         $(\"#save\").addClass(\"edit-sensor\");\n//                     } else if ($(\"#save\").hasClass(\"edit-sensor\")) {\n\n//                     } else {\n//                         $(\"#save\").addClass(\"edit-sensor\");\n//                     }\n\n//                     console.log(sensorObject);\n//                 });\n\n//                 //Delete sensor code \n//                 $(\".delete-row\").off(\"click\");\n//                 $(\".delete-row\").click(function (e) {\n//                     if($('[name=\"record\"]:checked').length)\n//                     {\n//                     $(\"#authModal\").modal(\"show\");\n//                      $('body .modal-backdrop:last').fadeOut();\n//                      $(\"form[name='imonnitAuth']\")[0].reset();\n//                      if(!$(\"#authSubmit\").hasClass(\"delete-sensors\"))\n//                      {\n//                        $(\"#authSubmit\").addClass(\"delete-sensors\");\n//                      }\n                    \n//                     }\n//                 });\n//                 // $(\".delete-sensors\").off(\"click\");\n//                  $(document).off(\"click\",\"button.delete-sensors\");\n//                 $(document).on(\"click\",\"button.delete-sensors\",function(){\n//                      //$(\"\").click(function(){\n//                            var uname=$(\"input[name='imuname']\").val();\n//                            var pwd=$(\"input[name='imupwd']\").val();\n//                            $(\"table tbody\").find('input[name=\"record\"]').each(function () {\n//                         if ($(this).is(\":checked\")) {\n// \t\t\t\t\t\t    var sensorDltObj={\n// \t\t\t\t\t\t\t\"method\":\"remove\",\n// \t\t\t\t\t\t\t\"sensor_id\":$(this).parents(\"tr\").data(\"sensor\").sensor_id,\n// \t\t\t\t\t\t\t\"gateway_id\":sgwid,\n//                             \"username\":uname,\n//                             \"password\":pwd\n// \t\t\t\t\t\t\t} ;\n//                            // alert(JSON.stringify(sensorDltObj));\n// \t\t\t\t\t\t\tvar s_dlt_res = datasources.DeleteAndAddSensor.sendData(sensorDltObj);\n//                                 s_dlt_res.then(result =\u003e{\n//                                     console.log(result);\n// \t\t\t\t               s_dlt_result=result.results;\n// \t\t\t\t                 if(s_dlt_result==\"Success\")\n// \t\t\t\t                    {\n// \t\t\t\t                    $(this).parents(\"tr\").remove();\n//                                     $(\"#authModal\").modal(\"hide\");\n// \t\t\t\t                    }else{\n// \t\t\t\t\t\t\t\t\talert(s_dlt_result);\n// \t\t\t\t\t\t\t\t\t}\n//                                     });\n//                         }\n//                     });\n//                      });\n//                 //To open modal when click on add\n//                 $(\".add-srow\").off(\"click\");\n//                 $(\".add-srow\").click(function (e) {\n// \t\t\t\t      $(\"#checkDigit\").show();\n//                       $(\"#sAddUname\").show();\n//                       $(\"#sAddpwd\").show();\n//                     $(\"#sensor-properties\").modal(\"show\");\n//                     $(\"#sensor-properties\").css({\"z-index\": 3000});\n\n//                     $('body .modal-backdrop:last').fadeOut();\n\n//                     $('form[name=\"sensordeatails\"]')[0].reset();\n//                     if ($(\"#save\").hasClass(\"edit-sensor\")) {\n//                         $(\"#save\").removeClass(\"edit-sensor\");\n//                         $(\"#save\").addClass(\"add-sensor\");\n//                     } else if ($(\"#save\").hasClass(\"add-sensor\")) {\n\n//                     } else {\n//                         $(\"#save\").addClass(\"add-sensor\");\n//                     }\n//                 });\n\n//                 //Add sensor code\n//                 $(document).off(\"click\",\"button.add-sensor\");\n//                 $(document).on('click', \"button.add-sensor\", function () {\n\t\t\t\t   \n//                     nsensor = {};\n//                     if (validateForm($(\"form[name='sensordeatails']\")))\n//                     {\n// \t\t\t\t\tvar newSensorObj={\n// \t\t\t\t   \"method\":\"insert\",\n// \t\t\t\t   \"sensor_id\":$('input[name=\"sensor_id\"]').val(),\n// \t\t\t\t   \"gateway_id\":sgwid,\n// \t\t\t\t   \"network_id\":snid,\n// \t\t\t\t   \"checkDigit\":$('input[name=\"checkDigit\"]').val(),\n//                    \"username\":$('input[name=\"sAddUname\"]').val(),\n//                    \"password\":$('input[name=\"sAddpwd\"]').val()\n// \t\t\t\t   };\n//                   // alert(JSON.stringify(newSensorObj));\n// \t\t\t\t   var s_add_res = datasources.DeleteAndAddSensor.sendData(newSensorObj);\n//                                 s_add_res.then(result =\u003e{\n//                                     console.log(result);\n// \t\t\t\t               s_add_result=result.results;\n// \t\t\t\t                 if(s_add_result==\"Success\")\n// \t\t\t\t                    {\n//                         nsensor[\"sensor_id\"] = $('input[name=\"sensor_id\"]').val();\n//                         nsensor[\"sensor_name\"] = $('input[name=\"sensor_name\"]').val();\n//                         nsensor[\"sensor_type\"] = $(\"#sensor_type\").val();\n\n//                         var newRow = \"\u003ctr data-sensor='\" + JSON.stringify(nsensor) + \"'\u003e\";\n//                         newRow += \"\u003ctd\u003e\u003cinput type='checkbox' name='record'\u003e\u003c/td\u003e\";\n//                         newRow += \"\u003ctd\u003e\" + nsensor.sensor_id + \"\u003c/td\u003e\";\n//                         newRow += \"\u003ctd\u003e\" + nsensor.sensor_name + \"\u003c/td\u003e\";\n//                         newRow += \"\u003ctd\u003e\" + nsensor.sensor_type + \"\u003c/td\u003e\";\n//                         newRow += \"\u003ctd\u003e\u003cbutton class='btn btn-info editSensor' data-sObj='\" + JSON.stringify(nsensor) + \"'\u003eedit\u003c/button\u003e\u003c/td\u003e\";\n//                         newRow += \"\u003c/tr\u003e\";\n\n//                         $(\"#sensors-list tbody\").append(newRow);\n//                         $('#sensor-properties').modal('hide');\n//                         $('form[name=\"sensordeatails\"]')[0].reset();\n//                         $(\".delete-row\").show();\n// \t\t\t\t\t\t}else{\n// \t\t\t\t\t\t\t\t\talert(s_add_result);\n// \t\t\t\t\t\t\t\t\t}\n//                                     });\n//                     }\n//                 });\n//                 //Edit Sensor\n//                 $(document).off(\"click\",\"button.edit-sensor\");\n//                 $(document).on('click', \"button.edit-sensor\", function () {\n\n//                     usensor = {};\n//                     usensor[\"sensor_id\"] = $('input[name=\"sensor_id\"]').val();\n//                     usensor[\"sensor_name\"] = $('input[name=\"sensor_name\"]').val();\n//                     usensor[\"sensor_type\"] = $(\"#sensor_type\").val();\n\n                    \n//                     $tr.find(\"td:nth-child(2)\").text(usensor[\"sensor_id\"]);\n//                     $tr.find(\"td:nth-child(3)\").text(usensor[\"sensor_name\"]);\n//                     $tr.find(\"td:nth-child(4)\").text(usensor[\"sensor_type\"]);\n//                     $tr.find(\"td:nth-child(5) button\").attr(\"data-sObj\", JSON.stringify(usensor));\n//                     $tr.attr(\"data-sensor\", JSON.stringify(usensor));\n\n//                     $('form[name=\"sensordeatails\"]')[0].reset();\n//                     $('#sensor-properties').modal('hide');\n\n//                 });\n\n//                 //Edit Gateway\n//                 $(\"#submit\").off(\"click\");\n//                 $(\"#submit\").click(function () {\n//                     if (validateForm($(\"form[name='gatewayform']\")))\n//                     {\n//                         var updatedGWObj = {};\n//                         var updatedSensorObj = [];\n//                         var users = [];\n//                         $.each($(\"input[name='customerList']:checked\"), function(){            \n//                                     users.push($(this).val());\n//                                    });\n\n//                                    var uuidres = datasources.createUUID.sendData({network_ID: parseInt($('input[name=\"network_id\"]').val())});\n//                           uuidres.then(result =\u003e{console.log(result);updatedGWObj[\"network_uuid\"]=result.results});\n\n//                         // $.ajax({\n//                         //     \"url\": \"https://ingrammicro.clearblade.com/api/v/1/code/bacb8fb60bb4d7c2c2b1c0e4bb9701/UUIDgenerator\",\n//                         //     \"headers\": {\n//                         //         //\"ClearBlade-UserToken\":CB_PORTAL.ClearBlade.user.authToken\n//                         //         \"ClearBlade-UserToken\": \"Uwa_dIrNQYZ-gNgJpqNQWfkesY9h_5RWt34BKCKidoFPYoLd7Sk9YOH6JlvqAdpijTdQvsWhRe-VMx4JPw==\"\n//                         //     },\n//                         //     \"async\": false,\n//                         //     \"type\": \"POST\",\n//                         //     \"contentType\": \"application/json\",\n//                         //     \"data\": JSON.stringify({network_ID: parseInt($('input[name=\"network_id\"]').val())}),\n//                         //     \"success\": function (res) {\n//                         //         console.log(res);\n//                         //         updatedGWObj[\"network_uuid\"] = JSON.parse(res).results;\n//                         //     }\n//                         // });\n\n//                         updatedGWObj[\"gateway_name\"] = $('input[name=\"gateway_name\"]').val();\n//                         updatedGWObj[\"gateway_id\"] = $('input[name=\"gateway_id\"]').val();\n//                         updatedGWObj[\"gateway_type\"] = $(\"#gateway_type\").val();\n//                         updatedGWObj[\"network_id\"] = $('input[name=\"network_id\"]').val();\n//                         updatedGWObj[\"network_name\"] = $('input[name=\"network_name\"]').val();\n//                         //updatedGWObj[\"network_uuid\"]=$('input[name=\"network_uuid\"]').val();\n//                         updatedGWObj[\"customer_name\"] = users;\n\n//                         $('#sensors-list tbody tr').each(function () {\n//                             var individual_sensor = $(this).data(\"sensor\");\n//                             // console.log(\"Single sensor Object:\" + JSON.stringify(individual_sensor));\n//                             updatedSensorObj.push(individual_sensor);\n//                         });\n\n//                         updatedGWObj[\"sensors\"] = updatedSensorObj;\n\n//                         console.log(updatedGWObj);\n//                         var ures = datasources.gatewayUpdation.sendData(updatedGWObj);\n//                 ures.then(result =\u003e{console.log(result)});\n//                         // $.ajax({\n//                         //     \"url\": \"https://ingrammicro.clearblade.com/api/v/1/code/bacb8fb60bb4d7c2c2b1c0e4bb9701/updateGatewayDetails\",\n//                         //     \"headers\": {\n//                         //         \"ClearBlade-UserToken\":CB_PORTAL.ClearBlade.user.authToken\n//                         //         //\"ClearBlade-UserToken\": \"Uwa_dIrNQYZ-gNgJpqNQWfkesY9h_5RWt34BKCKidoFPYoLd7Sk9YOH6JlvqAdpijTdQvsWhRe-VMx4JPw==\"\n//                         //     },\n//                         //     \"async\": false,\n//                         //     \"type\": \"POST\",\n//                         //     \"contentType\": \"application/json\",\n//                         //     \"data\": JSON.stringify(updatedGWObj),\n//                         //     \"success\": function (res) {\n//                         //         console.log(res);\n//                         //     }\n//                         // });\n\n//                         dismissModal();\n//                         datasources.gatewayUpdation.refresh();\n//                     }\n//                 });\n\n//                 $(\"#addCustomer .close\").click(function () {\n//                     $(\"#addCustomer\").removeClass('show');\n//                     $(\"#addCustomer\").css(\"display\", \"none\");\n//                     //$('body .modal-backdrop:last').fadeOut();\n//                 });\n\n//                 /*form validation*/\n//                 var validateForm = function ($form) {\n\n//                     var regExpNumber = /^[0-9]+$/, idRegEx = /^[0-9]{6}$/, regExpText = /^[A-Z][A-Za-z0-9_.\\- ]+$/, regExpNotEmpty = /\\S+/, isValid = true, index = 0;\n//                     $form.find('.custom-validate-box').remove();\n//                     var $fields = $form.find('.required');\n//                     for (var i = 0; i \u003c $fields.length; i++) {\n//                         var $field = $($fields[i]), value = $field.val();\n//                         if (!regExpNotEmpty.test(value) || !value || value === null || value === \"\") {\n//                             isValid = false;\n//                             index++;\n//                             createValidationMessage($field, 'Please fill out this field!', index);\n//                         } else if ($field.is('[name=\"gateway_id\"]') || $field.is('[name=\"sensor_id\"]')) {\n//                             if (!idRegEx.test(value))\n//                             {\n//                                 isValid = false;\n//                                 index++;\n//                                 createValidationMessage($field, 'Please enter a 6 digit number!', index);\n//                             }\n//                         } else if ($field.is('[name=\"network_id\"]')) {\n//                             if (!regExpNumber.test(value))\n//                             {\n//                                 isValid = false;\n//                                 index++;\n//                                 createValidationMessage($field, 'Please enter a 5 digit number!', index);\n//                             }\n//                         } else if ($field.is('[type=\"text\"]') \u0026\u0026 !regExpText.test(value)) {\n//                             if (!$field.is('[name=\"network_uuid\"]')) {\n//                                 isValid = false;\n//                                 index++;\n//                                 createValidationMessage($field, 'First letter should be capital', index);\n//                             }\n//                         } else if ($field.is('[type=\"number\"]') \u0026\u0026 !regExpNumber.test(value)) {\n//                             isValid = false;\n//                             index++;\n//                             createValidationMessage($field, 'Please enter number!', index);\n//                         } else {\n//                             index++;\n//                         }\n//                     }\n//                     return isValid;\n//                 };\n//                 var createValidationMessage = function ($field, msg, index) {\n//                     //alert(index);\n//                     if (index === 1)\n//                     {\n//                         $field.focus();\n//                     }\n\n//                     $field.after('\u003cspan class=\"custom-validate-box\"\u003e' + msg + '\u003c/span\u003e');\n//                     //$field.siblings('.custom-validate-box').text(msg);\n//                     $(\".required\").click(function (e) {\n//                         if ($(e.target).is('.custom-validate-box') || ($(e.target).closest('.custom-validate-box').length === 0)) {\n//                             $field.next('.custom-validate-box').remove();\n//                         }\n//                     });\n\n//                 };\n// //To delete gateway\n// \t\t\t\t$(document).on(\"click\",\".gwDelete\",function(){\n// \t\t\t\tif(confirm(\"Do you want to delete gateway:\"+ parseInt($(this).data(\"gwid\"))))\n// \t\t\t\t{\n// \t\t\t\tvar dltGwObj={\n// \t\t\t\t\"method\": $(this).data(\"method\"),\n//                  \"gateway_id\": parseInt($(this).data(\"gwid\"))\n// \t\t\t\t};\n// \t\t\t\tvar res = datasources.gatewayRfmUpDlt.sendData(dltGwObj);\n//                 res.then(result =\u003e{console.log(result)\n// \t\t\t\tsresult=JSON.parse(result.results).results;\n// \t\t\t\tif(sresult==\"Success\")\n// \t\t\t\t{\n// \t\t\t\talert(\"Gateway Deleted Successfully!\");\n// \t\t\t\t}else{\n// \t\t\t\talert(sresult);\n// \t\t\t\t}\n//                 });\n// \t\t\t\t}\n// \t\t\t\t});\n            });"
+                            }
+                        }
+                    }
+                },
+                "tab": "69cfdf03-884c-4746-b910-7e51377a2f47",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "28c5fc90-292e-4698-a285-75668744376b": {
+                "externalScripts": [],
+                "id": "28c5fc90-292e-4698-a285-75668744376b",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n#navList{\n  font-size:1vw;\n}\n#navList .container-fluid{\n  margin:0px;\n  padding:0px;\n}\n#navList .nav-item .active{\n  font-weight:bold;\n  color:red;\n}\n@media screen and (max-width:768px)\n{\n  #portal-pane-sideNavPane{\n    display:none;\n  }\n}",
+                            "HTML": "\u003cdiv id=\"navList\"\u003e\n  \u003cdiv class=\"container-fluid\"\u003e\n  \u003cul class=\"nav flex-column\"\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eDevice Status\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eSettings\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eREST API\u003c/button\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n$(function(){\n$(\".nav-link\").click(function(){\nif($(this).text() === \"Device Status\")\n{ \n   CB_PORTAL.selectPage('/Home');\n   return;\n}else if($(this).text() === \"Settings\"){\nCB_PORTAL.selectPage('/Settings');\n   return;\n}else if($(this).text() === \"REST API\"){\nCB_PORTAL.selectPage('/APIIntegrationInstructions');\n   return;\n}\n});\n});"
+                        }
+                    },
+                    "htmlId": "3"
+                },
+                "tab": null,
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "2968f485-d400-4f0f-b4ec-7d9c1de8035b": {
+                "externalScripts": [],
+                "id": "2968f485-d400-4f0f-b4ec-7d9c1de8035b",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n#navList{\n  font-size:1vw;\n}\n#navList .container-fluid{\n  margin:0px;\n  padding:0px;\n}\n#navList .nav-item .active{\n  font-weight:bold;\n  color:red;\n}\n@media screen and (max-width:768px)\n{\n  #portal-pane-sideNavPane{\n    display:none;\n  }\n}",
+                            "HTML": "\u003cdiv id=\"navList\"\u003e\n  \u003cdiv class=\"container-fluid\"\u003e\n  \u003cul class=\"nav flex-column\"\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link active\"\u003eDevice Status\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eSettings\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eREST API\u003c/button\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n$(function(){\n$(\".nav-link\").click(function(){\nif($(this).text() === \"Device Status\")\n{ \n   CB_PORTAL.selectPage('/Home');\n   return;\n}else if($(this).text() === \"Settings\"){\nCB_PORTAL.selectPage('/Settings');\n   return;\n}else if($(this).text() === \"REST API\"){\nCB_PORTAL.selectPage('/APIIntegrationInstructions');\n   return;\n}\n});\n});"
+                        }
+                    },
+                    "htmlId": "1"
+                },
+                "tab": "e2d5cfbf-0986-472e-a0cf-25fc584cabfe",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "43b9f519-06d1-4296-a4e0-52e02d645a38": {
+                "externalScripts": [],
+                "id": "43b9f519-06d1-4296-a4e0-52e02d645a38",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "b81ff189-80cb-486a-a580-90c9481d138a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "body{\n          font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif;\n          font-size: 14px;\n          }\n            .underline {\n                text-decoration: underline;\n            }\n            #previous[disabled=\"disabled\"],#next[disabled=\"disabled\"]{\n                background:red;\n                color:white;\n            }\n            .btn.focus,.btn-outline-primary:focus, .active:focus{\n                box-shadow:none;\n            }\n            #accordion .card-link{\n                color:white;\n            }\n            #devicesData table{\n                font-size:1vw;\n                width:100%;\n            }\n\t\t\t#devicesData table td{\n                padding:5px 1px;\n            }\n\t\t\t #paginationdiv .btn-group{\n\t\t\tjustify-content: center;\n\t\t\tdisplay:flex;\n\t\t\t}\n\t\t\t[name='deviceSearchForm']{\n\t\t\tjustify-content:center;\n\t\t\tdisplay:flex;\n\t\t\t}\n\t\t\t.gwFirmwareReform,.gwFirmwareMACad{padding:1px;}\n            .sensorInfoTbl tr td:nth-child(4),.sensorInfoTbl tr td:nth-child(5){\n                text-align: center;\n            }\n            .fa-bolt{\n                font-size:20px;\n                color:#6bd827;\n                padding-left:5px;\n            }",
+                                "HTML": "\u003cdiv class=\"container\"\u003e\n            \u003cdiv class=\"text-center underline\"\u003e\n                \u003ch2\u003eGateways Data\u003c/h2\u003e\n            \u003c/div\u003e\n            \u003cdiv id=\"paginationResultDiv\"\u003e\n\t\t\t\u003c!-- \u003cdiv class=\"row\"\u003e --\u003e\n\t\t\t\u003c!-- \u003cdiv class=\"col-sm-6\"\u003e --\u003e\n\t\t\t\u003cform name=\"deviceSearchForm\" method=\"POST\"\u003e\t\t\t\n\t\t\t\u003cdiv class=\"form-group\"\u003e\n                            \u003cdiv class=\"input-group\"\u003e\n                                \u003cdiv class=\"input-group-prepend\"\u003e\n                                    \u003cspan class=\"input-group-text\"\u003eSearch Using\u003c/span\u003e\n                                \u003c/div\u003e\n                                \u003cselect name=\"search_field\" id=\"search_field\" class=\"form-control\"\u003e\n                                    \u003coption value=\"GatewayID\"\u003eGateway ID\u003c/option\u003e\n                                    \u003coption value=\"GatewayName\"\u003eGateway Name\u003c/option\u003e\n                                    \u003coption value=\"NetworkName\"\u003eNetwork Name\u003c/option\u003e\n                                    \u003c!-- \u003coption value=\"MAC_Address\"\u003eMAC Address\u003c/option\u003e --\u003e\n                                    \u003coption value=\"ClientName\"\u003eCustomer\u003c/option\u003e\n                                \u003c/select\u003e\n                                \u003c!-- \u003cspan style=\"display:table-cell;width:0;padding:0;\"\u003e\u003c/span\u003e --\u003e\n                                \u003cinput type=\"text\" name=\"search_text\" id=\"search_text\" value=\"\" class=\"form-control\" placeholder=\"Search...\" required=\"\"\u003e\n        \n                                \u003cspan class=\"input-group-btn\"\u003e\n                                    \u003cbutton type=\"button\" id=\"search\" class=\"btn btn-info\"\u003e\u003ci class=\"fa fa-search\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/button\u003e\n                                \u003c/span\u003e\n                            \u003c/div\u003e\n\t\t\t\t\t\t\t\n                        \u003c/div\u003e\t\t\t\t\t \n\t\t\t\u003c/form\u003e\n\t\t\t\u003c!-- \u003c/div\u003e --\u003e\n\t\t\t\u003c!-- \u003c/div\u003e --\u003e\n                \u003cdiv id=\"devicesData\"\u003e\n                    \u003cdiv id=\"accordion\"\u003e\n\n                    \u003c/div\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n            \u003cdiv id=\"paginationdiv\"\u003e\n                \u003cdiv class=\"btn-group\"\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n\t\t\t\u003cdiv id=\"noResult\"\u003e\n\t\t\t\u003c/div\u003e\n\t\t\t\u003cdiv class=\"modal\" id=\"authModal\"\u003e\n  \u003cdiv class=\"modal-dialog modal-sm\"\u003e\n    \u003cdiv class=\"modal-content\"\u003e\n\n      \u003c!-- Modal Header --\u003e\n      \u003cdiv class=\"modal-header\"\u003e\n        \u003ch4 class=\"modal-title\"\u003eAthentication\u003c/h4\u003e\n        \u003cbutton type=\"button\" class=\"close\" data-dismiss=\"modal\"\u003e\u0026times;\u003c/button\u003e\n      \u003c/div\u003e\n\n      \u003c!-- Modal body --\u003e\n      \u003cdiv class=\"modal-body\"\u003e\n        \u003cform name='imonnitAuth'\u003e\n\t\t\u003cdiv class=\"form-group\"\u003e\n\t\t\u003clabel\u003eUsername\u003c/label\u003e\n\t\t\u003cinput type=\"text\" name=\"imuname\" class=\"form-control\" required/\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cdiv class=\"form-group\"\u003e\n\t\t\u003clabel\u003ePassword\u003c/label\u003e\n\t\t\u003cinput type=\"password\" name=\"imupwd\" class=\"form-control\" required/\u003e\n\t\t\u003c/div\u003e\n\t\t\u003cbutton type=\"button\" class=\"btn btn-danger float-right\" data-dismiss=\"modal\"\u003eClose\u003c/button\u003e\n\t\t\u003cbutton type=\"button\" class=\"btn btn-success float-right mr-1\" id=\"authSubmit\"\u003eSubmit\u003c/button\u003e\n\t\t\u003c/form\u003e\n      \u003c/div\u003e\n\n    \u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n        \u003c/div\u003e",
+                                "JavaScript": "//JavaScript\nvar response=this.datasource;\nvar resultArray=response.results.Result;\nvar gwUpRfmObj={};\n$(function () {\n   function Paginator(items, page, per_page) {\n\n                    var page = page || 1,\n                            per_page = per_page || 10,\n                            offset = (page - 1) * per_page,\n                            paginatedItems = items.slice(offset).slice(0, per_page),\n                            total_pages = Math.ceil(items.length / per_page);\n                    return {\n                        page: page,\n                        per_page: per_page,\n                        pre_page: page - 1 ? page - 1 : null,\n                        next_page: (total_pages \u003e page) ? page + 1 : null,\n                        total: items.length,\n                        total_pages: total_pages,\n                        data: paginatedItems\n                    };\n                }\n\n\n        //paginator div\n\t\tfunction displayPagination(objToPaginate)\n\t\t{\n\t\tvar limitPerPage=objToPaginate.length/10;\n\t\t$(\"#paginationdiv .btn-group\").html(\"\");\n\t\t $(\"#paginationdiv .btn-group\").append('\u003cbutton type=\"button\" class=\"btn btn-outline-primary\" id=\"previous\" data-pnum=\"\"\u003ePrev\u003c/button\u003e');\n                for (var i = 0; i \u003climitPerPage; i++)\n                {\n                    $(\"#paginationdiv .btn-group\").append('\u003cbutton type=\"button\" class=\"btn btn-outline-primary\"\u003e' + (i + 1) + '\u003c/button\u003e');\n                }\n                $(\"#paginationdiv .btn-group\").append('\u003cbutton type=\"button\" class=\"btn btn-outline-primary\" id=\"next\" data-nnum=\"\"\u003eNext\u003c/button\u003e');\n\t\t}\n\t\t\n\t\t//get Object for page\t\n            displayPagination(resultArray);   \n\t\t\t\t$(document).off(\"click\",\"#paginationdiv .btn\")\n                $(document).on(\"click\",\"#paginationdiv .btn\",function (e) {\n                   // console.log(e);\n                    var pageNumber;\n                    $(\"#paginationdiv .btn\").removeClass(\"active\");\n                    if (e.currentTarget.id === \"previous\")\n                    {\n                        pageNumber = parseInt(e.currentTarget.dataset.pnum);\n                        $(\"#paginationdiv .btn:contains(\" + e.currentTarget.dataset.pnum + \")\").addClass(\"active\");\n                    } else if (e.currentTarget.id === \"next\")\n                    {\n                        pageNumber = parseInt(e.currentTarget.dataset.nnum);\n                        $(\"#paginationdiv .btn:contains(\" + e.currentTarget.dataset.nnum + \")\").addClass(\"active\");\n                    } else {\n                        $(e.target).addClass(\"active\");\n                        pageNumber = parseInt(e.currentTarget.innerText);\n                    }\n                    $(\"#previous\").attr(\"data-pnum\", pageNumber - 1);\n                    $(\"#next\").attr(\"data-nnum\", pageNumber + 1);\n                    if (pageNumber == 1)\n                    {\n                        $(\"#previous\").attr('disabled', true);\n\n                    } else {\n                        $(\"#previous\").attr('disabled', false);\n\n                    }\n\t\t\t\t\t//console.log(parseInt(resultArray.length/10)+1);\n                    if (pageNumber == (parseInt(resultArray.length/10)+1))\n                    {\n                        $(\"#next\").attr('disabled', true);\n                    } else {\n                        $(\"#next\").attr('disabled', false);\n                    }\n\n                    var objToShow = Paginator(resultArray, pageNumber, 10);\n        //$(\"#paginationResultDiv\").html(JSON.stringify(objToShow.data));\n                    devicesDetails(objToShow.data);\n                    function devicesDetails(listOfGateways) {\n        //var listOfGateways=response.results.Result;\n                        $(\"#accordion\").html(\"\");\n                        for (i = 0; i \u003c listOfGateways.length; i++) {\n\n                            var gatewayCard = \"\u003cdiv class='card'\u003e\";\n                            gatewayCard += \"\u003cdiv class='card-header bg-info'\u003e\";\n                            gatewayCard += \"\u003ca class='collapsed card-link show' data-toggle='collapse' href='#sensorsOf_\" + listOfGateways[i][\"GatewayID\"] + \"'\u003e\";\n                            gatewayCard += \"Gateway - \" + listOfGateways[i][\"GatewayID\"];\n                            gatewayCard += \"\u003c/a\u003e\"\n                            gatewayCard += \"\u003c/div\u003e\";\n                            gatewayCard += \"\u003cdiv id='sensorsOf_\" + listOfGateways[i][\"GatewayID\"] + \"' class='collapse in' data-parent='#accordion'\u003e\";\n                            gatewayCard += \"\u003cdiv class='card-body'\u003e\";\n                            gatewayCard += \"\u003ctable class='table-bordered'\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eGatewayID: \u003c/b\u003e\" + listOfGateways[i].GatewayID + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eGatewayName: \u003c/b\u003e\" + listOfGateways[i].GatewayName + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003c/tr\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eNetworkName: \u003c/b\u003e\" + listOfGateways[i].NetworkName + \"\u003c/td\u003e\";\n                             gatewayCard += \"\u003ctd\u003e\u003cb\u003eCustomers: \u003c/b\u003e\" +  listOfGateways[i].ClientName + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003c/tr\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eNetworkUUID: \u003c/b\u003e\" + listOfGateways[i].NetworkUUID + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eLastCommunicationDate: \u003c/b\u003e\" + new Date(listOfGateways[i].LastCommunicationDate) + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003c/tr\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctd id='hb_\"+listOfGateways[i].GatewayID+\"'\u003e\u003cb\u003eHeartBeat: \u003c/b\u003e\u003cspan\u003e\u003c/span\u003e\u003c/td\u003e\";\n                          //  \" + listOfGateways[i].Heartbeat + \"\n                            if(listOfGateways[i].BatteryLevel\u003e100)\n                            {\n                             gatewayCard += \"\u003ctd\u003e\u003cb\u003ePowerSource: \u003c/b\u003eLine Power \u003ci class='fa fa-bolt' aria-hidden='true'\u003e\u003c/i\u003e\u003c/td\u003e\";\n                            }else{\n                             gatewayCard += \"\u003ctd\u003e\u003cb\u003ePowerSource: \u003c/b\u003eBattery Power(\"+ listOfGateways[i].BatteryLevel +\"%)\u003c/td\u003e\";\n                            }\n                            gatewayCard += \"\u003c/tr\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003ctd\u003e\u003cb\u003eSignalStrength: \u003c/b\u003e\" + listOfGateways[i].SignalStrength + \"\u003c/td\u003e\";\n                            gatewayCard += \"\u003ctd id='macAddr_\"+listOfGateways[i].GatewayID+\"'\u003e\u003cb\u003eMAC Address: \u003c/b\u003e\u003cspan\u003e\u003c/span\u003e\u003c/td\u003e\";\n                            //\" + listOfGateways[i].MAC_Address + \"\n                            gatewayCard += \"\u003c/tr\u003e\";\n                            gatewayCard += \"\u003c/table\u003e\";\n\t\t\t\t\t\t\tgatewayCard +=\"\u003cdiv class='mt-2 mb-2'\u003e\";\n\t\t\t\t\t\t\tgatewayCard +=\"\u003cbutton class='btn btn-info gwFirmwareReform mr-2 float-right' data-gwid=\"+listOfGateways[i].GatewayID+\" data-method='update'\u003eUpdate Firmware\u003c/button\u003e\";\n\t\t\t\t\t\t\tgatewayCard +=\"\u003cbutton class='btn btn-info gwFirmwareReform mr-2 float-right' data-gwid=\"+listOfGateways[i].GatewayID+\" data-method='reform'\u003eReform\u003c/button\u003e\";\n\t\t\t\t\t\t\tgatewayCard +=\"\u003cbutton class='btn btn-info gwFirmwareMACad mr-2 float-right' data-gwid=\"+listOfGateways[i].GatewayID+\" data-method='getmacaddress'\u003eGet more Details\u003c/button\u003e\";\n                            gatewayCard +=\"\u003c/div\u003e\u003cbr/\u003e\";\n                            gatewayCard += \"\u003ch5\u003eSensors Information\u003c/h5\u003e\u003chr/\u003e\";\n                            gatewayCard += \"\u003ctable class='table-striped sensorInfoTbl'\u003e\";\n                            gatewayCard += \"\u003cthead\u003e\";\n                            gatewayCard += \"\u003ctr\u003e\";\n                            gatewayCard += \"\u003cth\u003eSensorID\u003c/th\u003e\";\n                            gatewayCard += \"\u003cth\u003eSensorName\u003c/th\u003e\";\n                            gatewayCard += \"\u003cth\u003eSensorReading\u003c/th\u003e\";\n                            gatewayCard += \"\u003cth\u003eBatteryLevel\u003c/th\u003e\";\n                            gatewayCard += \"\u003cth\u003eSignalStrength\u003c/th\u003e\";\n                            gatewayCard += \"\u003cth\u003eReading On\u003c/th\u003e\";\n                            gatewayCard += \"\u003c/tr\u003e\";\n                            gatewayCard += \" \u003c/thead\u003e\";\n                            gatewayCard += \" \u003ctbody\u003e\";\n                            for (j = 0; j \u003c listOfGateways[i].Sensors.length; j++)\n                            {\n                                var sensorObj = listOfGateways[i].Sensors[j];\n                                gatewayCard += \"\u003ctr\u003e\";\n                                gatewayCard += \"\u003ctd\u003e\" + sensorObj.SensorID + \"\u003c/td\u003e\";\n                                gatewayCard += \"\u003ctd\u003e\" + sensorObj.SensorName + \"\u003c/td\u003e\";\n                                gatewayCard += \"\u003ctd\u003e\" + sensorObj.CurrentReading + \"\u003c/td\u003e\";\n\n                                if (sensorObj.BatteryLevel \u003e= 50 \u0026\u0026 sensorObj.BatteryLevel \u003c= 100) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-battery-full' style='font-size:18px;color:green'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.BatteryLevel + \"%\u003c/td\u003e\";\n                                } else if (sensorObj.BatteryLevel \u003e= 26 \u0026\u0026 sensorObj.BatteryLevel \u003c= 49) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-battery-half' style='font-size:18px;color:amber'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.BatteryLevel + \"%\u003c/td\u003e\";\n                                } else if (sensorObj.BatteryLevel \u003e= 1 \u0026\u0026 sensorObj.BatteryLevel \u003c= 25) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-battery-quarter' style='font-size:18px;color:red'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.BatteryLevel + \"%\u003c/td\u003e\";\n                                } else {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-battery-empty' style='font-size:18px;color:red'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.BatteryLevel + \"%\u003c/td\u003e\";\n                                }\n\n                                if (sensorObj.SignalStrength \u003e= 50 \u0026\u0026 sensorObj.SignalStrength \u003c= 100) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-signal' style='font-size:18px;color:green'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.SignalStrength + \"\u003c/td\u003e\";\n                                } else if (sensorObj.SignalStrength \u003e= 26 \u0026\u0026 sensorObj.SignalStrength \u003c= 49) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-signal' style='font-size:18px;color:#FFC200'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.SignalStrength + \"\u003c/td\u003e\";\n                                } else if (sensorObj.SignalStrength \u003e= 1 \u0026\u0026 sensorObj.SignalStrength \u003c= 25) {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-signal' style='font-size:18px;color:red'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.SignalStrength + \"\u003c/td\u003e\";\n                                } else {\n                                    gatewayCard += \"\u003ctd\u003e\u003ci class='fa fa-signal' style='font-size:18px;color:black'\u003e\u003c/i\u003e\u003cbr/\u003e\" + sensorObj.SignalStrength + \"\u003c/td\u003e\";\n                                }\n\n\n                                gatewayCard += \"\u003ctd\u003e\" + (new Date(sensorObj.LastCommunicationDate)).toLocaleString()+ \"\u003c/td\u003e\";\n                                gatewayCard += \"\u003c/tr\u003e\";\n                            }\n                            gatewayCard += \" \u003c/tbody\u003e\";\n                            gatewayCard += \"\u003c/table\u003e\";\n                            gatewayCard += \"\u003c/div\u003e\";\n                            gatewayCard += \"\u003c/div\u003e\";\n                            gatewayCard += \"\u003c/div\u003e\u003cbr/\u003e\";\n                            $(\"#accordion\").append(gatewayCard);\n                        }\n\t\t\t\t\t\t//$(\"#accordion .card:first-child .collapse\").addClass(\"show\");\n                    }\n                });\n\n              //On enter in input field\n                 $(\"input[name='search_text']\").off(\"keypress\");\n                     document.getElementById(\"search_text\").onkeypress = function(e) {\n                      var key = e.charCode || e.keyCode || 0;     \n                            if (key == 13) {\n                            $(\"#search\").click();\n                            return false;\n                           }\n                        }\n\t\t\t\t\n                //when click on search \n\t\t\t\t$(\"#search\").off(\"click\");\n\t\t\t\t$(\"#search\").click(function(){\n\t\t\t\tresultArray=response.results.Result;\n\t\t\t\tif($(\"input[name='search_text']\").val()===\"\")\n                    {\n                    alert(\"please fill out field!\");\n                    }else{\n\t\t\t\t\tvar searchField=$(\"#search_field\").val();\n\t\t\t\t\tvar searchText=$(\"input[name='search_text']\").val();\n\t\t\t\t\tobjsAfterSearch=[];\n\t\t\t\t\t//console.log(resultArray);\n\t\t\t\t\t$.each(resultArray,function(index,objToSearch){\n\t\t\t\t\t//objToSearch=resultArray[index];\n\t\t\t\t\t//console.log(objToSearch);\n\t\t\t\t\tif(searchField === \"ClientName\" || searchField === \"GatewayName\" || searchField === \"NetworkName\")\n\t\t\t\t\t{\n\t\t\t\t\tif((objToSearch[searchField]).indexOf(searchText)\u003e-1)\n\t\t\t\t\t{\n\t\t\t\t\tobjsAfterSearch.push(objToSearch);\n\t\t\t\t\t}\n\t\t\t\t\t}else{\n\t\t\t\t\tvar serchVal=objToSearch[searchField];\n\t\t\t\t\tif(serchVal==searchText)\n\t\t\t\t\t{\n\t\t\t\t\tobjsAfterSearch.push(objToSearch);\n\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\t});\n\t\t\t\t\tif(objsAfterSearch.length)\n\t\t\t\t\t{\n\t\t\t\t\t$(\"#paginationdiv,#devicesData\").show();\n\t\t\t\t\t$(\"#noResult\").html(\"\");\n\t\t\t\t\tresultArray=objsAfterSearch;\n\t\t\t\t\tdisplayPagination(objsAfterSearch);   \n\t\t\t\t\tclickFirstPage();\n\t\t\t\t\t}else{\n\t\t\t\t\t$(\"#paginationdiv,#devicesData\").hide();\n\t\t\t\t\t$(\"#noResult\").html(\"\u003ch3\u003eGateways are not available for given properties\u003c/h3\u003e\")\n\t\t\t\t\t}\n\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t\t\n\t\t\t\t//To update gateway firmware and reform\n               \n\t\t\t\t$(document).on(\"click\",\".gwFirmwareReform,.gwFirmwareMACad\",function(e){\n\t\t\t\tgwUpRfmObj={\n\t\t\t\t \"method\": $(this).data(\"method\"),\n                 \"gateway_id\": parseInt($(this).data(\"gwid\"))\n\t\t\t\t};\n                \n\t\t\t\t$(\"#authModal\").modal(\"show\");\n                $('body .modal-backdrop').remove();\n                $(\"form[name='imonnitAuth']\")[0].reset();\n                 \n\t\t\t\t});\n                $(\"#authSubmit\").off(\"click\");\n\t\t\t\t$(\"#authSubmit\").click(function(){\n\t\t\t\tvar sresult;\n\t\t\t\tvar authForm=$(\"form[name='imonnitAuth']\");\n\t\t\t\t\n\t\t\t\tgwUpRfmObj.username=$(\"input[name='imuname']\").val();\n\t\t\t\tgwUpRfmObj.password=$(\"input[name='imupwd']\").val();\n\t\t\t\t//datasources.name.senddata(imCredentials);\n                if(gwUpRfmObj.method===\"getmacaddress\")\n                {\n                  var respo = datasources.GetGatewayMACandHBandType.sendData(gwUpRfmObj);\n                respo.then(result =\u003e{\n                   // console.log(result);\n\t\t\t\tvar result_obj = result.results;\n                var update_macAdrs = result_obj.MacAddress;\n               var macDiv=\"#macAddr_\"+gwUpRfmObj.gateway_id+\" span\";\n               var hbDiv=\"#hb_\"+gwUpRfmObj.gateway_id+\" span\";\n                $(macDiv).html(update_macAdrs);\n                $(hbDiv).html(result_obj.Heartbeat);\n\t\t\t\tauthForm[0].reset();\n\t\t\t\t$(\"#authModal\").modal(\"hide\");\n                });\n\n                }else{\n\t\t\t\tvar res = datasources.gatewayRfmUpDlt.sendData(gwUpRfmObj);\n                res.then((result) =\u003e{\n                   // alert(JSON.stringify(result));\n\t\t\t\tsresult=result.results;\n\t\t\t\tif(sresult==\"Success\")\n\t\t\t\t{\n\t\t\t\talert(\"Gateway Updated Successfully!\");\n\t\t\t\t}else{\n\t\t\t\talert(sresult);\n\t\t\t\t}\n\t\t\t\tauthForm[0].reset();\n\t\t\t\t$(\"#authModal\").modal(\"hide\");\n                });\n                }\n\n\t\t\t\t });\n\t\t\t\t\n\t\t\t\tfunction clickFirstPage()\n\t\t\t\t{\n\t\t\t\t$(\"#paginationdiv .btn:contains(1)\").click();\n\t\t\t\t}\n\t\t\t\tclickFirstPage();\n            });"
+                            }
+                        }
+                    }
+                },
+                "tab": "de9617b8-7721-47a9-9a38-3d3f9b4d9fb0",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "6241bcf1-9b6f-4ca7-bf81-82f2434c1a98": {
+                "externalScripts": [],
+                "id": "6241bcf1-9b6f-4ca7-bf81-82f2434c1a98",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n#navList{\n  font-size:1vw;\n}\n#navList .container-fluid{\n  margin:0px;\n  padding:0px;\n}\n#navList .nav-item.active button{\n  font-weight:bold; \n  color:red;\n}\n@media screen and (max-width:768px)\n{\n  #portal-pane-sideNavPane{\n    display:none;\n  }\n}",
+                            "HTML": "\u003cdiv id=\"navList\"\u003e\n  \u003cdiv class=\"container-fluid\"\u003e\n  \u003cul class=\"nav flex-column\"\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eDevice Status\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eSettings\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item active\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eREST API\u003c/button\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n$(function(){\n$(\".nav-link\").click(function(){\nif($(this).text() === \"Device Status\")\n{ \n   CB_PORTAL.selectPage('/Home');\n   return;\n}else if($(this).text() === \"Settings\"){\nCB_PORTAL.selectPage('/Settings');\n   return;\n}else if($(this).text() === \"REST API\"){\nCB_PORTAL.selectPage('/APIIntegrationInstructions');\n   return;\n}\n});\n});"
+                        }
+                    }
+                },
+                "tab": "210445cd-8645-4396-a576-3e071f5b52a6",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "75c26843-0679-4aaa-983a-6df926a27923": {
+                "externalScripts": [],
+                "id": "75c26843-0679-4aaa-983a-6df926a27923",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n#navList{\n  font-size:1vw;\n}\n#navList .container-fluid{\n  margin:0px;\n  padding:0px;\n}\n#navList .nav-item .active{\n  font-weight:bold;\n  color:red;\n}\n@media screen and (max-width:768px)\n{\n  #portal-pane-sideNavPane{\n    display:none;\n  }\n}",
+                            "HTML": "\u003cdiv id=\"navList\"\u003e\n  \u003cdiv class=\"container-fluid\"\u003e\n  \u003cul class=\"nav flex-column\"\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eDevice Status\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link active\"\u003eSettings\u003c/button\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\"\u003e\n      \u003cbutton class=\"nav-link\"\u003eREST API\u003c/button\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n$(function(){\n$(\".nav-link\").click(function(){\nif($(this).text() === \"Device Status\")\n{ \n   CB_PORTAL.selectPage('/Home');\n   return;\n}else if($(this).text() === \"Settings\"){\nCB_PORTAL.selectPage('/Settings');\n   return;\n}else if($(this).text() === \"REST API\"){\nCB_PORTAL.selectPage('/APIIntegrationInstructions');\n   return;\n}\n});\n\n//Gateways Settings Script\n\nconst modal = $('#edit-modal');\n                        const modalBackdrop = $('#myModalBackdrop');\n                        const showClass = 'show';\n                        const modalOpenClass = 'modal-open';\n                        //to open gateway edit modal\n                        window.openModal = (targetObj) =\u003e {\n                // $('body').addClass(modalOpenClass).append(modalBackdrop).append(modal);\n                console.log(targetObj);\n                        modal.css('display', 'block');\n                modalBackdrop.css('display', 'block');\n                modalBackdrop.addClass(showClass);\n                modal.addClass(showClass);\n                onEditModalOpen(targetObj);\n                }\n                function onEditModalOpen(targetGWObj)\n                {\n        sgwid=targetGWObj.gateway_id;\n        snid=targetGWObj.network_id;\n                    $gatewayForm = $('form[name=\"gatewayform\"]');\n                    $gatewayForm[0].reset();\n                    $(\"#sensors-list tbody\").html(\"\");\n                    $(\"#clients\").html(\"\");\n                    $.each(targetGWObj, function (k, v) {\n                        $gatewayForm.find('[name=' + k + ']').val(v);\n                        if(k===\"gateway_type\")\n                        {\n                            $(\"#gateway_type\").val(v);\n                        }\n                        if (k === \"customer_name\")\n                        {\n                            customers(v);\n                        }\n                        if (k === \"sensors\") {\n                            sensorsList(v);\n                        }\n                    });\n                }\n                function customers(custObj)\n                {\n        $(\".dropdown-menu\").html(\"\");\n          \n                    $.each(custObj, function (item, cname)\n                    {\n                        var options='\u003cli\u003e\u003cinput name=\"customerList\" type=\"checkbox\" value=\"'+ cname +'\" checked/\u003e'+ cname +'\u003c/li\u003e';\n            $(\"#clients\").append(options);\n                    });\n                    $(\"#clients\").append(\"\u003cli\u003eAdd new customer\u003c/li\u003e\");\n                }\n\n                //Add client list\n                $(document).on(\"click\", \"#clients li\", function () {\n\n                    if ($(this).text() === \"Add new customer\")\n                    {\n                        $(\"form[name='customerForm']\")[0].reset();\n                        $(\"#addCustomer\").modal(\"show\");\n                        $(\"#addCustomer\").addClass(\"show\");\n                        $(\"#addCustomer\").css(\"display\", \"block\");\n                        $('body .modal-backdrop:last').fadeOut();\n\n                    } else {\n          console.log($(this));\n                    }\n                });\n                $(\".add-customer\").off(\"click\");\n                $(\".add-customer\").on(\"click\",function () {\n                    if ($(\"input[name='cname']\").val() === \"\")\n                    {\n                        alert(\"please fill out field!\");\n                    } else {\n                        var cname = $(\"input[name='cname']\").val();\n            \n                         $(\"#clients li:last\").before('\u003cli\u003e\u003cinput name=\"customerList\" type=\"checkbox\" value=\"'+ cname +'\" checked/\u003e'+ cname +'\u003c/li\u003e');\n                       \n                        $(\"#addCustomer .close\").click();\n                    }\n                });\n\n                //end\n\n                function sensorsList(senObj) {\n                    $.each(senObj, function (item, sval) {\n                        var sensorRow = \"\u003ctr data-sensor='\" + JSON.stringify(sval) + \"'\u003e\";\n                        sensorRow += \"\u003ctd\u003e\u003cinput type='checkbox' name='record'\u003e\u003c/td\u003e\";\n                        sensorRow += \"\u003ctd\u003e\" + sval.sensor_id + \"\u003c/td\u003e\";\n                        sensorRow += \"\u003ctd\u003e\" + sval.sensor_name + \"\u003c/td\u003e\";\n                        sensorRow += \"\u003ctd\u003e\" + sval.sensor_type + \"\u003c/td\u003e\";\n                        sensorRow += \"\u003ctd\u003e\u003cbutton class='btn btn-info editSensor' data-sObj='\" + JSON.stringify(sval) + \"'\u003eedit\u003c/button\u003e\u003c/td\u003e\";\n                        sensorRow += \"\u003c/tr\u003e\";\n                        $(\"#sensors-list tbody\").append(sensorRow);\n                    });\n                    }\n                    window.dismissModal = () =\u003e {\n                    console.log(\"in dismiss\");\n                    modal.removeClass(showClass);\n                    modalBackdrop.removeClass(showClass);\n                    modal.css('display', 'none');\n                    modalBackdrop.css('display', 'none');\n                    $('body').removeClass(modalOpenClass);\n                }\n                //edit sensor \n                $(document).on('click', '.editSensor', function (e) {\n                    e.preventDefault();\n          \n          $(\"#checkDigit\").hide();\n                    $(\"#sAddUname\").hide();\n                    $(\"#sAddpwd\").hide();\n          \n                    var sensorObject = JSON.parse($(e.target).attr(\"data-sObj\"));\n                    $tr = $(e.target).parent().closest('tr');\n\n                    $(\"#sensor-properties\").modal(\"show\");\n                    $(\"#sensor-properties\").css({\"z-index\": 3000});\n\n                    $('body .modal-backdrop:last').fadeOut();\n\n                    $sensorForm = $('form[name=\"sensordeatails\"]');\n                    $sensorForm[0].reset();\n                    $sensorForm.find('[name=\"sensor_name\"]').val(sensorObject.sensor_name);\n                    $sensorForm.find('[name=\"sensor_id\"]').val(sensorObject.sensor_id);\n                    $(\"#sensor_type\").val(sensorObject.sensor_type);\n\n                    if ($(\"#save\").hasClass(\"add-sensor\")) {\n                        $(\"#save\").removeClass(\"add-sensor\");\n                        $(\"#save\").addClass(\"edit-sensor\");\n                    } else if ($(\"#save\").hasClass(\"edit-sensor\")) {\n\n                    } else {\n                        $(\"#save\").addClass(\"edit-sensor\");\n                    }\n\n                    console.log(sensorObject);\n                });\n\n                //Delete sensor code \n                $(\".delete-row\").off(\"click\");\n                $(\".delete-row\").click(function (e) {\n                    if($('[name=\"record\"]:checked').length)\n                    {\n                    $(\"#authModal\").modal(\"show\");\n                     $('body .modal-backdrop:last').fadeOut();\n                     $(\"form[name='imonnitAuth']\")[0].reset();\n                     if(!$(\"#authSubmit\").hasClass(\"delete-sensors\"))\n                     {\n                       $(\"#authSubmit\").addClass(\"delete-sensors\");\n                     }\n                    \n                    }\n                });\n                // $(\".delete-sensors\").off(\"click\");\n                 $(document).off(\"click\",\"button.delete-sensors\");\n                $(document).on(\"click\",\"button.delete-sensors\",function(){\n                     //$(\"\").click(function(){\n                           var uname=$(\"input[name='imuname']\").val();\n                           var pwd=$(\"input[name='imupwd']\").val();\n                           $(\"table tbody\").find('input[name=\"record\"]').each(function () {\n                        if ($(this).is(\":checked\")) {\n                var sensorDltObj={\n              \"method\":\"remove\",\n              \"sensor_id\":$(this).parents(\"tr\").data(\"sensor\").sensor_id,\n              \"gateway_id\":sgwid,\n                            \"username\":uname,\n                            \"password\":pwd\n              } ;\n                           // alert(JSON.stringify(sensorDltObj));\n              var s_dlt_res = datasources.DeleteAndAddSensor.sendData(sensorDltObj);\n                                s_dlt_res.then(result =\u003e{\n                                    console.log(result);\n                       s_dlt_result=result.results;\n                         if(s_dlt_result==\"Success\")\n                            {\n                            $(this).parents(\"tr\").remove();\n                                    $(\"#authModal\").modal(\"hide\");\n                            }else{\n                  alert(s_dlt_result);\n                  }\n                                    });\n                        }\n                    });\n                     });\n                //To open modal when click on add\n                $(\".add-srow\").off(\"click\");\n                $(\".add-srow\").click(function (e) {\n              $(\"#checkDigit\").show();\n                      $(\"#sAddUname\").show();\n                      $(\"#sAddpwd\").show();\n                    $(\"#sensor-properties\").modal(\"show\");\n                    $(\"#sensor-properties\").css({\"z-index\": 3000});\n\n                    $('body .modal-backdrop:last').fadeOut();\n\n                    $('form[name=\"sensordeatails\"]')[0].reset();\n                    if ($(\"#save\").hasClass(\"edit-sensor\")) {\n                        $(\"#save\").removeClass(\"edit-sensor\");\n                        $(\"#save\").addClass(\"add-sensor\");\n                    } else if ($(\"#save\").hasClass(\"add-sensor\")) {\n\n                    } else {\n                        $(\"#save\").addClass(\"add-sensor\");\n                    }\n                });\n\n                //Add sensor code\n                $(document).off(\"click\",\"button.add-sensor\");\n                $(document).on('click', \"button.add-sensor\", function () {\n           \n                    nsensor = {};\n                    if (validateForm($(\"form[name='sensordeatails']\")))\n                    {\n          var newSensorObj={\n           \"method\":\"insert\",\n           \"sensor_id\":$('input[name=\"sensor_id\"]').val(),\n           \"gateway_id\":sgwid,\n           \"network_id\":snid,\n           \"checkDigit\":$('input[name=\"checkDigit\"]').val(),\n                   \"username\":$('input[name=\"sAddUname\"]').val(),\n                   \"password\":$('input[name=\"sAddpwd\"]').val()\n           };\n                  // alert(JSON.stringify(newSensorObj));\n           var s_add_res = datasources.DeleteAndAddSensor.sendData(newSensorObj);\n                                s_add_res.then(result =\u003e{\n                                    console.log(result);\n                       s_add_result=result.results;\n                         if(s_add_result==\"Success\")\n                            {\n                        nsensor[\"sensor_id\"] = $('input[name=\"sensor_id\"]').val();\n                        nsensor[\"sensor_name\"] = $('input[name=\"sensor_name\"]').val();\n                        nsensor[\"sensor_type\"] = $(\"#sensor_type\").val();\n\n                        var newRow = \"\u003ctr data-sensor='\" + JSON.stringify(nsensor) + \"'\u003e\";\n                        newRow += \"\u003ctd\u003e\u003cinput type='checkbox' name='record'\u003e\u003c/td\u003e\";\n                        newRow += \"\u003ctd\u003e\" + nsensor.sensor_id + \"\u003c/td\u003e\";\n                        newRow += \"\u003ctd\u003e\" + nsensor.sensor_name + \"\u003c/td\u003e\";\n                        newRow += \"\u003ctd\u003e\" + nsensor.sensor_type + \"\u003c/td\u003e\";\n                        newRow += \"\u003ctd\u003e\u003cbutton class='btn btn-info editSensor' data-sObj='\" + JSON.stringify(nsensor) + \"'\u003eedit\u003c/button\u003e\u003c/td\u003e\";\n                        newRow += \"\u003c/tr\u003e\";\n\n                        $(\"#sensors-list tbody\").append(newRow);\n                        $('#sensor-properties').modal('hide');\n                        $('form[name=\"sensordeatails\"]')[0].reset();\n                        $(\".delete-row\").show();\n            }else{\n                  alert(s_add_result);\n                  }\n                                    });\n                    }\n                });\n                //Edit Sensor\n                $(document).off(\"click\",\"button.edit-sensor\");\n                $(document).on('click', \"button.edit-sensor\", function () {\n\n                    usensor = {};\n                    usensor[\"sensor_id\"] = $('input[name=\"sensor_id\"]').val();\n                    usensor[\"sensor_name\"] = $('input[name=\"sensor_name\"]').val();\n                    usensor[\"sensor_type\"] = $(\"#sensor_type\").val();\n\n                    \n                    $tr.find(\"td:nth-child(2)\").text(usensor[\"sensor_id\"]);\n                    $tr.find(\"td:nth-child(3)\").text(usensor[\"sensor_name\"]);\n                    $tr.find(\"td:nth-child(4)\").text(usensor[\"sensor_type\"]);\n                    $tr.find(\"td:nth-child(5) button\").attr(\"data-sObj\", JSON.stringify(usensor));\n                    $tr.attr(\"data-sensor\", JSON.stringify(usensor));\n\n                    $('form[name=\"sensordeatails\"]')[0].reset();\n                    $('#sensor-properties').modal('hide');\n\n                });\n\n                //Edit Gateway\n                $(\"#submit\").off(\"click\");\n                $(\"#submit\").click(function () {\n                    if (validateForm($(\"form[name='gatewayform']\")))\n                    {\n                        var updatedGWObj = {};\n                        var updatedSensorObj = [];\n                        var users = [];\n                        $.each($(\"input[name='customerList']:checked\"), function(){            \n                                    users.push($(this).val());\n                                   });\n\n                                   var uuidres = datasources.createUUID.sendData({network_ID: parseInt($('input[name=\"network_id\"]').val())});\n                          uuidres.then(result =\u003e{console.log(result);updatedGWObj[\"network_uuid\"]=result.results});\n\n                        // $.ajax({\n                        //     \"url\": \"https://ingrammicro.clearblade.com/api/v/1/code/bacb8fb60bb4d7c2c2b1c0e4bb9701/UUIDgenerator\",\n                        //     \"headers\": {\n                        //         //\"ClearBlade-UserToken\":CB_PORTAL.ClearBlade.user.authToken\n                        //         \"ClearBlade-UserToken\": \"Uwa_dIrNQYZ-gNgJpqNQWfkesY9h_5RWt34BKCKidoFPYoLd7Sk9YOH6JlvqAdpijTdQvsWhRe-VMx4JPw==\"\n                        //     },\n                        //     \"async\": false,\n                        //     \"type\": \"POST\",\n                        //     \"contentType\": \"application/json\",\n                        //     \"data\": JSON.stringify({network_ID: parseInt($('input[name=\"network_id\"]').val())}),\n                        //     \"success\": function (res) {\n                        //         console.log(res);\n                        //         updatedGWObj[\"network_uuid\"] = JSON.parse(res).results;\n                        //     }\n                        // });\n\n                        updatedGWObj[\"gateway_name\"] = $('input[name=\"gateway_name\"]').val();\n                        updatedGWObj[\"gateway_id\"] = $('input[name=\"gateway_id\"]').val();\n                        updatedGWObj[\"gateway_type\"] = $(\"#gateway_type\").val();\n                        updatedGWObj[\"network_id\"] = $('input[name=\"network_id\"]').val();\n                        updatedGWObj[\"network_name\"] = $('input[name=\"network_name\"]').val();\n                        //updatedGWObj[\"network_uuid\"]=$('input[name=\"network_uuid\"]').val();\n                        updatedGWObj[\"customer_name\"] = users;\n\n                        $('#sensors-list tbody tr').each(function () {\n                            var individual_sensor = $(this).data(\"sensor\");\n                            // console.log(\"Single sensor Object:\" + JSON.stringify(individual_sensor));\n                            updatedSensorObj.push(individual_sensor);\n                        });\n\n                        updatedGWObj[\"sensors\"] = updatedSensorObj;\n\n                        console.log(updatedGWObj);\n                        var ures = datasources.gatewayUpdation.sendData(updatedGWObj);\n                ures.then(result =\u003e{console.log(result)});\n                        // $.ajax({\n                        //     \"url\": \"https://ingrammicro.clearblade.com/api/v/1/code/bacb8fb60bb4d7c2c2b1c0e4bb9701/updateGatewayDetails\",\n                        //     \"headers\": {\n                        //         \"ClearBlade-UserToken\":CB_PORTAL.ClearBlade.user.authToken\n                        //         //\"ClearBlade-UserToken\": \"Uwa_dIrNQYZ-gNgJpqNQWfkesY9h_5RWt34BKCKidoFPYoLd7Sk9YOH6JlvqAdpijTdQvsWhRe-VMx4JPw==\"\n                        //     },\n                        //     \"async\": false,\n                        //     \"type\": \"POST\",\n                        //     \"contentType\": \"application/json\",\n                        //     \"data\": JSON.stringify(updatedGWObj),\n                        //     \"success\": function (res) {\n                        //         console.log(res);\n                        //     }\n                        // });\n\n                        dismissModal();\n                        datasources.gatewayUpdation.refresh();\n                    }\n                });\n\n                $(\"#addCustomer .close\").click(function () {\n                    $(\"#addCustomer\").removeClass('show');\n                    $(\"#addCustomer\").css(\"display\", \"none\");\n                    //$('body .modal-backdrop:last').fadeOut();\n                });\n\n                /*form validation*/\n                var validateForm = function ($form) {\n\n                    var regExpNumber = /^[0-9]+$/, idRegEx = /^[0-9]{6}$/, regExpText = /^[A-Z][A-Za-z0-9_.\\- ]+$/, regExpNotEmpty = /\\S+/, isValid = true, index = 0;\n                    $form.find('.custom-validate-box').remove();\n                    var $fields = $form.find('.required');\n                    for (var i = 0; i \u003c $fields.length; i++) {\n                        var $field = $($fields[i]), value = $field.val();\n                        if (!regExpNotEmpty.test(value) || !value || value === null || value === \"\") {\n                            isValid = false;\n                            index++;\n                            createValidationMessage($field, 'Please fill out this field!', index);\n                        } else if ($field.is('[name=\"gateway_id\"]') || $field.is('[name=\"sensor_id\"]')) {\n                            if (!idRegEx.test(value))\n                            {\n                                isValid = false;\n                                index++;\n                                createValidationMessage($field, 'Please enter a 6 digit number!', index);\n                            }\n                        } else if ($field.is('[name=\"network_id\"]')) {\n                            if (!regExpNumber.test(value))\n                            {\n                                isValid = false;\n                                index++;\n                                createValidationMessage($field, 'Please enter a 5 digit number!', index);\n                            }\n                        } else if ($field.is('[type=\"text\"]') \u0026\u0026 !regExpText.test(value)) {\n                            if (!$field.is('[name=\"network_uuid\"]')) {\n                                isValid = false;\n                                index++;\n                                createValidationMessage($field, 'First letter should be capital', index);\n                            }\n                        } else if ($field.is('[type=\"number\"]') \u0026\u0026 !regExpNumber.test(value)) {\n                            isValid = false;\n                            index++;\n                            createValidationMessage($field, 'Please enter number!', index);\n                        } else {\n                            index++;\n                        }\n                    }\n                    return isValid;\n                };\n                var createValidationMessage = function ($field, msg, index) {\n                    //alert(index);\n                    if (index === 1)\n                    {\n                        $field.focus();\n                    }\n\n                    $field.after('\u003cspan class=\"custom-validate-box\"\u003e' + msg + '\u003c/span\u003e');\n                    //$field.siblings('.custom-validate-box').text(msg);\n                    $(\".required\").click(function (e) {\n                        if ($(e.target).is('.custom-validate-box') || ($(e.target).closest('.custom-validate-box').length === 0)) {\n                            $field.next('.custom-validate-box').remove();\n                        }\n                    });\n\n                };\n//To delete gateway\n        $(document).on(\"click\",\".gwDelete\",function(){\n        if(confirm(\"Do you want to delete gateway:\"+ parseInt($(this).data(\"gwid\"))))\n        {\n        var dltGwObj={\n        \"method\": $(this).data(\"method\"),\n                 \"gateway_id\": parseInt($(this).data(\"gwid\"))\n        };\n        var res = datasources.gatewayRfmUpDlt.sendData(dltGwObj);\n                res.then(result =\u003e{console.log(result)\n        sresult=JSON.parse(result.results).results;\n        if(sresult==\"Success\")\n        {\n        alert(\"Gateway Deleted Successfully!\");\n        }else{\n        alert(sresult);\n        }\n                });\n        }\n        });\n\n});"
+                        }
+                    }
+                },
+                "tab": "2b951d48-4424-4c9b-b867-e294b1bc0e2b",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "IngramMicro"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "c44f0a77-dbd9-428c-9a83-2b20d7b9a4ba": {
+                "externalScripts": [],
+                "id": "c44f0a77-dbd9-428c-9a83-2b20d7b9a4ba",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": " .underline {\n                text-decoration: underline;\n            }\n            .ebgColor{\n                font-weight:bold;\n                font-size: 1vw;\n                color:blue;\n                background-color: yellow;\n            }\n            #docgatewaylist\u003eh6,#docsensorlist\u003eh6{\n                color:#118594;\n                font-weight:bold;\n            }\n            ",
+                            "HTML": " \u003cdiv class=\"container\"\u003e\n \u003cdiv class=\"text-center underline\"\u003e\n            \u003ch5\u003eAPI Integration Instructions\u003c/h5\u003e\n        \u003c/div\u003e\n\n\n  \u003cdiv id=\"docgatewaylist\"\u003e\n            \u003ch6\u003e1.ClearBlade User Token API\u003c/h6\u003e\n            \u003cdiv class=\"url-div\"\u003e \n                \u003cspan class=\"ebgColor\"\u003eURL: \u003c/span\u003e\n                https://ingrammicro.clearblade.com/api/v/1/user/auth\n            \u003c/div\u003e \n            \u003cdiv class=\"headers-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003eHeaders:\u003c/span\u003e\n                \u003cpre\u003e      {\n       \"ClearBlade-SystemKey\":\"given system key\",\n       \"ClearBlade-SystemSecret\":\"given system secret\"\n          }\u003c/pre\u003e\n            \u003c/div\u003e\n            \u003cdiv class=\"method-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003e Method:\u003c/span\u003e \u003cspan\u003e Post\u003c/span\u003e\n            \u003c/div\u003e\n            \u003cdiv class=\"reqBody-div\"\u003e \n                \u003cspan class=\"ebgColor\"\u003e Body:\u003c/span\u003e\n                \u003cpre\u003e  \n                  { \n                  \"username\":\" clearblade username \",\n                  \"password\":\"clearblade password \"\n                  }\n                  \u003c/pre\u003e\n            \u003c/div\u003e \n            \u003cdiv class=\"res-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003eSampleResponse: \u003c/span\u003e\n                \u003cpre\u003e\n{\n  \"user_token\":\"S7jB5AIO925E7chMweEsVisNDsJ3kuIsAYCO27ryR9uWvYTxWJVkqOg5VxcAj_2j720y7UxlJhFJOl2dGQ==\",\n  \"user_id\":\"9effcbbd0beaf1a2fb84e8e7ac14\"\n  }\n                \u003c/pre\u003e\n            \u003c/div\u003e \n\n\n        \u003c/div\u003e\n\n\n        \u003cdiv id=\"docgatewaylist\"\u003e\n            \u003ch6\u003e2.GatewayList API\u003c/h6\u003e\n            \u003cdiv class=\"url-div\"\u003e \n                \u003cspan class=\"ebgColor\"\u003eURL: \u003c/span\u003e\n                https://ingrammicro.clearblade.com/api/v/1/code/bacb8fb60bb4d7c2c2b1c0e4bb9701/GatewayList \n            \u003c/div\u003e \n            \u003cdiv class=\"headers-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003eHeaders:\u003c/span\u003e\n                \u003cpre\u003e{ \"ClearBlade-UserToken\":\"Response 'user-token' from 'ClearBlade User Token API' which specified above\"}\u003c/pre\u003e\n                \u003c!-- \u003cpre\u003e{ \"ClearBlade-UserToken\":\"2vcLowpEV504Ee4KhKM1gDU0CTXfy11f17j3i9-pAMNNGhEWwJeIizrcurGrF-ddM1iwSLUzMe6Tl0AFlA==\"}\u003c/pre\u003e --\u003e\n            \u003c/div\u003e\n            \u003cdiv class=\"method-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003e Method:\u003c/span\u003e \u003cspan\u003e Post\u003c/span\u003e\n            \u003c/div\u003e\n            \u003cdiv class=\"reqBody-div\"\u003e \n                \u003cspan class=\"ebgColor\"\u003e Body:\u003c/span\u003e\n                \u003cpre\u003e  \n                  { \n                  \"networkUUID\": \"Given networkUUID\"\n                  }\n                  \u003c/pre\u003e\n            \u003c/div\u003e \n            \u003cdiv class=\"res-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003eSampleResponse: \u003c/span\u003e\n                \u003cpre\u003e\n   {\n  \"results\": {\n    \"Method\": \"GatewayList\",\n    \"Result\": [\n      {\n        \"BatteryLevel\": \"\",\n        \"ClientName\": \"ingram\",\n        \"ConfiguredSensors\": 2,\n        \"GatewayID\": 913201,\n        \"GatewayName\": \"\",\n        \"GatewayType\": \"Ethernet Gateway\",\n        \"Heartbeat\": 5,\n        \"LastCommunicationDate\": \"\",\n        \"MAC_Address\": \"70B3D502EA1E\",\n        \"NetworkID\": 34385,\n        \"NetworkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\",\n        \"SignalStrength\": \"\"\n      },\n      {\n        \"BatteryLevel\": 101,\n        \"ClientName\": \"ingram\",\n        \"ConfiguredSensors\": 6,\n        \"GatewayID\": 913526,\n        \"GatewayName\": \"CGW3 3g North America - 913526\",\n        \"GatewayType\": \"\",\n        \"Heartbeat\": 5,\n        \"LastCommunicationDate\": 1537269457000,\n        \"MAC_Address\": \"\",\n        \"NetworkID\": 34385,\n        \"NetworkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\",\n        \"SignalStrength\": 16\n      }\n    ]\n  },\n  \"success\": true\n}\n                \u003c/pre\u003e\n            \u003c/div\u003e \n\n        \u003c/div\u003e\n\n        \u003cdiv id=\"docsensorlist\"\u003e\n            \u003ch6\u003e3.SensorList API\u003c/h6\u003e\n            \u003cdiv class=\"url-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003eURL:\u003c/span\u003e\n                https://ingrammicro.clearblade.com/api/v/1/code/bacb8fb60bb4d7c2c2b1c0e4bb9701/SensorList \n            \u003c/div\u003e \n            \u003cdiv class=\"headers-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003eHeaders:\u003c/span\u003e\n                \u003cpre\u003e{ \"ClearBlade-UserToken\":\"Response 'user-token' from 'ClearBlade User Token API' which specified above\"}\u003c/pre\u003e\n                //\u003cpre\u003e {\"ClearBlade-UserToken\":\"Given Usertoken\" }\u003c/pre\u003e\n            \u003c/div\u003e\n            \u003cdiv class=\"method-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003e Method:\u003c/span\u003e \u003cspan\u003e Post\u003c/span\u003e\n            \u003c/div\u003e\n            \u003cdiv class=\"reqBody-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003e Body:\u003c/span\u003e\n                \u003cpre\u003e  \n                  { \n                  \"networkUUID\": \"Given networkUUID\"\n                  }\n                  \u003c/pre\u003e\n            \u003c/div\u003e \n            \u003cdiv class=\"res-div\"\u003e\n                \u003cspan class=\"ebgColor\"\u003eSampleResponse: \u003c/span\u003e\n                \u003cpre\u003e\n   {\n  \"results\": {\n    \"Method\": \"SensorList\",\n    \"Result\": [\n      {\n        \"GatewayID\": 913201,\n        \"GatewayName\": \"\",\n        \"GatewayType\": \"Ethernet Gateway\",\n        \"NetworkID\": 34385,\n        \"NetworkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\",\n        \"Sensors\": [\n          {\n            \"BatteryLevel\": 100,\n            \"CurrentReading\": \"36.74|18.37|55.92|16.33\",\n            \"LastCommunicationDate\": \"2018-09-18T11:17:06Z\",\n            \"SensorID\": 362384,\n            \"SensorName\": \"Current Meter 150 Amp - 362384- L1\",\n            \"SignalStrength\": 84\n          },\n          {\n            \"BatteryLevel\": 100,\n            \"CurrentReading\": \"26.1\",\n            \"LastCommunicationDate\": \"2018-09-18T11:14:13Z\",\n            \"SensorID\": 323022,\n            \"SensorName\": \"Temperature - 323022-Machine Room\",\n            \"SignalStrength\": 86\n          }\n        ]\n      },\n      {\n        \"GatewayID\": 913526,\n        \"GatewayName\": \"CGW3 3g North America - 913526\",\n        \"GatewayType\": \"\",\n        \"NetworkID\": 34385,\n        \"NetworkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\",\n        \"Sensors\": [\n          {\n            \"BatteryLevel\": 100,\n            \"CurrentReading\": \"28.5\",\n            \"LastCommunicationDate\": \"2018-09-18T10:08:06Z\",\n            \"SensorID\": 323029,\n            \"SensorName\": \"Temperature - 323029- Elevator Shaft\",\n            \"SignalStrength\": 61\n          },\n          {\n            \"BatteryLevel\": 100,\n            \"CurrentReading\": \"36.74|18.37|55.92|16.33\",\n            \"LastCommunicationDate\": \"2018-09-18T11:17:06Z\",\n            \"SensorID\": 362384,\n            \"SensorName\": \"Current Meter 150 Amp - 362384- L1\",\n            \"SignalStrength\": 84\n          },\n          {\n            \"BatteryLevel\": 100,\n            \"CurrentReading\": \"4.3|1.9|2.8|60|35|62|100\",\n            \"LastCommunicationDate\": \"2018-09-18T11:12:52Z\",\n            \"SensorID\": 362377,\n            \"SensorName\": \"Vibration Meter - 362377- Shaft\",\n            \"SignalStrength\": 19\n          },\n          {\n            \"BatteryLevel\": 100,\n            \"CurrentReading\": \"26.1\",\n            \"LastCommunicationDate\": \"2018-09-18T11:14:13Z\",\n            \"SensorID\": 323022,\n            \"SensorName\": \"Temperature - 323022-Machine Room\",\n            \"SignalStrength\": 86\n          },\n          {\n            \"BatteryLevel\": 100,\n            \"CurrentReading\": \"1.1|1|1.5|49|37|40|100\",\n            \"LastCommunicationDate\": \"2018-09-18T11:14:07Z\",\n            \"SensorID\": 362374,\n            \"SensorName\": \"Vibration Meter - 362374- Motor\",\n            \"SignalStrength\": 82\n          },\n          {\n            \"BatteryLevel\": 100,\n            \"CurrentReading\": \"32.22|16.11|57.05|0\",\n            \"LastCommunicationDate\": \"2018-09-18T09:53:53Z\",\n            \"SensorID\": 362382,\n            \"SensorName\": \"Current Meter 150 Amp - 362382- L3\",\n            \"SignalStrength\": 90\n          }\n        ]\n      }\n    ]\n  },\n  \"success\": true\n}\n                \u003c/pre\u003e\n            \u003c/div\u003e \n\n        \u003c/div\u003e\n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "fbaa313a-e781-475c-9ed8-7690d4e08d9b",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "",
+    "last_updated": "07 Dec 18 06:49 UTC",
+    "name": "CustomerPortal",
+    "system_key": "bacb8fb60bb4d7c2c2b1c0e4bb9701",
+    "type": "custom_v2"
+}
