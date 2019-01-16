@@ -1,0 +1,138 @@
+{
+    "app_id": "bacb8fb60bb4d7c2c2b1c0e4bb9701",
+    "collection_id": "b2a491b90bb8abfafa81eebbfb01",
+    "items": [
+        {
+            "customer_name": "{\"users\":[\"ingram@axelta.com\",\"usman.minhas@ingrammicro.com\"]}",
+            "gateway_heartbeat": 5,
+            "gateway_id": 913201,
+            "gateway_name": "Ethernet Gateway - 913201",
+            "gateway_type": "Ethernet Gateway",
+            "item_id": "23a26e92-e60c-4d81-ab51-635e73990071",
+            "mac_address": "70B3D502EA1E",
+            "network_id": 36117,
+            "network_name": "Development Network",
+            "network_uuid": "7d933348-4136-f9be-e0b3-6aef0d8b079f",
+            "sensors": "{\"sensorsList\":[\"361963\",\"323837\",\"325928\",\"329272\"]}"
+        },
+        {
+            "customer_name": "{\"users\":[\"ingramdaas@gmail.com\",\"usman.minhas@ingrammicro.com\",\"ingram@axelta.com\"]}",
+            "gateway_heartbeat": 5,
+            "gateway_id": 913526,
+            "gateway_name": "Production Gateway",
+            "gateway_type": "CGW2Verizon",
+            "item_id": "648d9e91-7d96-40c5-84eb-61f30d58bc2f",
+            "mac_address": "",
+            "network_id": 34385,
+            "network_name": "",
+            "network_uuid": "db3d6df8-0895-e6d3-8767-a31c08ae278b",
+            "sensors": "{\"sensorsList\":[\"323022\",\"362377\",\"362374\",\"362382\",\"362384\",\"323029\"]}"
+        },
+        {
+            "customer_name": "{\n  \"users\": [\n    \"ingram@axelta.com\",\n    \"demo1@axelta.com\",\n    \"usman.minhas@ingrammicro.com\"\n  ]\n}",
+            "gateway_heartbeat": 5,
+            "gateway_id": 987,
+            "gateway_name": "TEST GATEWAY",
+            "gateway_type": "",
+            "item_id": "7caad00c-3c93-47cd-9864-4f63064cb6bb",
+            "mac_address": "",
+            "network_id": 34385,
+            "network_name": "Testing Network",
+            "network_uuid": "db3d6df8-0895-e6d3-8767-a31c08ae278b",
+            "sensors": "{\n  \"sensorsList\": [\n    \"100\",\n    \"101\",\n    \"102\"\n  ]\n}"
+        },
+        {
+            "customer_name": "{\"users\":[\"ingram@axelta.com\",\"usman.minhas@ingrammicro.com\",\"hitendrasinh.mahida@bell.ca\"]}",
+            "gateway_heartbeat": 0,
+            "gateway_id": 904803,
+            "gateway_name": "CGW3 3g North America - 904803",
+            "gateway_type": "",
+            "item_id": "a3ba4f30-5193-41e5-a946-4eb8b40f9d7b",
+            "mac_address": "",
+            "network_id": 9,
+            "network_name": "",
+            "network_uuid": "45c48cce-2e2d-7fbd-ea1a-fc51c7c6ad26",
+            "sensors": "{\"sensorsList\":[\"323018\",\"323014\"]}"
+        },
+        {
+            "customer_name": "{\"users\":[\"ingram@axelta.com\",\"usman.minhas@ingrammicro.com\",\"hitendrasinh.mahida@bell.ca\"]}",
+            "gateway_heartbeat": 5,
+            "gateway_id": 932965,
+            "gateway_name": "Test- CGW3 3g North1 America - 932965",
+            "gateway_type": "CGW3 3g North America",
+            "item_id": "d05797f1-df42-4ead-97a3-9f9069d28484",
+            "mac_address": "302720393699399|89302720396935791108|353836058369877",
+            "network_id": 6,
+            "network_name": "Test Network1234567",
+            "network_uuid": "1679091c-5a88-0faf-6fb5-e6087eb1b2dc",
+            "sensors": "{\"sensorsList\":[\"426641\",\"426643\"]}"
+        }
+    ],
+    "name": "devices_metadata",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 1,
+        "Authenticated": 15,
+        "Developer": 15,
+        "Monnit Webhook Adapter": 15,
+        "PortalUser": 1,
+        "RuleBuilder": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "network_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensors",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "network_uuid",
+            "ColumnType": "uuid",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_heartbeat",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "mac_address",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "network_name",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
