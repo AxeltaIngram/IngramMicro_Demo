@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "ImmonitSDK,q_library,library-functions,globals,constants",
+    "description": "",
+    "name": "service-functions",
+    "version": 23,
+    "visibility": "system"
+}
