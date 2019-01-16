@@ -1,0 +1,8 @@
+{
+    "description": "",
+    "frequency": 36000,
+    "name": "publisher",
+    "repeats": -1,
+    "service_name": "TestingWithMessagePublisher",
+    "start_time": "2018-10-29T21:30:21Z"
+}
