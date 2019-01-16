@@ -1,0 +1,24 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 146,
+    "dependencies": "log,clearblade,ImmonitSDK,service-functions,globals,library-functions,http,imonnit-constants,services_constants",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "TestService",
+    "params": [
+        "{\n  \n  \"username\": \"Axelta\",\n  \"password\": \"AxeltA2!\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Developer": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalUser": 1,
+        "RuleBuilder": 1,
+        "YJ_Test_Role": 1
+    },
+    "run_user": "",
+    "source": "TestService.js"
+}
