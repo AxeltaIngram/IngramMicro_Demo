@@ -1,0 +1,9 @@
+{
+    "adaptor_name": "Monnit-Webhook",
+    "group": "",
+    "name": "undeploy.sh",
+    "owner": "",
+    "path_name": "undeploy.sh",
+    "permissions": "",
+    "version": 1
+}
