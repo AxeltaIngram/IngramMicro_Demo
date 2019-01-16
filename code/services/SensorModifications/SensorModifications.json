@@ -1,0 +1,23 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 198,
+    "dependencies": "log,constants,clearblade,http,globals,q_library,library-functions,imonnit-constants,ImmonitSDK",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "SensorModifications",
+    "params": [
+        "{\n  \"method\": \"insert\",\n  \"sensor_id\": 329272,\n  \"gateway_id\": 913201,\n  \"network_id\": 36117,\n  \"checkDigit\": \"IMPNTB\",\n  \"username\": \"Axelta\",\n  \"password\": \"AxeltA2!\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 0,
+        "Authenticated": 1,
+        "Developer": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalUser": 1,
+        "RuleBuilder": 1
+    },
+    "run_user": "",
+    "source": "SensorModifications.js"
+}
