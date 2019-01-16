@@ -1,0 +1,23 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 322,
+    "dependencies": "log,clearblade,constants,library-functions,q_library",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "getSensorsData",
+    "params": [
+        "{\n  \"networkUUID\": \"db3d6df8-0895-e6d3-8767-a31c08ae278b\",\n  \"gatewayID\": 913526,\n  \"sensorID\": 323022,\n  \"fromTS\": 1536729231,\n  \"toTS\": 1536902031\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 0,
+        "Authenticated": 1,
+        "Developer": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalUser": 1,
+        "RuleBuilder": 1
+    },
+    "run_user": "",
+    "source": "getSensorsData.js"
+}
